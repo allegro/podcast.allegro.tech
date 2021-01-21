@@ -29,10 +29,9 @@ function Podcast({ podcast }) {
                     <meta name="description" content="Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!." />
                     <meta property="og:site_name" content="allegro.tech" />
                     <meta property="og:title" content={podcast.title} />
-                    <meta property="og:url" content="https://allegro.tech/podcast/" />
+                    <meta property="og:url" content="https://podcast.allegro.tech/" />
                     <meta property="og:type" content="video.episode" />
-                    <meta property="og:image" content="https://allegro.tech/img/podcast/podcast.png" />
-
+                    <meta property="og:image" content="https://podcast.allegro.tech/img/podcast/podcast.png" />
                     <meta name="twitter:creator" content="@allegrotech" />
                     <meta property="og:description" content={podcast.toc.join(' ')} />
                     
