@@ -13,7 +13,7 @@ const SocialItem = ({ service, authorData }) => {
     if (authorData[service]) {
         return (
             <a className="username" href={`${socialDict[service]}${authorData[service]}`}>
-                <span className="social"><img src={`/podcast/img/social/${service}.svg`} alt={service} /></span>
+                <span className="social"><img src={`/img/social/${service}.svg`} alt={service} /></span>
                 <span> {authorData[service]} </span>
             </a>
         )
@@ -27,7 +27,7 @@ const SocialItem = ({ service, authorData }) => {
 const Author = ({ authorData }) => {
     return (
         <div className="m-card">
-            <img src={`/podcast/img/authors/${authorData.author}.jpg`} alt={authorData.name} className="avatar" />
+            <img src={`/img/authors/${authorData.author}.jpg`} alt={authorData.name} className="avatar" />
             <h3> {authorData.name}</h3>
             <SocialItem service="twitter" authorData={authorData} />
             <SocialItem service="github" authorData={authorData} />

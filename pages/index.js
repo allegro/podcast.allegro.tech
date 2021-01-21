@@ -22,7 +22,6 @@ function Feed({ podcastsEnriched }) {
                 <meta property="og:url" content="https://podcast.allegro.tech" />
                 <meta property="og:type" content="article" />
                 <meta property="og:image" content="https://podcast.allegro.tech/img/podcast/podcast.png" />
-
                 <meta name="twitter:creator" content="@allegrotech" />
                 <meta property="og:description" content="" />
                 <meta property="article:author" content="" />
