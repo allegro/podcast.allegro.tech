@@ -14,6 +14,7 @@ const Tracking = () => {
                       function gtag(){dataLayer.push(arguments);}
                       gtag('js', new Date());
                       gtag('config', 'G-6H60V3S51H');
+                `
                 }}
             />
         </div>
