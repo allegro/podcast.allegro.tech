@@ -26,6 +26,7 @@ jobs:
 
     - run: npm ci
     - run: npm run build --if-present
+    - run: npm run postbuild --if-present
     - run: npm run export
     - run: touch out/.nojekyll
 
