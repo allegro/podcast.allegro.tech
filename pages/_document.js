@@ -15,7 +15,6 @@ export default class extends Document {
           <link rel="stylesheet" href="/css/metrum.css" />
           <link rel="stylesheet" href="/css/blog.css" />
           <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,300,100,700&amp;subset=latin-ext&amp;display=swap" rel="stylesheet" />
-          <script type="text/javascript"> console.log(';')</script>
         </Head>
         <body>
 
