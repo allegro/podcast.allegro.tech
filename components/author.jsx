@@ -8,7 +8,7 @@ const SocialItem = ({ service, authorData }) => {
     const socialDict = {
         "twitter": "https://twitter.com/",
         "github": "https://github.com/",
-        "linkedin": "www.linkedin.com/in/",
+        "linkedin": "https://www.linkedin.com/in/",
     }
     if (authorData[service]) {
         return (
