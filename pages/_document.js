@@ -46,7 +46,7 @@ export default class extends Document {
                   </a>
                 </li>
                 <li>
-                  <a className="social icon-link" href="/blog/feed.xml" title="RSS Feed">
+                  <a className="social icon-link" href="/feed.xml" title="RSS Feed">
                     <img src="/img/social/rss.svg" alt="RSS" />
                   </a>
                 </li>
