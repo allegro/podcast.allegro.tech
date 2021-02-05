@@ -66,7 +66,7 @@ export default class extends Document {
               <link itemProp="logo" href="/img/logo-allegro-tech.png" />
               <div className="site-title">
                 <span>Proudly built by <img src="/img/allegro-tech.svg" alt="allegro.tech" />
-                  <a href="/authors/"> engineers</a>
+                  <a href="https://blog.allegro.tech/authors/"> engineers</a>
                 </span>
               </div>
             </div>
