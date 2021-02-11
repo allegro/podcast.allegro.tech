@@ -71,5 +71,10 @@
         "name": "Piotr Betkier",
         "bio": "Software Engineer who loves building useful tools and resilient systems. Works in one of the technical platform teams, where he's responsible for common libraries and service discovery (Service Mesh). Conference speaker, host of Allegro Tech Podcast.",
         "twitter": "piotrbetkier"
+    },
+    "lukasz.sciga": {
+        "name": "Łukasz Ściga",
+        "bio": "Data Engineer w Allegro, którego pasją jest programowanie gier komputerowych.",
+        "linkedin": "łukasz-ściga-274150138"
     }
 }
