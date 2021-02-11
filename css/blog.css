@@ -37,6 +37,10 @@ figcaption {
     font-size: 0.9em;
 }
 
+.post-author .m-card {
+    overflow: hidden;
+}
+
 .post-author .content {
     background: #fff;
     border: 1px solid #ddd;
