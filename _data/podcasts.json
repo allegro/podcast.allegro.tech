@@ -328,5 +328,25 @@
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0yOTk4ODE5?ved=2ahUKEwjTp--ltabqAhVCdJoKHSkcDH8QkfYCegQIARAF"
         },
         "id": 13
+    },
+    {
+        "date": "2021-02-10T00:00:00.000Z",
+        "slug": "zbiory_danych_w_allegro",
+        "title": "Zbiory danych w Allegro",
+        "author": "lukasz.sciga",
+        "name": "Łukasz Ściga",
+        "toc": [
+            "Czym zajmuje się inżynier danych? Jak powstało Big Data?",
+            "Jak wykorzystuje się oraz kto korzysta z nowych zbiorów danych?",
+            "Czym różni się Data Scientist od Data Engineera?",
+            "Jak połączyć przetwarzanie streamingowe z przetwarzaniem batchowym? Z jakich narzędzi korzysta Data Engineer?",
+            "Na te pytania odpowie Łukasz Ściga - Data Engineer w Allegro, którego pasją jest programowanie gier komputerowych."
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/7426294-sezon-ii-1-zbiory-danych-w-allegro-lukasz-scigak",
+            "spotify": "https://open.spotify.com/episode/7eYECNP5CQl8MrYGb1pRtw",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC03NDI2Mjk0?sa=X&ved=0CAUQkfYCahcKEwiov-_gxuHuAhUAAAAAHQAAAAAQAQ"
+        },
+        "id": "1"
     }
 ]
