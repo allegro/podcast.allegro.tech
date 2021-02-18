@@ -19,6 +19,10 @@ const podcastHost = {
 }
 
 
+export const config = {
+    unstable_runtimeJS: false
+  };
+
 function Podcast({ podcast }) {
 
 
