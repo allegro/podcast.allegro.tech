@@ -10,7 +10,9 @@ import PodcastHeader from "../components/podcast-header"
 
 import {getAllPodcasts} from '../lib/api.js';
 
-
+export const config = {
+  unstable_runtimeJS: false
+};
 
 function Feed({ podcastsEnriched }) {
   return (
