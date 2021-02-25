@@ -76,5 +76,11 @@
         "name": "Łukasz Ściga",
         "bio": "Data Engineer w Allegro, którego pasją jest programowanie gier komputerowych.",
         "linkedin": "łukasz-ściga-274150138"
+    },
+    "dariusz.jedrzejczyk": {
+        "name": "Dariusz Jędrzejczyk",
+        "bio": "Principal Software Engineer at Allegro Technical Platform and former Leader of the team responsible for introducing Service Mesh.",
+        "twitter": "chemicL",
+        "linkedin": "dariuszjedrzejczyk"
     }
 }
