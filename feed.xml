@@ -5,7 +5,7 @@
       <link>https://allegro.tech/</link>
       <description>Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!</description>
       <language>pl</language>
-      <lastBuildDate>Wed, 10 Feb 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 25 Feb 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://allegro.tech/feed.xml" rel="self" type="application/rss+xml"/>
       <podcast:locked owner="hello@wiekszelogo.pl">yes</podcast:locked>
       <itunes:subtitle><![CDATA[Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty, obok bloga, są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki są zbiorem angażujących historii, dobrych prakt...]]></itunes:subtitle>
@@ -29,6 +29,22 @@
 
 
       
+  <item>
+    <guid isPermaLink="true">https://podcast.allegro.tech/service_mesh_oraz_praca_programisty_w_allegro</guid>
+    <title><![CDATA[Service Mesh oraz praca programisty w Allegro]]></title>
+    <itunes:title><![CDATA[Service Mesh oraz praca programisty w Allegro]]></itunes:title>
+    <itunes:author>Dariusz Jędrzejczyk</itunes:author>
+    <itunes:summary><![CDATA[Czym jest Service Mesh? Jak został wdrożony do Allegro dla ponad 1000 usług na produkcji? Dlaczego usprawnianie pracy programistom jest dla nas ważne i dlaczego programista to klient? Jak wytwarzamy produkty używane przez zespoły deweloperskie? Kim jest Principal w Allegro? Jak może wyglądać ścieżka kariery programisty? Na te pytania odpowie Dariusz Jędrzejczyk - Principal Software Engineer.]]></itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <enclosure url="https://www.buzzsprout.com/887914/7917649-sezon-ii-2-service-mesh-oraz-praca-praca-programisty-w-allegro-dariusz-jedrzejczak.mp3" type="audio/mpeg" />
+    <author>
+    <name>Dariusz Jędrzejczyk</name>
+    </author>
+    <link>https://podcast.allegro.tech/service_mesh_oraz_praca_programisty_w_allegro</link>
+    <description><![CDATA[Czym jest Service Mesh? Jak został wdrożony do Allegro dla ponad 1000 usług na produkcji? Dlaczego usprawnianie pracy programistom jest dla nas ważne i dlaczego programista to klient? Jak wytwarzamy produkty używane przez zespoły deweloperskie? Kim jest Principal w Allegro? Jak może wyglądać ścieżka kariery programisty? Na te pytania odpowie Dariusz Jędrzejczyk - Principal Software Engineer.]]></description>
+    <pubDate>Thu, 25 Feb 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/zbiory_danych_w_allegro</guid>
     <title><![CDATA[Zbiory danych w Allegro]]></title>
