@@ -30,16 +30,14 @@ function Podcast({ podcast }) {
         <div className="desk">
             <section className="content">
                 <Head>
-                    <meta name="description" content="Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!." />
                     <meta property="og:site_name" content="allegro.tech" />
-                    <meta property="og:title" content={podcast.title} />
+                    <meta name="title" property="og:title" content={podcast.title} />
                     <meta property="og:url" content="https://podcast.allegro.tech/" />
                     <meta property="og:type" content="video.episode" />
                     <meta property="og:image" content="https://podcast.allegro.tech/img/podcast/podcast.png" />
                     <meta name="twitter:creator" content="@allegrotech" />
-                    <meta property="og:description" content={podcast.toc.join(' ')} />
-                    
-                    <meta property="article:author" content={`${podcast.name} - allegro.tech podcast`} />
+                    <meta name="description" property="og:description" content={podcast.toc.join(' ')} />
+                    <meta name="author" property="article:author" content={`${podcast.name} - allegro.tech podcast`} />
                     <meta property="article:publisher" content="https://www.facebook.com/allegro.tech" />
                     <title itemProp="name">{podcast.title} - {podcast.name} - allegro.tech</title>
                 </Head>
