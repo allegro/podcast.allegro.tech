@@ -14,7 +14,6 @@ const SocialItem = ({ service, authorData }) => {
         return (
             <a className="username" href={`${socialDict[service]}${authorData[service]}`}>
                 <span className="social"><img src={`/img/social/${service}.svg`} alt={service} /></span>
-                <span> {authorData[service]} </span>
             </a>
         )
     } else {
