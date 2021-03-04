@@ -59,8 +59,16 @@ figcaption {
     color: #222;
 }
 
+.post-author .social {
+    margin: 0 5px 0 0;
+}
+
+.post-author .social img {
+    vertical-align: inherit;
+}
+
 .post-author h3 {
-    margin: 0 15px 0 0;
+    margin: 0 10px 0 0;
     display: inline-block;
 }
 
