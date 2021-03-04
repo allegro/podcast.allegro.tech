@@ -30,14 +30,15 @@ function Podcast({ podcast }) {
         <div className="desk">
             <section className="content">
                 <Head>
-                    <meta property="og:site_name" content="allegro.tech" />
-                    <meta name="title" property="og:title" content={podcast.title} />
-                    <meta property="og:url" content="https://podcast.allegro.tech/" />
+                   <meta property="og:site_name" content="allegro.tech" />
+                    <meta property="og:title" content={podcast.title} />
+                    <meta property="og:url" content={`https://podcast.allegro.tech/${podcast.slug}`} />
                     <meta property="og:type" content="video.episode" />
                     <meta property="og:image" content="https://podcast.allegro.tech/img/podcast/podcast.png" />
                     <meta name="twitter:creator" content="@allegrotech" />
-                    <meta name="description" property="og:description" content={podcast.toc.join(' ')} />
-                    <meta name="author" property="article:author" content={`${podcast.name} - allegro.tech podcast`} />
+                    <meta property="og:description" content={podcast.toc.join(' ')} />
+                    
+                    <meta property="article:author" content="https://www.facebook.com/allegro.tech" />
                     <meta property="article:publisher" content="https://www.facebook.com/allegro.tech" />
                     <title itemProp="name">{podcast.title} - {podcast.name} - allegro.tech</title>
                 </Head>
