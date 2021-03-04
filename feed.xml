@@ -5,7 +5,7 @@
       <link>https://allegro.tech/</link>
       <description>Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!</description>
       <language>pl</language>
-      <lastBuildDate>Thu, 25 Feb 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 04 Mar 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://allegro.tech/feed.xml" rel="self" type="application/rss+xml"/>
       <podcast:locked owner="hello@wiekszelogo.pl">yes</podcast:locked>
       <itunes:subtitle><![CDATA[Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty, obok bloga, są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki są zbiorem angażujących historii, dobrych prakt...]]></itunes:subtitle>
@@ -29,6 +29,22 @@
 
 
       
+  <item>
+    <guid isPermaLink="true">https://podcast.allegro.tech/sre_w_allegro</guid>
+    <title><![CDATA[SRE w Allegro]]></title>
+    <itunes:title><![CDATA[SRE w Allegro]]></itunes:title>
+    <itunes:author>Piotr Klapczyński</itunes:author>
+    <itunes:summary><![CDATA[Jak w Allegro radzimy sobie z awariami? Jak im zapobiegać oraz dlaczego sami je wywołujemy? Czy szalonym jest składanie całego Data Center? Czym jest SRE w Allegro i dlaczego jest unikatowe? Na te wszystkie pytania odpowie Piotr Klapczyński - Team Leader w Allegro.]]></itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <enclosure url="https://www.buzzsprout.com/887914/8059450-sezon-ii-3-piotr-klapczynski.mp3" type="audio/mpeg" />
+    <author>
+    <name>Piotr Klapczyński</name>
+    </author>
+    <link>https://podcast.allegro.tech/sre_w_allegro</link>
+    <description><![CDATA[Jak w Allegro radzimy sobie z awariami? Jak im zapobiegać oraz dlaczego sami je wywołujemy? Czy szalonym jest składanie całego Data Center? Czym jest SRE w Allegro i dlaczego jest unikatowe? Na te wszystkie pytania odpowie Piotr Klapczyński - Team Leader w Allegro.]]></description>
+    <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/service_mesh_oraz_praca_programisty_w_allegro</guid>
     <title><![CDATA[Service Mesh oraz praca programisty w Allegro]]></title>
