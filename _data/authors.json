@@ -87,6 +87,11 @@
         "name": "Piotr Klapczyński",
         "bio": "Piotr has been a Site Reliability Engineer for seven years. Currently, he supports stability as a SRE team leader responsible for the development of chaos engineering tools and performance tests.",
         "twitter": "klaper_",
-        "linkedin": "piotr-klapczyński-6540a63"
+        "linkedin": "piotr-klapczyński-6540a63,"
+    },
+    "alicja.halamska": {
+        "name": "Alicja Halamska",
+        "bio": "Ukończyła Politechnikę Poznańską z tytułem inżyniera, jest miłośniczką trudnych problemów, których rozwiązanie sprawia jej najwięcej satysfakcji. Uwielbia poznawać nowe technologie i analizować ich różnice oraz podobieństwa. Do wszystkiego podchodzi z dystansem, a prywatnie uwielbia chodzić po górach.",
+        "linkedin": "alicja-halamska-965875166"
     }
 }

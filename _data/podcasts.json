@@ -398,5 +398,24 @@
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MDU5NDUw?sa=X&ved=0CAUQkfYCahcKEwigpcuHiZbvAhUAAAAAHQAAAAAQAg"
         },
         "id": "3"
+    },
+    {
+        "date": "2021-03-18T00:00:00.000Z",
+        "slug": "summer_e_xperience_w_allegro",
+        "title": "Summer e-Xperience w Allegro",
+        "author": "alicja.halamska",
+        "name": "Alicja Halamska",
+        "toc": [
+            "Jak wygląda program SUmmer e-Xperience w obszarze technologii?",
+            "Czego można nauczyć się podczas programu jako Software Engineer?",
+            "Dlaczego #dobrzetubyć najlepiej oddaje ideę programu?",
+            "Komu polecamy nasz letni program i co radzimy?",
+            "Na te pytania odpowie Alicja Halamska - Junior Software Engineer w Allegro, która w 2020 roku dołączyła do programu Summer e-Xperience."
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/8150206-sezon-ii-4-summer-e-xperience-w-allegro-alicja-halamska",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MTUwMjA2?sa=X&ved=0CAUQkfYCahcKEwjoio3vq7nvAhUAAAAAHQAAAAAQAQ"
+        },
+        "id": "4"
     }
 ]
