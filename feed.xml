@@ -5,7 +5,7 @@
       <link>https://allegro.tech/</link>
       <description>Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!</description>
       <language>pl</language>
-      <lastBuildDate>Thu, 18 Mar 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 25 Mar 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://allegro.tech/feed.xml" rel="self" type="application/rss+xml"/>
       <podcast:locked owner="hello@wiekszelogo.pl">yes</podcast:locked>
       <itunes:subtitle><![CDATA[Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty, obok bloga, są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki są zbiorem angażujących historii, dobrych prakt...]]></itunes:subtitle>
@@ -29,6 +29,22 @@
 
 
       
+  <item>
+    <guid isPermaLink="true">https://podcast.allegro.tech/logistyka_na_platformie_allegro</guid>
+    <title><![CDATA[Logistyka na platformie Allegro]]></title>
+    <itunes:title><![CDATA[Logistyka na platformie Allegro]]></itunes:title>
+    <itunes:author>Jakub Kaczmarski</itunes:author>
+    <itunes:summary><![CDATA[Jak zarządzać zespołem ponad 100 osób? Jak rozwijać motywację, pasję i potencjał swoich pracowników? Na co zwracać uwagę? Jakie inspiracje można czerpać ze sportu w zarządzaniu? Jak zorganizować swoją pracę? O tym opowie Jakub Kaczmarski - Technology Director odpowiadając za obszar Delivery Experience i Allegro Smart! na platformie Allegro.]]></itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <enclosure url="https://www.buzzsprout.com/887914/8163669.mp3" type="audio/mpeg" />
+    <author>
+    <name>Jakub Kaczmarski</name>
+    </author>
+    <link>https://podcast.allegro.tech/logistyka_na_platformie_allegro</link>
+    <description><![CDATA[Jak zarządzać zespołem ponad 100 osób? Jak rozwijać motywację, pasję i potencjał swoich pracowników? Na co zwracać uwagę? Jakie inspiracje można czerpać ze sportu w zarządzaniu? Jak zorganizować swoją pracę? O tym opowie Jakub Kaczmarski - Technology Director odpowiadając za obszar Delivery Experience i Allegro Smart! na platformie Allegro.]]></description>
+    <pubDate>Thu, 25 Mar 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/summer_e_xperience_w_allegro</guid>
     <title><![CDATA[Summer e-Xperience w Allegro]]></title>
