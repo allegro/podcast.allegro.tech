@@ -5,7 +5,7 @@
       <link>https://allegro.tech/</link>
       <description>Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!</description>
       <language>pl</language>
-      <lastBuildDate>Thu, 25 Mar 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 08 Apr 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://allegro.tech/feed.xml" rel="self" type="application/rss+xml"/>
       <podcast:locked owner="hello@wiekszelogo.pl">yes</podcast:locked>
       <itunes:subtitle><![CDATA[Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty, obok bloga, są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki są zbiorem angażujących historii, dobrych prakt...]]></itunes:subtitle>
@@ -29,6 +29,22 @@
 
 
       
+  <item>
+    <guid isPermaLink="true">https://podcast.allegro.tech/swiat_product_managera_w_allegro</guid>
+    <title><![CDATA[Świat Product Managera w Allegro]]></title>
+    <itunes:title><![CDATA[Świat Product Managera w Allegro]]></itunes:title>
+    <itunes:author>Aleksandra Wasielewska</itunes:author>
+    <itunes:summary><![CDATA[Jak tworzy się produkty dla milionów kupujących? Jak wygląda warsztat i ekosystem Product Managera w Allegro? Jak zaskakujące jest Allegro od środka? Jak mądrze wykorzystywać dane w pracy Product Managera? I jak w Allegro jeśli się chce, to można realizować się nie tylko jako pracownik, ale człowiek? Nie tylko to, ale też wiele wiele więcej w rozmowie z Piotrkiem, odkryje przed Wami Ola Wasielewska - Senior Product Manager w Allegro.]]></itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <enclosure url="https://www.buzzsprout.com/887914/8163682.mp3" type="audio/mpeg" />
+    <author>
+    <name>Aleksandra Wasielewska</name>
+    </author>
+    <link>https://podcast.allegro.tech/swiat_product_managera_w_allegro</link>
+    <description><![CDATA[Jak tworzy się produkty dla milionów kupujących? Jak wygląda warsztat i ekosystem Product Managera w Allegro? Jak zaskakujące jest Allegro od środka? Jak mądrze wykorzystywać dane w pracy Product Managera? I jak w Allegro jeśli się chce, to można realizować się nie tylko jako pracownik, ale człowiek? Nie tylko to, ale też wiele wiele więcej w rozmowie z Piotrkiem, odkryje przed Wami Ola Wasielewska - Senior Product Manager w Allegro.]]></description>
+    <pubDate>Thu, 08 Apr 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/logistyka_na_platformie_allegro</guid>
     <title><![CDATA[Logistyka na platformie Allegro]]></title>
