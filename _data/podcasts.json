@@ -474,7 +474,9 @@
             "Odpowiedzi na te pytania znajdziecie w najnowszym podcascie, którego gościem jest Julia Bluszcz."
         ],
         "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8333231"
+            "buzzsprout": "https://www.buzzsprout.com/887914/8333231",
+            "spotify": "https://open.spotify.com/episode/37wNNKRsAcBQOiQ6uQ35Wl",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MzMzMjMx?sa=X&ved=0CAUQkfYCahcKEwjY-tubqILwAhUAAAAAHQAAAAAQAQ"
         },
         "id": "7"
     }
