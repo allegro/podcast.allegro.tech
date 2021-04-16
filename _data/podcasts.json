@@ -460,5 +460,22 @@
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MTYzNjgy?sa=X&ved=0CAUQkfYCahcKEwiQ1OPJjO7vAhUAAAAAHQAAAAAQAQ"
         },
         "id": "6"
+    },
+    {
+        "date": "2021-04-16T00:00:00.000Z",
+        "slug": "data_scientist_w_allegro",
+        "title": "Data Scientist w Allegro",
+        "author": "julia.bluszcz",
+        "name": "Julia Bluszcz",
+        "toc": [
+            "Czym zajmuje się Data Scientist?",
+            "Jak wygląda proces budowania modeli danych?",
+            "Jak klasyczne i bayesowskie metody statystyczne pozwalają nam odpowiedzieć na pytanie “dlaczego”?", "Czym różni się korelacja od kauzacji i jak estymować efekty różnego rodzaju zmian, nawet gdy nie możemy przeprowadzić testów AB?",
+            "Odpowiedzi na te pytania znajdziecie w najnowszym podcascie, którego gościem jest Julia Bluszcz."
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/8333231"
+        },
+        "id": "7"
     }
 ]
