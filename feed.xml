@@ -5,7 +5,7 @@
       <link>https://allegro.tech/</link>
       <description>Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!</description>
       <language>pl</language>
-      <lastBuildDate>Thu, 08 Apr 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 16 Apr 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://allegro.tech/feed.xml" rel="self" type="application/rss+xml"/>
       <podcast:locked owner="hello@wiekszelogo.pl">yes</podcast:locked>
       <itunes:subtitle><![CDATA[Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty, obok bloga, są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki są zbiorem angażujących historii, dobrych prakt...]]></itunes:subtitle>
@@ -29,6 +29,22 @@
 
 
       
+  <item>
+    <guid isPermaLink="true">https://podcast.allegro.tech/data_scientist_w_allegro</guid>
+    <title><![CDATA[Data Scientist w Allegro]]></title>
+    <itunes:title><![CDATA[Data Scientist w Allegro]]></itunes:title>
+    <itunes:author>Julia Bluszcz</itunes:author>
+    <itunes:summary><![CDATA[Czym zajmuje się Data Scientist? Jak wygląda proces budowania modeli danych? Jak klasyczne i bayesowskie metody statystyczne pozwalają nam odpowiedzieć na pytanie “dlaczego”? Czym różni się korelacja od kauzacji i jak estymować efekty różnego rodzaju zmian, nawet gdy nie możemy przeprowadzić testów AB? Odpowiedzi na te pytania znajdziecie w najnowszym podcascie, którego gościem jest Julia Bluszcz.]]></itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <enclosure url="https://www.buzzsprout.com/887914/8333231.mp3" type="audio/mpeg" />
+    <author>
+    <name>Julia Bluszcz</name>
+    </author>
+    <link>https://podcast.allegro.tech/data_scientist_w_allegro</link>
+    <description><![CDATA[Czym zajmuje się Data Scientist? Jak wygląda proces budowania modeli danych? Jak klasyczne i bayesowskie metody statystyczne pozwalają nam odpowiedzieć na pytanie “dlaczego”? Czym różni się korelacja od kauzacji i jak estymować efekty różnego rodzaju zmian, nawet gdy nie możemy przeprowadzić testów AB? Odpowiedzi na te pytania znajdziecie w najnowszym podcascie, którego gościem jest Julia Bluszcz.]]></description>
+    <pubDate>Fri, 16 Apr 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/swiat_product_managera_w_allegro</guid>
     <title><![CDATA[Świat Product Managera w Allegro]]></title>
