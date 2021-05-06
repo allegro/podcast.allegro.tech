@@ -114,5 +114,10 @@
         "bio": "Michał is a Development Team Leader in the Delivery Experience area. Huge fan of Domain-Driven Design, Test-Driven Development, Pair Programming, Event Storming and Agile methodologies. Worked in software houses through most of his career. After joining Allegro, he discovered that product development means a lot more than just writing code.",
         "linkedin": "michaelbareja",
         "twitter": "MichaelBareja"
+    },
+    "bartosz.galek": {
+        "name": "Bartosz Gałek",
+        "bio": "Just as Obelix did not need a magic drink to be strong - Bartosz does not need coffee to always be full of energy and shares it with his team. Huge fan of board games, supporter and co-creator of open source software. Operates in Warsaw! Bartosz cannot resist Hackathon attendance.",
+        "github": "bgalek"
     }
 }

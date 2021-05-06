@@ -506,8 +506,27 @@
         "platforms": {
             "buzzsprout": "https://www.buzzsprout.com/887914/8371888",
             "spotify": "https://open.spotify.com/episode/0viZ7a4OojDtIN8kxi2u1B",
+            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-8-in%C5%BCynier-w-zespole-produktowym-micha%C5%82-bareja/id1500315781?i=1000518189720",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MzcxODg4?sa=X&ved=0CAUQkfYCahcKEwjo5eS3npHwAhUAAAAAHQAAAAAQAQ"
         },
         "id": "8"
+    },
+    {
+        "date": "2021-05-06T00:00:00.000Z",
+        "slug": "od_inzyniera_do_lidera_w_allegro",
+        "title": "Od inżyniera do lidera w Allegro",
+        "author": "bartosz.galek",
+        "name": "Batosz Gałek",
+        "toc": [
+            "Czym jest Opbox i jakie wyzwania przed nim stoją?",
+            "Jak w Allegro angażujemy się w rozwój kultury Open Source?",
+            "Ile mamy projektów na GitHubie i jak świętujemy Hacktoberfest?",
+            "W jaki sposób można rozwinąć się od inżyniera do lidera?",
+            "Na te pytania w najnowszym Allegro Tech Podcast odpowie Bartek Gałek, Team Leader w Allegro."
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/8455586-sezon-ii-9-od-inzyniera-do-lidera-w-allegro-bartosz-galek"
+        },
+        "id": "9"
     }
 ]
