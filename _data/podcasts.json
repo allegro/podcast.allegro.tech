@@ -526,7 +526,8 @@
         ],
         "platforms": {
             "buzzsprout": "https://www.buzzsprout.com/887914/8455586-sezon-ii-9-od-inzyniera-do-lidera-w-allegro-bartosz-galek",
-            "spotify": "https://open.spotify.com/episode/6HBAu8UWxm0kGaxQrIdsYl"
+            "spotify": "https://open.spotify.com/episode/6HBAu8UWxm0kGaxQrIdsYl",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04NDU1NTg2?sa=X&ved=0CAUQkfYCahcKEwjQ04_FwbTwAhUAAAAAHQAAAAAQAQ"
         },
         "id": "9"
     }
