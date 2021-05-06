@@ -5,7 +5,7 @@
       <link>https://allegro.tech/</link>
       <description>Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!</description>
       <language>pl</language>
-      <lastBuildDate>Thu, 22 Apr 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 06 May 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://allegro.tech/feed.xml" rel="self" type="application/rss+xml"/>
       <podcast:locked owner="hello@wiekszelogo.pl">yes</podcast:locked>
       <itunes:subtitle><![CDATA[Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty, obok bloga, są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki są zbiorem angażujących historii, dobrych prakt...]]></itunes:subtitle>
@@ -29,6 +29,22 @@
 
 
       
+  <item>
+    <guid isPermaLink="true">https://podcast.allegro.tech/od_inzyniera_do_lidera_w_allegro</guid>
+    <title><![CDATA[Od inżyniera do lidera w Allegro]]></title>
+    <itunes:title><![CDATA[Od inżyniera do lidera w Allegro]]></itunes:title>
+    <itunes:author>Batosz Gałek</itunes:author>
+    <itunes:summary><![CDATA[Czym jest Opbox i jakie wyzwania przed nim stoją? Jak w Allegro angażujemy się w rozwój kultury Open Source? Ile mamy projektów na GitHubie i jak świętujemy Hacktoberfest? W jaki sposób można rozwinąć się od inżyniera do lidera? Na te pytania w najnowszym Allegro Tech Podcast odpowie Bartek Gałek, Team Leader w Allegro.]]></itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <enclosure url="https://www.buzzsprout.com/887914/8455586-sezon-ii-9-od-inzyniera-do-lidera-w-allegro-bartosz-galek.mp3" type="audio/mpeg" />
+    <author>
+    <name>Batosz Gałek</name>
+    </author>
+    <link>https://podcast.allegro.tech/od_inzyniera_do_lidera_w_allegro</link>
+    <description><![CDATA[Czym jest Opbox i jakie wyzwania przed nim stoją? Jak w Allegro angażujemy się w rozwój kultury Open Source? Ile mamy projektów na GitHubie i jak świętujemy Hacktoberfest? W jaki sposób można rozwinąć się od inżyniera do lidera? Na te pytania w najnowszym Allegro Tech Podcast odpowie Bartek Gałek, Team Leader w Allegro.]]></description>
+    <pubDate>Thu, 06 May 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/inzynier_w_zespole_produktowym</guid>
     <title><![CDATA[Inżynier w zespole produktowym]]></title>
