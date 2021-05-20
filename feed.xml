@@ -5,7 +5,7 @@
       <link>https://allegro.tech/</link>
       <description>Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!</description>
       <language>pl</language>
-      <lastBuildDate>Thu, 06 May 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 20 May 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://allegro.tech/feed.xml" rel="self" type="application/rss+xml"/>
       <podcast:locked owner="hello@wiekszelogo.pl">yes</podcast:locked>
       <itunes:subtitle><![CDATA[Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty, obok bloga, są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki są zbiorem angażujących historii, dobrych prakt...]]></itunes:subtitle>
@@ -29,6 +29,22 @@
 
 
       
+  <item>
+    <guid isPermaLink="true">https://podcast.allegro.tech/praca_architekta_ekosystemu_big_data_w_Allegro</guid>
+    <title><![CDATA[Praca architekta ekosystemu big data w Allegro]]></title>
+    <itunes:title><![CDATA[Praca architekta ekosystemu big data w Allegro]]></itunes:title>
+    <itunes:author>Dariusz Eliasz</itunes:author>
+    <itunes:summary><![CDATA[Jak wygląda praca architekta ekosystemu big data w Allegro? Jakie zadania realizuje nasz zespół odpowiedzialny za narzędzia i infrastrukturę dla przetwarzania danych? Kiedy możemy mówić o dużych danych i ile petabajtów przetwarza Allegro? Skąd pochodzą dane Allegro i dlaczego jest ich tak dużo oraz z jakiego powodu dopiero teraz przenosimy się do chmury? O tym wszystkim opowie zdobywca statuetki Allegro Tech Hero - Dariusz Eliasz – Team Manager & Platform Architect w Allegro.]]></itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <enclosure url="https://www.buzzsprout.com/887914/8554742-sezon-ii-10-przetwarzanie-danych-w-allegro-dariusz-eliasz.mp3" type="audio/mpeg" />
+    <author>
+    <name>Dariusz Eliasz</name>
+    </author>
+    <link>https://podcast.allegro.tech/praca_architekta_ekosystemu_big_data_w_Allegro</link>
+    <description><![CDATA[Jak wygląda praca architekta ekosystemu big data w Allegro? Jakie zadania realizuje nasz zespół odpowiedzialny za narzędzia i infrastrukturę dla przetwarzania danych? Kiedy możemy mówić o dużych danych i ile petabajtów przetwarza Allegro? Skąd pochodzą dane Allegro i dlaczego jest ich tak dużo oraz z jakiego powodu dopiero teraz przenosimy się do chmury? O tym wszystkim opowie zdobywca statuetki Allegro Tech Hero - Dariusz Eliasz – Team Manager & Platform Architect w Allegro.]]></description>
+    <pubDate>Thu, 20 May 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/od_inzyniera_do_lidera_w_allegro</guid>
     <title><![CDATA[Od inżyniera do lidera w Allegro]]></title>
