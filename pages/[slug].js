@@ -10,15 +10,6 @@ import Head from 'next/head';
 
 import { getPodcastBySlug, getAllSlugs } from '../lib/api.js';
 
-
-const podcastHost = {
-    "author": "piotr.betkier",
-    "name": "Piotr Betkier",
-    "bio": "Software Engineer who loves building useful tools and resilient systems. Works in one of the technical platform teams, where he's responsible for common libraries and service discovery (Service Mesh). Conference speaker, host of Allegro Tech Podcast.",
-    "twitter": "piotrbetkier"
-}
-
-
 export const config = {
     unstable_runtimeJS: false
   };
@@ -66,7 +57,7 @@ function Podcast({ podcast }) {
                 <Links items={podcast.links} />
                 <section className="post-author" id="autor">
                     <Author authorData={podcast.authorData} />
-                    <Author authorData={podcastHost} />
+                    <Author authorData={podcast.hostData} />
                 </section>
             </section>
         </div>

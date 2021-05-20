@@ -72,6 +72,7 @@
         "bio": "Software Engineer who loves building useful tools and resilient systems. Works in one of the technical platform teams, where he's responsible for common libraries and service discovery (Service Mesh). Conference speaker, host of Allegro Tech Podcast.",
         "twitter": "piotrbetkier"
     },
+
     "lukasz.sciga": {
         "name": "Łukasz Ściga",
         "bio": "Data Engineer w Allegro, którego pasją jest programowanie gier komputerowych.",
@@ -119,5 +120,9 @@
         "name": "Bartosz Gałek",
         "bio": "Just as Obelix did not need a magic drink to be strong - Bartosz does not need coffee to always be full of energy and shares it with his team. Huge fan of board games, supporter and co-creator of open source software. Operates in Warsaw! Bartosz cannot resist Hackathon attendance.",
         "github": "bgalek"
+    },
+    "dariusz.eliasz": {
+        "name": "Dariusz Eliasz",
+        "bio": "His main interests include Big Data solutions architecture and data governance. He is enthusiastic about scalable distributed solutions, processing large datasets and constant search for improvements. He combines all those interests with planning and managing projects that implement said solutions."
     }
 }

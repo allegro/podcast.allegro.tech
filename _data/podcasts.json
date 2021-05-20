@@ -1,4 +1,5 @@
-[{
+[
+    {
         "date": "2020-02-24T00:00:00.000Z",
         "slug": "o_zatrudnianiu_rozwoju_i_nie_tylko",
         "title": "O zatrudnianiu, rozwoju inżynierów i nie tylko",
@@ -25,7 +26,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/1-o-zatrudnianiu-i-rozwoju-in%C5%BCynier%C3%B3w-i-nie-tylko-piotr/id1500315781?i=1000466543310",
             "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yNzk5NDYw&ved=0CAIQkfYCahcKEwi4-rTIvfvnAhUAAAAAHQAAAAAQAQ"
         },
-        "id": 1
+        "id": 1,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-03-02T00:00:00.000Z",
@@ -51,7 +53,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/2-infrastruktura-dla-1000-mikrous%C5%82ug-w-allegro-adam-dubiel/id1500315781?i=1000467205501",
             "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yNzk5NDg0&ved=0CAIQkfYCahcKEwjo5a7tlv7nAhUAAAAAHQAAAAAQAQ"
         },
-        "id": 2
+        "id": 2,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-03-09T00:00:00.000Z",
@@ -75,7 +78,8 @@
         "links": {
             "Charbusters - 10 mitów o Unicode, Tomasz Nurkiewicz": "https://www.facebook.com/allegro.tech/videos/318000685417753/"
         },
-        "id": 3
+        "id": 3,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-03-16T00:00:00.000Z",
@@ -105,7 +109,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/4-it-security-w-allegro-wojciech-lesicki/id1500315781?i=1000468696801",
             "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNTkw&ved=0CAIQkfYCahcKEwjA-OKj4J_oAhUAAAAAHQAAAAAQAQ"
         },
-        "id": 4
+        "id": 4,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-03-23T00:00:00.000Z",
@@ -132,7 +137,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/5-badania-ux-w-allegro-justyna-osten-sacken/id1500315781?i=1000469272030",
             "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNjM4&ved=0CAIQkfYCahcKEwjg9KXVhLDoAhUAAAAAHQAAAAAQAQ"
         },
-        "id": 5
+        "id": 5,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-03-30T00:00:00.000Z",
@@ -164,7 +170,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/6-wyszukiwanie-w-allegro-jak-nie-potkn%C4%85%C4%87-si%C4%99-o-d%C5%82ugi/id1500315781?i=1000469902782",
             "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNjUz&ved=0CAcQ38oDahcKEwjgkoeDwsHoAhUAAAAAHQAAAAAQAQ"
         },
-        "id": 6
+        "id": 6,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-04-06T00:00:00.000Z",
@@ -192,7 +199,8 @@
             "Allegro Tech Talks 9 Warszawa - “Renderowanie w Node.js”, Krzysztof Kwiatkowski": "https://www.facebook.com/allegro.tech/videos/272334407038128/",
             "Allegro Tech Talks 9 Warszawa - “Header Challenge - zróbmy to lepiej niż Ronaldo!”, Rafał Augustyniak": "https://www.facebook.com/allegro.tech/videos/2380504828866498/"
         },
-        "id": 7
+        "id": 7,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-04-20T00:00:00.000Z",
@@ -217,7 +225,8 @@
             "Stapp Space": "https://stapp.space",
             "dotNETomaniak tech blog": "https://blog.dotnetomaniak.pl"
         },
-        "id": 8
+        "id": 8,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-05-04T00:00:00.000Z",
@@ -240,7 +249,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/9-jak-testy-mog%C4%85-wp%C5%82yn%C4%85%C4%87-na-%C5%BCycie-pawe%C5%82-zwierzchowski/id1500315781?i=1000473469220",
             "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNjY1&ved=0CAcQ38oDahcKEwjo3fqi4ZnpAhUAAAAAHQAAAAAQAQ"
         },
-        "id": 9
+        "id": 9,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-05-18T00:00:00.000Z",
@@ -263,7 +273,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/10-misja-zmiana-bran%C5%BCy-zako%C5%84czona-sukcesem-jak-wygl%C4%85d%C4%85/id1500315781?i=1000474989027",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0yNzk5NTc0?ved=0CAcQ38oDahcKEwjAn7Da4bzpAhUAAAAAHQAAAAAQAQ"
         },
-        "id": 10
+        "id": 10,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-06-01T00:00:00.000Z",
@@ -286,7 +297,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/11-mobile-w-allegro-kamil-borzym/id1500315781?i=1000476356373",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0zMDExOTg5?ved=0CAcQ38oDahcKEwigz4fX89_pAhUAAAAAHQAAAAAQAw"
         },
-        "id": 11
+        "id": 11,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-06-15T00:00:00.000Z",
@@ -305,7 +317,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/11-ep11-katrazyna-wr%C3%B3bel/id1500315781?i=1000477953978",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0zMDExOTk4?ved=0CAcQ38oDahcKEwjY2oK_kIPqAhUAAAAAHQAAAAAQAg"
         },
-        "id": 12
+        "id": 12,
+        "host": "piotr.betkier"
     },
     {
         "date": "2020-06-29T00:00:00.000Z",
@@ -327,7 +340,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/13-badania-i-rozw%C3%B3j-ml-w-allegro-ireneusz-gawlik/id1500315781?i=1000480129707",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0yOTk4ODE5?ved=2ahUKEwjTp--ltabqAhVCdJoKHSkcDH8QkfYCegQIARAF"
         },
-        "id": 13
+        "id": 13,
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-02-10T00:00:00.000Z",
@@ -348,7 +362,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-1-zbiory-danych-w-allegro-%C5%82ukasz-%C5%9Bciga/id1500315781?i=1000508592979",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC03NDI2Mjk0?sa=X&ved=0CAUQkfYCahcKEwiov-_gxuHuAhUAAAAAHQAAAAAQAQ"
         },
-        "id": "1"
+        "id": "1",
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-02-25T00:00:00.000Z",
@@ -376,7 +391,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-2-service-mesh-oraz-praca-programisty-w-allegro/id1500315781?i=1000510739607",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC03OTE3NjQ5?sa=X&ved=0CAUQkfYCahcKEwjQjKTrzITvAhUAAAAAHQAAAAAQAQ"
         },
-        "id": "2"
+        "id": "2",
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-03-04T00:00:00.000Z",
@@ -397,7 +413,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-3-sre-w-allegro-piotr-klapczy%C5%84ski/id1500315781?i=1000511567674",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MDU5NDUw?sa=X&ved=0CAUQkfYCahcKEwigpcuHiZbvAhUAAAAAHQAAAAAQAg"
         },
-        "id": "3"
+        "id": "3",
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-03-18T00:00:00.000Z",
@@ -418,7 +435,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-4-summer-e-xperience-w-allegro-alicja-halamska/id1500315781?i=1000513647494",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MTUwMjA2?sa=X&ved=0CAUQkfYCahcKEwjoio3vq7nvAhUAAAAAHQAAAAAQAQ"
         },
-        "id": "4"
+        "id": "4",
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-03-25T00:00:00.000Z",
@@ -439,7 +457,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-5-logistyka-na-platformie-allegro-jakub-kaczmarski/id1500315781?i=1000514424112",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MTYzNjY5?sa=X&ved=0CAUQkfYCahcKEwjgg9uM9crvAhUAAAAAHQAAAAAQAQ"
         },
-        "id": "5"
+        "id": "5",
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-04-08T00:00:00.000Z",
@@ -460,7 +479,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-6-%C5%9Bwiat-product-managera-w-allegro-aleksandra/id1500315781?i=1000516382450",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MTYzNjgy?sa=X&ved=0CAUQkfYCahcKEwiQ1OPJjO7vAhUAAAAAHQAAAAAQAQ"
         },
-        "id": "6"
+        "id": "6",
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-04-16T00:00:00.000Z",
@@ -471,7 +491,8 @@
         "toc": [
             "Czym zajmuje się Data Scientist?",
             "Jak wygląda proces budowania modeli danych?",
-            "Jak klasyczne i bayesowskie metody statystyczne pozwalają nam odpowiedzieć na pytanie “dlaczego”?", "Czym różni się korelacja od kauzacji i jak estymować efekty różnego rodzaju zmian, nawet gdy nie możemy przeprowadzić testów AB?",
+            "Jak klasyczne i bayesowskie metody statystyczne pozwalają nam odpowiedzieć na pytanie “dlaczego”?",
+            "Czym różni się korelacja od kauzacji i jak estymować efekty różnego rodzaju zmian, nawet gdy nie możemy przeprowadzić testów AB?",
             "Odpowiedzi na te pytania znajdziecie w najnowszym podcascie, którego gościem jest Julia Bluszcz."
         ],
         "platforms": {
@@ -480,7 +501,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-7-data-scientist-w-allegro-julia-bluszcz/id1500315781?i=1000517380562",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MzMzMjMx?sa=X&ved=0CAUQkfYCahcKEwjY-tubqILwAhUAAAAAHQAAAAAQAQ"
         },
-        "id": "7"
+        "id": "7",
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-04-22T00:00:00.000Z",
@@ -509,7 +531,8 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-8-in%C5%BCynier-w-zespole-produktowym-micha%C5%82-bareja/id1500315781?i=1000518189720",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MzcxODg4?sa=X&ved=0CAUQkfYCahcKEwjo5eS3npHwAhUAAAAAHQAAAAAQAQ"
         },
-        "id": "8"
+        "id": "8",
+        "host": "piotr.betkier"
     },
     {
         "date": "2021-05-06T00:00:00.000Z",
@@ -530,6 +553,26 @@
             "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-9-od-in%C5%BCyniera-do-lidera-w-allegro-bartosz-ga%C5%82ek/id1500315781?i=1000520516802",
             "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04NDU1NTg2?sa=X&ved=0CAUQkfYCahcKEwjQ04_FwbTwAhUAAAAAHQAAAAAQAQ"
         },
-        "id": "9"
+        "id": "9",
+        "host": "piotr.betkier"
+    },
+    {
+        "date": "2021-05-20T00:00:00.000Z",
+        "slug": "praca_architekta_ekosystemu_big_data_w_Allegro",
+        "title": "Praca architekta ekosystemu big data w Allegro",
+        "author": "dariusz.eliasz",
+        "name": "Dariusz Eliasz",
+        "toc": [
+            "Jak wygląda praca architekta ekosystemu big data w Allegro?",
+            "Jakie zadania realizuje nasz zespół odpowiedzialny za narzędzia i infrastrukturę dla przetwarzania danych?",
+            "Kiedy możemy mówić o dużych danych i ile petabajtów przetwarza Allegro?",
+            "Skąd pochodzą dane Allegro i dlaczego jest ich tak dużo oraz z jakiego powodu dopiero teraz przenosimy się do chmury?",
+            "O tym wszystkim opowie zdobywca statuetki Allegro Tech Hero - Dariusz Eliasz – Team Manager & Platform Architect w Allegro."
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/8455586-sezon-ii-9-od-inzyniera-do-lidera-w-allegro-bartosz-galek"
+        },
+        "id": "10",
+        "host": "bartosz.galek"
     }
 ]
