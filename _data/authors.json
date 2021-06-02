@@ -124,5 +124,9 @@
     "dariusz.eliasz": {
         "name": "Dariusz Eliasz",
         "bio": "His main interests include Big Data solutions architecture and data governance. He is enthusiastic about scalable distributed solutions, processing large datasets and constant search for improvements. He combines all those interests with planning and managing projects that implement said solutions."
+    },
+    "piotr.michonski": {
+      "name": "Piotr Michoński",
+      "bio": "Piotr’s main interests include creating a technological platform and combining human and technological development  –  the one that drives Allegro’s growth and lies at the core of the company’s operations. For 8 years, he has managed Allegro teams that develop the runtime platform for allegro.pl. Outside of work, he is a keen guitarist and a proud father of two sons"
     }
 }
