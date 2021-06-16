@@ -69,8 +69,9 @@
     },
     "piotr.betkier": {
         "name": "Piotr Betkier",
-        "bio": "Software Engineer who loves building useful tools and resilient systems. Works in one of the technical platform teams, where he's responsible for common libraries and service discovery (Service Mesh). Conference speaker, host of Allegro Tech Podcast.",
-        "twitter": "piotrbetkier"
+        "bio": "Piotr loves building reliable systems and useful tools. He’s been developing the Allegro technical platform for many years, providing core solutions for the microservices architecture. After work he’s passionate about mountains and jazz.",
+        "twitter": "piotrbetkier",
+        "linkedin": "piotrbetkier"
     },
 
     "lukasz.sciga": {

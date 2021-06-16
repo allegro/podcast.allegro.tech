@@ -599,5 +599,27 @@
         },
         "id": "11",
         "host": "piotr.betkier"
+    },
+    {
+        "date": "2021-06-16T00:00:00.000Z",
+        "slug": "rola_architekta_w_allegro",
+        "title": "Rola architekta w Allegro",
+        "author": "piotr.betkier",
+        "name": "Piotr Betkier",
+        "toc": [
+            "Od kodowania do tworzenia strategii technicznej...",
+            "Jak wygląda rola architekta w Allegro?",
+            "Ile takich osób pracuje w naszej firmie i dlaczego ta rola jest tak różnorodna?",
+            "Czym jest Andamio i jak rozwijamy naszą platformę – o tym wszystkim opowie Piotr Betkier – Inżynier, Architekt Platformy Technicznej w Allegro oraz twórca piosenek o IT :)"
+        ],
+        "links": {
+            "Common code approach: from rich libraries to rich environment": "https://blog.allegro.tech/2020/07/common-code-approach.html",
+            "Piosenka smutnego Puppecisty": "https://www.youtube.com/watch?v=mlXSMb2obd0"
+        },  
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/8712218"
+        },
+        "id": "12",
+        "host": "bartosz.galek"
     }
 ]
