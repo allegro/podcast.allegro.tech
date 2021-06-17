@@ -5,7 +5,7 @@
       <link>https://allegro.tech/</link>
       <description>Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!</description>
       <language>pl</language>
-      <lastBuildDate>Tue, 01 Jun 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 16 Jun 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://allegro.tech/feed.xml" rel="self" type="application/rss+xml"/>
       <podcast:locked owner="hello@wiekszelogo.pl">yes</podcast:locked>
       <itunes:subtitle><![CDATA[Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty, obok bloga, są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki są zbiorem angażujących historii, dobrych prakt...]]></itunes:subtitle>
@@ -29,6 +29,22 @@
 
 
       
+  <item>
+    <guid isPermaLink="true">https://podcast.allegro.tech/rola_architekta_w_allegro</guid>
+    <title><![CDATA[Rola architekta w Allegro]]></title>
+    <itunes:title><![CDATA[Rola architekta w Allegro]]></itunes:title>
+    <itunes:author>Piotr Betkier</itunes:author>
+    <itunes:summary><![CDATA[Od kodowania do tworzenia strategii technicznej... Jak wygląda rola architekta w Allegro? Ile takich osób pracuje w naszej firmie i dlaczego ta rola jest tak różnorodna? Czym jest Andamio i jak rozwijamy naszą platformę – o tym wszystkim opowie Piotr Betkier – Inżynier, Architekt Platformy Technicznej w Allegro oraz twórca piosenek o IT :)]]></itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <enclosure url="https://www.buzzsprout.com/887914/8712218.mp3" type="audio/mpeg" />
+    <author>
+    <name>Piotr Betkier</name>
+    </author>
+    <link>https://podcast.allegro.tech/rola_architekta_w_allegro</link>
+    <description><![CDATA[Od kodowania do tworzenia strategii technicznej... Jak wygląda rola architekta w Allegro? Ile takich osób pracuje w naszej firmie i dlaczego ta rola jest tak różnorodna? Czym jest Andamio i jak rozwijamy naszą platformę – o tym wszystkim opowie Piotr Betkier – Inżynier, Architekt Platformy Technicznej w Allegro oraz twórca piosenek o IT :)]]></description>
+    <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/infrastruktura_Allegro</guid>
     <title><![CDATA[Infrastruktura Allegro]]></title>
