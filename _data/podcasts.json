@@ -617,7 +617,10 @@
             "Piosenka smutnego Puppecisty": "https://www.youtube.com/watch?v=mlXSMb2obd0"
         },  
         "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8712218"
+            "buzzsprout": "https://www.buzzsprout.com/887914/8712218",
+            "spotify": "https://open.spotify.com/episode/4cGe2Llr0as8kplBMZOP2i",
+            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-12-rola-architekta-w-allegro-piotr-betkier/id1500315781?i=1000525829886",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04NzEyMjE4?sa=X&ved=0CAUQkfYCahcKEwjIjdHVhJ7xAhUAAAAAHQAAAAAQAQ"
         },
         "id": "12",
         "host": "bartosz.galek"
