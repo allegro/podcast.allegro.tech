@@ -614,8 +614,10 @@
         ],
         "links": {
             "Common code approach: from rich libraries to rich environment": "https://blog.allegro.tech/2020/07/common-code-approach.html",
-            "Piosenka smutnego Puppecisty": "https://www.youtube.com/watch?v=mlXSMb2obd0"
-        },  
+            "Piosenka smutnego Puppecisty": "https://www.youtube.com/watch?v=mlXSMb2obd0",
+            "Konferencja Confitura (dawniej Javarsovia)": "https://confitura.pl",
+            "Growing Spring-based commons, lessons learned (Spring I/O 2017)": "https://www.youtube.com/watch?v=y6uFC_T_fcc"
+        },
         "platforms": {
             "buzzsprout": "https://www.buzzsprout.com/887914/8712218",
             "spotify": "https://open.spotify.com/episode/4cGe2Llr0as8kplBMZOP2i",
