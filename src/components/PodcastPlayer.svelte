@@ -93,7 +93,7 @@ function setPlaybackRate(){
     <div  class="panel"> 
     <h2 class="podcast-title"><span class="icon" on:click={togglePlay}>{@html toggleButton}</span> {podcastTitle}</h2>
 
-    <div class="audio-track" on:click={setProgress}><img src="/img/podcast-player/silver-wave-bg-transparent.png" bind:this={trackBar} alt="" id="track"></div>
+    <div class="audio-track" on:click={setProgress}><img src="/img/podcast-player/white-wave-bg-transparent.png" bind:this={trackBar} alt="" id="track"></div>
      
     <div class="controls">
    
