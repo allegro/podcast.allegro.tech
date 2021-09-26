@@ -1,0 +1,15 @@
+---
+export interface Props {
+ toc: any;
+}
+const { toc } = Astro.props;
+---
+<div class="cover-card"><div itemprop="description" class="podcast-description">
+    {<ul class="podcast-toc">
+        {toc.map((p) => (
+            <li>{p}</li>
+    ))}
+</ul>}      
+</div></div>
+           
+       

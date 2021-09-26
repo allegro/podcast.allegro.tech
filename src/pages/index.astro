@@ -1,0 +1,38 @@
+---
+import BaseBody from '../layouts/Body.astro';
+import BaseHead from '../layouts/Head.astro';
+// Component Imports
+import PodcastPlayer from '../components/PodcastPlayer.svelte';
+import {getAllPodcasts} from '../lib/api.mjs';
+import AboutPodcast from '../components/AboutPodcast.astro';
+import PodcastHeader from '../components/PodcastHeader.astro';
+import Description from '../components/Description.astro';
+
+const podcastsEnriched = getAllPodcasts();
+const title = "Allegro.tech podcast";
+
+---
+<!DOCTYPE html><html lang="en">
+<BaseHead />
+<BaseBody>
+<div class="desk">
+{podcastsEnriched.map( (podcast) => (
+<section class="content">
+    <div class="m-card" itemType="http://schema.org/PodcastEpisode">
+      <PodcastHeader podcast={podcast}/>
+      <div class="cover">
+        <PodcastPlayer 
+        audioSource = {podcast.audioSource} 
+        podcastTitle = {podcast.podcastTitle}
+        podcastPlatforms = {podcast.podcastPlatforms}
+        podcastCover = {podcast.podcastCover}
+        client:load/>
+        <Description toc = {podcast.toc} />
+      </div>
+    </div>
+</section>
+))}
+</div>
+<AboutPodcast /> 
+</BaseBody>
+</html>

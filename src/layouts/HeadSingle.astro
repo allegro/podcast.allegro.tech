@@ -1,0 +1,33 @@
+---
+export interface Props {
+  podcast: any;
+}
+const { podcast } = Astro.props;
+---       
+        <head>
+        <meta name="viewport" content="width=device-width"/>
+        <meta charSet="utf-8"/>
+          <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="allegro.tech podcast feed"
+            href="https://podcast.allegro.tech/feed.xml"
+          />
+          <link rel="stylesheet" href="/css/style.css" />
+          <link rel="stylesheet" href="/css/metrum.css" />
+          <link rel="stylesheet" href="/css/blog.css" />
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+          <meta name="description" content="Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!." />
+          <meta property="og:site_name" content="allegro.tech" />
+          <meta property="og:title" content={podcast.title} />
+          <meta property="og:url" content={`https://podcast.allegro.tech/${podcast.slug}`} />
+          <meta property="og:type" content="video.episode" />
+          <meta property="og:image" content="https://podcast.allegro.tech/img/podcast/podcast.png" />
+          <meta name="twitter:creator" content="@allegrotech" />
+          <meta property="og:description" content={podcast.toc.join(' ')} />
+          <meta property="article:author" content="https://www.facebook.com/allegro.tech" />
+          <meta property="article:publisher" content="https://www.facebook.com/allegro.tech" />
+          <title itemProp="name">{podcast.title} - {podcast.name} - allegro.tech</title>
+        </head>

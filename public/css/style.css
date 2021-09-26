@@ -233,9 +233,14 @@ h2 {
     flex: 1;
 }
 
+.podcast-toc {
+    margin: 20px 0 0 0;
+}
+
 .podcast-toc li {
-    list-style-type: none;
-    padding: 0 0 5px 5px;
+    list-style-type: disclosure-closed;
+    line-height: 1.5;
+    margin-left: 35px;
 }
 
 .not-published {

@@ -1,0 +1,33 @@
+---
+import {getAllPodcasts,  getPodcastBySlug} from '../../lib/api.mjs';
+import PodcastPlayer from '../../components/PodcastPlayer.svelte';
+
+export async function getStaticPaths() {
+    const podcastsEnriched = getAllPodcasts();
+    return podcastsEnriched.map(item => {
+        return {
+            params : {slug: item.slug}
+        }
+    })
+}
+const {slug} = Astro.request.params;
+
+
+const podcast =  getPodcastBySlug(slug);
+let title =  podcast.title;
+---
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <meta charSet="utf-8"/>
+    <title>{title}</title>
+</head>
+ <body>
+        <PodcastPlayer 
+        audioSource = {podcast.audioSource} 
+        podcastTitle = {podcast.podcastTitle}
+        podcastPlatforms = {podcast.podcastPlatforms}
+        podcastCover = {podcast.podcastCover}
+        client:load/>  
+ </body>
+ </html>

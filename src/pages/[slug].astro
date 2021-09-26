@@ -1,0 +1,70 @@
+---
+
+import BaseBody from '../layouts/Body.astro';
+import BaseHead from '../layouts/HeadSingle.astro';
+
+import {getAllPodcasts,  getPodcastBySlug} from '../lib/api.mjs';
+import PodcastPlayer from '../components/PodcastPlayer.svelte';
+import Links from '../components/Links.astro';
+import Description from '../components/Description.astro';
+
+import PodcastHeader from '../components/PodcastHeader.astro';
+import Author from '../components/Author.astro';
+
+
+// Component Imports
+
+
+export async function getStaticPaths({rss}) {
+    const podcastsEnriched = getAllPodcasts();
+
+    rss({
+            title: 'allegro.tech podcast',
+            description: 'Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!.',
+            items: podcastsEnriched.map(item => ({
+            title: item.podcastTitle,
+            description: item.toc.join(' '),
+            link: "/" + item.slug,
+            pubDate: item.date,
+            })),
+            dest: "/feed.xml",
+    })
+
+    return podcastsEnriched.map(item => {
+        return {
+            params : {slug: item.slug}
+        }
+    })
+}
+const {slug} = Astro.request.params;
+
+
+const podcast =  getPodcastBySlug(slug);
+let title =  podcast.title;
+---
+<!DOCTYPE html><html lang="en">
+<BaseHead podcast = {podcast}/>
+<BaseBody>
+<main>
+    <div class="desk">
+    <section class="content">
+        <div class="m-card" itemType="http://schema.org/PodcastEpisode">
+            <PodcastHeader podcast={podcast}/>
+            <PodcastPlayer 
+            audioSource = {podcast.audioSource} 
+            podcastTitle = {podcast.podcastTitle}
+            podcastPlatforms = {podcast.podcastPlatforms}
+            podcastCover = {podcast.podcastCover}
+            client:load/>
+            <Description toc = {podcast.toc} />
+        </div>
+        <Links links = {podcast.links}/>
+        <section class="post-author" id="autor">
+            <Author authorData = {podcast.authorData} />
+            <Author authorData = {podcast.hostData} />
+        </section>
+    </section>
+    </div>
+</main>
+</BaseBody>
+</html>
