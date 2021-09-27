@@ -4,12 +4,8 @@ export interface Props {
 }
 import {formatDate} from '../lib/format-date.mjs';
 const { podcast } = Astro.props;
-
-const displayEpisode = function(podcast){
-  return `S${(podcast.season + "").padStart(2, '0')}E${(podcast.episode + "").padStart(2, '0')}`
-}
 ---
 <time class="entry-date" dateTime={podcast.date}><span>{formatDate(podcast.date)}</span></time>
 <h2 itemProp="headline">
-<a itemProp="name" href={"/" + podcast.slug} class="post-link">{displayEpisode(podcast)} - {podcast.title} - {podcast.name}</a>
+<a itemProp="name" href={"/" + podcast.slug} class="post-link">{podcast.podcastTitle}</a>
 </h2>
