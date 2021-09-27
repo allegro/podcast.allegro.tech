@@ -1,6 +1,7 @@
 ---
 import {getAllPodcasts,  getPodcastBySlug} from '../../lib/api.mjs';
 import PodcastPlayer from '../../components/PodcastPlayer.svelte';
+import BaseHead from '../../layouts/HeadSingle.astro';
 
 export async function getStaticPaths() {
     const podcastsEnriched = getAllPodcasts();
@@ -17,11 +18,7 @@ const podcast =  getPodcastBySlug(slug);
 let title =  podcast.title;
 ---
 <!DOCTYPE html><html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width"/>
-    <meta charSet="utf-8"/>
-    <title>{title}</title>
-</head>
+<BaseHead podcast = {podcast}/>
  <body>
         <PodcastPlayer 
         audioSource = {podcast.audioSource} 
