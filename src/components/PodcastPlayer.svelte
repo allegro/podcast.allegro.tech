@@ -5,12 +5,12 @@
     let duration;
     let progress = ``;
     let playbackRate;
-    let playbackRates = [1, 1.25,1.5,1.75,2];
-    let chosenPlaybackRate = 0 ;
+    let playbackRates = [1, 1.25, 1.5, 1.75, 2];
+    let chosenPlaybackRate = 0;
 
     const playButton = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" width="50">
     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
-  </svg>`
+  </svg>`;
 
     const pauseButton = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" width="50">
     <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -29,106 +29,138 @@
     let toggleButton = playButton;
 
     let time = 0;
-    
-    export let audioSource = '';
+
+    export let audioSource = "";
     export let podcastPlatforms = [];
-    export let podcastTitle = '';
-    export let podcastCover = '';
+    export let podcastTitle = "";
+    export let podcastCover = "";
+    export let themeBgColor = "orangered";
+    export let themeColor = "#333";
 
-function setProgress(e){
-    const { left, width } = e.target.getBoundingClientRect();
-    const x = e.clientX - left; //x position within the element.
-    progressPercent = x / width;
-    time = progressPercent * duration
-}
-
-function togglePlay(){
-    if (player.paused) {
-        player.play();
-        toggleButton = pauseButton;
-        playerClassName = "player playing"
-    } else {
-        player.pause();
-        toggleButton = playButton;
-        playerClassName = "player"
+    function setProgress(e) {
+        const { left, width } = e.target.getBoundingClientRect();
+        const x = e.clientX - left; //x position within the element.
+        progressPercent = x / width;
+        time = progressPercent * duration;
     }
-}
 
-
-function formatTime(seconds) {
-    const minutes = parseInt(seconds / 60);
-    const onlySeconds = (parseInt(seconds % 60) + "").padStart(2, '0')
-    return `${minutes}:${onlySeconds}`
-}
-
-let globalID;
-function onTimeUpdate() {
-    trackBar.style["clip-path"] = "inset(0px 0px 0px " + (time/duration * 100) + "%)";
-    progress =  `${formatTime(time)} / ${formatTime(duration)}`;
-    globalID = requestAnimationFrame(onTimeUpdate);
-}
-
-function onLoadedData(){
-    console.log(duration);
-    progress =  `${formatTime(time)} / ${formatTime(duration)}`;
-}
-
-
-function setPlaybackRate(){
-    chosenPlaybackRate ++;
-    if(chosenPlaybackRate > playbackRates.length -1) {
-        chosenPlaybackRate = 0;
+    function togglePlay() {
+        if (player.paused) {
+            player.play();
+            toggleButton = pauseButton;
+            playerClassName = "player playing";
+        } else {
+            player.pause();
+            toggleButton = playButton;
+            playerClassName = "player";
+        }
     }
-    playbackRate = playbackRates[chosenPlaybackRate];
-}
 
+    function formatTime(seconds) {
+        const minutes = parseInt(seconds / 60);
+        const onlySeconds = (parseInt(seconds % 60) + "").padStart(2, "0");
+        return `${minutes}:${onlySeconds}`;
+    }
+
+    let globalID;
+    function onTimeUpdate() {
+        trackBar.style["clip-path"] =
+            "inset(0px 0px 0px " + (time / duration) * 100 + "%)";
+        progress = `${formatTime(time)} / ${formatTime(duration)}`;
+        globalID = requestAnimationFrame(onTimeUpdate);
+    }
+
+    function onLoadedData() {
+        console.log(duration);
+        progress = `${formatTime(time)} / ${formatTime(duration)}`;
+    }
+
+    function setPlaybackRate() {
+        chosenPlaybackRate++;
+        if (chosenPlaybackRate > playbackRates.length - 1) {
+            chosenPlaybackRate = 0;
+        }
+        playbackRate = playbackRates[chosenPlaybackRate];
+    }
 </script>
-<div class="audioplayer">
+
+<div class="audioplayer"  style="--theme-bg-color: {themeBgColor};--theme-color: {themeColor}">
     <div>
-    <div class={playerClassName}>
-        <img src={podcastCover} class="author" alt=""/>
-        <img src="/img/podcast-player/podcast.png" class="cover-bg" alt=""/>
+        <div class={playerClassName}>
+            <img src={podcastCover} class="author" alt="" />
+            <img
+                src="/img/podcast-player/podcast.png"
+                class="cover-bg"
+                alt=""
+            />
+        </div>
     </div>
-</div>
-    <div  class="panel"> 
-    <h2 class="podcast-title"><span class="icon" on:click={togglePlay}>{@html toggleButton}</span> {podcastTitle}</h2>
+    <div class="panel">
+        <h2 class="podcast-title">
+            <span class="icon" on:click={togglePlay}>{@html toggleButton}</span>
+            {podcastTitle}
+        </h2>
 
-    <div class="audio-track" on:click={setProgress}><img src="/img/podcast-player/white-wave-bg-transparent.png" bind:this={trackBar} alt="" id="track"></div>
-     
-    <div class="controls">
-   
-    <span class="icon" on:click={() => time -= 15}>{@html rewindButton}</span>
-    <span class="icon" on:click={() => time += 15}>{@html forwardButton}</span>
-    <span class="icon" on:click={setPlaybackRate}>{@html playspeedButton}</span> 
-    <span class="playbackrate-text">{playbackRates[chosenPlaybackRate]}x</span>
-    <span class="progress-display" id="progress">{progress}</span>
+        <div class="audio-track" on:click={setProgress}>
+            <img
+                src="/img/podcast-player/white-wave-bg-transparent.png"
+                bind:this={trackBar}
+                alt=""
+                id="track"
+            />
+        </div>
+
+        <div class="controls">
+            <span class="icon" on:click={() => (time -= 15)}
+                >{@html rewindButton}</span
+            >
+            <span class="icon" on:click={() => (time += 15)}
+                >{@html forwardButton}</span
+            >
+            <span class="icon" on:click={setPlaybackRate}
+                >{@html playspeedButton}</span
+            >
+            <span class="playbackrate-text"
+                >{playbackRates[chosenPlaybackRate]}x</span
+            >
+            <span class="progress-display" id="progress">{progress}</span>
             <ul class="platforms">
-            {#each Object.entries(podcastPlatforms) as [platform, url]}
-            {#if platform !== 'buzzsprout'}
-                <li><a href={url}><img src= {"/img/podcast-player/icons/"+ platform + ".svg"} alt={platform}  title={platform} /></a></li>
-            {/if}
-            {/each}
-        </ul>
-    </div>
+                {#each Object.entries(podcastPlatforms) as [platform, url]}
+                    {#if platform !== "buzzsprout"}
+                        <li>
+                            <a href={url}
+                                ><img
+                                    src={"/img/podcast-player/icons/" +
+                                        platform +
+                                        ".svg"}
+                                    alt={platform}
+                                    title={platform}
+                                /></a
+                            >
+                        </li>
+                    {/if}
+                {/each}
+            </ul>
+        </div>
 
-        <audio src={audioSource} 
-        bind:this={player}
-        bind:currentTime={time} 
-        bind:duration 
-        bind:playbackRate
-        on:loadeddata={onLoadedData}
-        on:timeupdate={onTimeUpdate}
-        preload="metadata"/>
-
+        <!-- svelte-ignore a11y-media-has-caption -->
+        <audio
+            src={audioSource}
+            bind:this={player}
+            bind:currentTime={time}
+            bind:duration
+            bind:playbackRate
+            on:loadeddata={onLoadedData}
+            on:timeupdate={onTimeUpdate}
+            preload="metadata"
+        />
     </div>
 </div>
-
 
 <style>
-   
-   .platforms {
-       float: right
-   }
+    .platforms {
+        float: right;
+    }
     .platforms,
     .platforms li {
         text-align: right;
@@ -136,16 +168,12 @@ function setPlaybackRate(){
         padding: 0;
         margin: 0;
     }
-    
+
     .platforms li {
         display: inline-block;
-        line-height: 36px;
         border-radius: 50%;
-        background: orangered;
+        background: var (--theme-color);
         margin: 0 0 10px 10px;
-    }
-
-    .platforms li img{
         width: 18px;
         height: 18px;
     }
@@ -154,19 +182,17 @@ function setPlaybackRate(){
         aspect-ratio: 1 / 1;
     }
 
-    
     .audio-track {
         background-image: url(/img/podcast-player/black-wave-bg-transparent.png);
-        background-repeat:  no-repeat;
+        background-repeat: no-repeat;
         background-size: contain;
     }
-    
-    .audio-track img{
+
+    .audio-track img {
         max-width: 100%;
         clip-path: inset(0px 0px 0px 0);
     }
-    
-    
+
     .podcast-title {
         font-size: 16px;
         font-weight: 900;
@@ -174,58 +200,57 @@ function setPlaybackRate(){
         margin: 0;
     }
 
-    .audioplayer .icon{
+    .audioplayer .icon {
         cursor: pointer;
     }
 
-    .audioplayer span{
+    .audioplayer span {
         display: inline-block;
         vertical-align: middle;
         font-size: 13px;
     }
 
-
     .audioplayer .playbackrate-text,
-    .audioplayer .progress-display{
+    .audioplayer .progress-display {
         min-width: 48px;
         height: 21px;
         line-height: 21px;
     }
 
-    .audioplayer{
-       position: relative;
-       border-radius: 5px;
-       display: flex;
-       align-self: baseline;
-       margin: 0 0 20px 0;
-       background-color: orangered;
+    .audioplayer {
+        position: relative;
+        border-radius: 5px;
+        display: flex;
+        align-self: baseline;
+        margin: 0 0 20px 0;
+        background-color:  var(--theme-bg-color);
+        color:  var(--theme-color);
         max-width: 860px;
-        font-family: 'Open Sans', Arial, sans-serif;
+        font-family: "Open Sans", Arial, sans-serif;
         font-size: 13px;
         line-height: 1.5;
-        color: #333;
     }
-    
-    .panel{
+
+    .panel {
         padding: 0 10px 0 30px;
-        position: relative; 
+        position: relative;
         align-self: flex-start;
     }
-    
+
     @media all and (min-width: 600px) {
-        .player{
+        .player {
             max-width: 120px;
         }
     }
 
-    .player{
+    .player {
         flex: 1 1 120px;
         margin: 10px;
         position: relative;
         border-radius: 5px 0 0 5px;
         z-index: 1;
     }
-    
+
     .author {
         position: absolute;
         z-index: 2;
@@ -236,17 +261,17 @@ function setPlaybackRate(){
         border: 1px solid orange;
     }
 
-    .player.playing .author{
+    .player.playing .author {
         width: 90%;
     }
-    
-    .player.playing .cover-bg{
+
+    .player.playing .cover-bg {
         filter: blur(1px);
     }
-    
-    .player img{
+
+    .player img {
         border-radius: 5px 0 0 5px;
         max-width: 100%;
         display: block;
     }
-    </style>
+</style>
