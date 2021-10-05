@@ -3,6 +3,7 @@
     let progressPercent = 0;
     let playerClassName = "player";
     let duration;
+    let root;
     let progress = ``;
     let playbackRate;
     let playbackRates = [1, 1.25, 1.5, 1.75, 2];
@@ -36,7 +37,6 @@
     export let podcastCover = "";
     export let themeBgColor = "orangered";
     export let themeColor = "#333";
-
     function setProgress(e) {
         const { left, width } = e.target.getBoundingClientRect();
         const x = e.clientX - left; //x position within the element.
@@ -71,7 +71,6 @@
     }
 
     function onLoadedData() {
-        console.log(duration);
         progress = `${formatTime(time)} / ${formatTime(duration)}`;
     }
 
@@ -82,9 +81,26 @@
         }
         playbackRate = playbackRates[chosenPlaybackRate];
     }
+
+    function handleKeydown(event) {
+        if (event.keyCode === 32) {
+            root === document.activeElement && togglePlay();
+        }
+    }
+
+    function setFocus(e) {
+        root.focus();
+    }
 </script>
 
-<div class="audioplayer"  style="--theme-bg-color: {themeBgColor};--theme-color: {themeColor}">
+<svelte:window on:keydown={handleKeydown} />
+
+<div
+    class="audioplayer"
+    on:click={setFocus}
+    style="--theme-bg-color: {themeBgColor};--theme-color: {themeColor}"
+>
+    <input type="text" class="root-focus" bind:this={root} />
     <div>
         <div class={playerClassName}>
             <img src={podcastCover} class="author" alt="" />
@@ -142,7 +158,6 @@
                 {/each}
             </ul>
         </div>
-
         <!-- svelte-ignore a11y-media-has-caption -->
         <audio
             src={audioSource}
@@ -174,6 +189,9 @@
         border-radius: 50%;
         background: var (--theme-color);
         margin: 0 0 10px 10px;
+    }
+
+    .platforms li img {
         width: 18px;
         height: 18px;
     }
@@ -223,8 +241,8 @@
         display: flex;
         align-self: baseline;
         margin: 0 0 20px 0;
-        background-color:  var(--theme-bg-color);
-        color:  var(--theme-color);
+        background-color: var(--theme-bg-color);
+        color: var(--theme-color);
         max-width: 860px;
         font-family: "Open Sans", Arial, sans-serif;
         font-size: 13px;
@@ -273,5 +291,13 @@
         border-radius: 5px 0 0 5px;
         max-width: 100%;
         display: block;
+    }
+
+    input.root-focus {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        border: 0;
+        z-index: -1;
     }
 </style>
