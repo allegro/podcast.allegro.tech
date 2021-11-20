@@ -13,8 +13,12 @@ const title = "Allegro.tech podcast";
 
 ---
 <!DOCTYPE html><html lang="en">
-<BaseHead />
+<head>
+    <BaseHead/>
+</head>
 <BaseBody>
+
+
 <div class="desk">
 {podcastsEnriched.map( (podcast) => (
 <section class="content">
@@ -28,7 +32,7 @@ const title = "Allegro.tech podcast";
         podcastCover = {podcast.podcastCover}
         themeBgColor = "#FF7100"
         themeColor = "#000"
-        client:load/>
+        client:visible/>
         <Description toc = {podcast.toc} />
       </div>
     </div>

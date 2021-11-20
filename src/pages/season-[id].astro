@@ -15,13 +15,16 @@ const podcastsEnriched = getAllPodcasts().filter(item => item.season == id);
 export async function getStaticPaths() {
   return [
     { params: { id: '1' } },
-    { params: { id: '2' } }
+    { params: { id: '2' } },
+    { params: { id: '3' } }
   ];
 }
 
 ---
 <!DOCTYPE html><html lang="en">
-<BaseHead />
+<head>
+    <BaseHead/>
+</head>
 <BaseBody>
 <div class="desk">
 {podcastsEnriched.map( (podcast) => (
