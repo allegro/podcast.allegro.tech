@@ -10,13 +10,22 @@ import Description from '../components/Description.astro';
 
 
 const title = "Allegro.tech podcast";
-const {id} = Astro.request.params;
-const podcastsEnriched = getAllPodcasts().filter(item => item.season == id);
+
+
+const {year} = Astro.request.params;
+
+const yearToSeasonMap = {
+  "2020": 1,
+  "2021": 2,
+  "2022": 3
+}
+
+const podcastsEnriched = getAllPodcasts().filter(item => item.season == yearToSeasonMap[year]);
 export async function getStaticPaths() {
   return [
-    { params: { id: '1' } },
-    { params: { id: '2' } },
-    { params: { id: '3' } }
+    { params: { year: '2020' } },
+    { params: { year: '2021' } },
+    { params: { year: '2022' } }
   ];
 }
 

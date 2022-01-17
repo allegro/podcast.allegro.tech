@@ -1,4 +1,5 @@
 <script>
+    import { onMount, afterUpdate } from "svelte";
     let player, trackBar;
     let progressPercent = 0;
     let playerClassName = "player";
@@ -37,10 +38,18 @@
     export let podcastCover = "";
     export let themeBgColor = "orangered";
     export let themeColor = "#333";
+
+    let progressBarWidth, progressBarLeft;
+
+    onMount(async () => {
+        const { left, width } = trackBar.getBoundingClientRect();
+        progressBarWidth = width;
+        progressBarLeft = left;
+    });
+
     function setProgress(e) {
-        const { left, width } = e.target.getBoundingClientRect();
-        const x = e.clientX - left; //x position within the element.
-        progressPercent = x / width;
+        const x = e.clientX - progressBarLeft; //x position within the element.
+        progressPercent = x / progressBarWidth;
         time = progressPercent * duration;
     }
 
@@ -63,9 +72,10 @@
     }
 
     let globalID;
+
     function onTimeUpdate() {
-        trackBar.style["clip-path"] =
-            "inset(0px 0px 0px " + (time / duration) * 100 + "%)";
+        trackBar.style["border-left-width"] =
+            Math.ceil((time / duration) * progressBarWidth) + "px";
         progress = `${formatTime(time)} / ${formatTime(duration)}`;
         globalID = requestAnimationFrame(onTimeUpdate);
     }
@@ -116,16 +126,12 @@
             <span class="icon" on:click={togglePlay}>{@html toggleButton}</span>
             {podcastTitle}
         </h2>
-
-        <div class="audio-track" on:click={setProgress}>
-            <img
-                src="/img/podcast-player/white-wave-bg-transparent.png"
-                bind:this={trackBar}
-                alt=""
-                id="track"
-            />
-        </div>
-
+        <div
+            class="progress-bar"
+            on:click={setProgress}
+            bind:this={trackBar}
+            id="track"
+        />
         <div class="controls">
             <span class="icon" on:click={() => (time -= 15)}
                 >{@html rewindButton}</span
@@ -173,6 +179,15 @@
 </div>
 
 <style>
+    .progress-bar {
+        background: #eee;
+        border: 0 solid #ed3800;
+        border-width: 0 0 0 1px;
+        height: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+    }
+
     .platforms {
         float: right;
     }
@@ -198,17 +213,6 @@
 
     .audioplayer .cover-bg {
         aspect-ratio: 1 / 1;
-    }
-
-    .audio-track {
-        background-image: url(/img/podcast-player/black-wave-bg-transparent.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
-    .audio-track img {
-        max-width: 100%;
-        clip-path: inset(0px 0px 0px 0);
     }
 
     .podcast-title {
@@ -238,7 +242,8 @@
     .audioplayer {
         position: relative;
         border-radius: 5px;
-        display: flex;
+        display: grid;
+        grid-template-columns: auto 3fr;
         align-self: baseline;
         margin: 0 0 20px 0;
         background-color: var(--theme-bg-color);
@@ -247,6 +252,13 @@
         font-family: "Open Sans", Arial, sans-serif;
         font-size: 13px;
         line-height: 1.5;
+    }
+
+
+    @media (max-width: 480px) {
+        .audioplayer {
+            grid-template-columns: 3fr 5fr;
+        }
     }
 
     .panel {
