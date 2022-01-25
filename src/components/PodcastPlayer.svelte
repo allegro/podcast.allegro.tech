@@ -290,7 +290,7 @@
         flex: 1 1 120px;
         margin: 10px;
         position: relative;
-        border-radius: 5px 0 0 5px;
+        border-radius: 5px;
         z-index: 1;
     }
 
@@ -313,7 +313,7 @@
     }
 
     .player img {
-        border-radius: 5px 0 0 5px;
+        border-radius: 5px;
         max-width: 100%;
         display: block;
     }

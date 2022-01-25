@@ -238,9 +238,8 @@ h2 {
 }
 
 .podcast-toc li {
-    list-style-type: disclosure-closed;
     line-height: 1.5;
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 .not-published {
