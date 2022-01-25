@@ -36,8 +36,8 @@
     export let podcastPlatforms = [];
     export let podcastTitle = "";
     export let podcastCover = "";
-    export let themeBgColor = "orangered";
-    export let themeColor = "#333";
+    export let themeBgColor = "#FF7100";
+    export let themeColor = "#000";   
 
     let progressBarWidth, progressBarLeft;
 
@@ -181,7 +181,7 @@
 <style>
     .progress-bar {
         background: #eee;
-        border: 0 solid #ed3800;
+        border: 0 solid #000;
         border-width: 0 0 0 1px;
         height: 10px;
         margin: 5px 0;
