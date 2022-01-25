@@ -1,0 +1,19 @@
+---
+export interface Props {
+ links: any;
+}
+const { links } = Astro.props;
+const items = links || {};
+---
+{
+    Object.keys(items).length ? <div class="m-card">
+    <h3>Linki</h3>
+    <ul class="podcast-toc">
+        {Object.entries(items).map((item, i) => (
+            <li><a href={item[1]}>{item[0]}</a></li>
+        ))}
+    </ul>
+</div> : ''
+}
+
+   

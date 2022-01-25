@@ -1,2 +1,1 @@
-# podcast
 # allegro tech podcast
