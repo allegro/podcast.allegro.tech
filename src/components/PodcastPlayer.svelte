@@ -122,7 +122,7 @@
         </div>
     </div>
     <div class="panel">
-        <h2 class="podcast-title">
+        <h2 class="podcast-title" title={podcastTitle}>
             <span class="icon" on:click={togglePlay}>{@html toggleButton}</span>
             {podcastTitle}
         </h2>
@@ -205,6 +205,9 @@
         background: var (--theme-color);
         margin: 0 0 10px 10px;
     }
+    .platforms li:hover {
+        transform: scale(1.1);
+    }
 
     .platforms li img {
         width: 18px;
@@ -220,10 +223,17 @@
         font-weight: 900;
         padding: 1rem 0 0 0;
         margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
     }
 
     .audioplayer .icon {
         cursor: pointer;
+    }
+    .audioplayer .icon:hover {
+        transform: scale(1.1);
     }
 
     .audioplayer span {
@@ -258,6 +268,9 @@
     @media (max-width: 480px) {
         .audioplayer {
             grid-template-columns: 3fr 5fr;
+        }
+        .podcast-title {
+            -webkit-line-clamp: 3;
         }
     }
 

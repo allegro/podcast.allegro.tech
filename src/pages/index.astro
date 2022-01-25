@@ -20,12 +20,13 @@ const title = "Allegro.tech podcast";
 
 
 <div class="desk">
-{podcastsEnriched.map( (podcast) => (
+{podcastsEnriched.map( (podcast, index) => (
 <section class="content">
     <div class="m-card" itemType="http://schema.org/PodcastEpisode">
       <PodcastHeader podcast={podcast}/>
       <div class="cover">
-        <PodcastPlayer 
+       {index < 3 ? 
+               <PodcastPlayer 
         audioSource = {podcast.audioSource} 
         podcastTitle = {podcast.podcastTitle}
         podcastPlatforms = {podcast.podcastPlatforms}
@@ -34,6 +35,8 @@ const title = "Allegro.tech podcast";
         themeColor = "#000"
         client:visible/>
         <Description toc = {podcast.toc} />
+        : ''}
+
       </div>
     </div>
 </section>
