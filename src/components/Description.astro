@@ -7,7 +7,7 @@ const { toc } = Astro.props;
 <div class="cover-card"><div itemprop="description" class="podcast-description">
     {<ul class="podcast-toc">
         {toc.map((p) => (
-            <li>{p}</li>
+            <li set:html={p}></li>
     ))}
 </ul>}      
 </div></div>

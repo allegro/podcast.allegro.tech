@@ -10,7 +10,7 @@ const items = links || {};
     <h3>Linki</h3>
     <ul class="podcast-toc">
         {Object.entries(items).map((item, i) => (
-            <li><a href={item[1]}>{item[0]}</a></li>
+            <li><a href={item[1]} set:html={item[0]}></a></li>
         ))}
     </ul>
 </div> : ''

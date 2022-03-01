@@ -42,7 +42,6 @@
             "Czy Allegro lubi się z Chmurą Publiczną?",
             "Jak rozumiemy powiedzenie “z wielką mocą idzie wielka odpowiedzialność” i dlaczego w Allegro zespół architektów platformy liczy tylko cztery osoby?",
             "Czy możliwa jest usługa w .net w Allegro?",
-            null,
             "Jak podbijać wersje Javy i utrzymać 1000 mikrousług w świeżości? Ne te pytania odpowiada Adam Dubiel - Team Manager w Allegro."
         ],
         "links": {
@@ -68,7 +67,6 @@
         "toc": [
             "Jak skutecznie dzielić się wiedzą w społeczności IT?",
             "Jaka przyszłość czeka Javę? A także jak wygląda praca programisty w Allegro i jak rekrutujemy?",
-            null,
             "Na te i więcej pytań odpowiada Tomek Nurkiewicz – Senior Software Engineer w Allegro, Java Champion."
         ],
         "platforms": {
@@ -96,7 +94,6 @@
             "Jak radzimy sobie z bezpieczeństwem w dynamicznym środowisku mikrousług przy setkach wdrożeń dziennie?",
             "Jakie testy robimy ciągle manualnie?",
             "Skąd czerpać informacje na temat bezpieczeństwa i czemu warto zainteresować się frameworkiem Att&ck MITRE?",
-            null,
             "Na te i więcej pytań odpowiada Wojciech Lesicki – Team Leader w Allegro."
         ],
         "links": {
