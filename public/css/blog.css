@@ -59,6 +59,10 @@ figcaption {
     color: #222;
 }
 
+.post-author .username:hover {
+    text-decoration: none;
+}
+
 .post-author .social {
     margin: 0 5px 0 0;
 }
