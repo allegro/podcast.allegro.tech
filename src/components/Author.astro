@@ -1,4 +1,5 @@
 ---
+import { Markdown } from 'astro/components';
 export interface Props {
   authorData: any;
 }
@@ -26,5 +27,5 @@ const socialItem = () => {
 <div class="m-card">
     <img src={`/img/authors/${authorData.author}.jpg`} alt={authorData.name} class="avatar" />
     <h3> {authorData.name}  <Fragment set:html={socialItem()}/></h3>
-    <p set:html={authorData.bio}></p>
+    <p><Markdown content={authorData.bio} /></p>
 </div>
