@@ -2,7 +2,7 @@
     import { onMount, afterUpdate } from "svelte";
     let player, trackBar;
     let progressPercent = 0;
-    let playerClassName = "player";
+    let playerPlayingClassName = "";
     let duration;
     let root;
     let progress = ``;
@@ -45,6 +45,9 @@
         const { left, width } = trackBar.getBoundingClientRect();
         progressBarWidth = width;
         progressBarLeft = left;
+        if(player.readyState > 0) {
+           onLoadedMetaData();
+        }
     });
 
     function setProgress(e) {
@@ -53,16 +56,18 @@
         time = progressPercent * duration;
     }
 
-    function togglePlay() {
+    function playAudio() {
         if (player.paused) {
             player.play();
-            toggleButton = pauseButton;
-            playerClassName = "player playing";
-        } else {
+            playerPlayingClassName = "playing";
+        } 
+    }
+
+    function pauseAudio() {
+        if (player.played) {
             player.pause();
-            toggleButton = playButton;
-            playerClassName = "player";
-        }
+            playerPlayingClassName = "";
+        } 
     }
 
     function formatTime(seconds) {
@@ -80,7 +85,7 @@
         globalID = requestAnimationFrame(onTimeUpdate);
     }
 
-    function onLoadedData() {
+    function onLoadedMetaData() {
         progress = `${formatTime(time)} / ${formatTime(duration)}`;
     }
 
@@ -94,7 +99,9 @@
 
     function handleKeydown(event) {
         if (event.keyCode === 32) {
-            root === document.activeElement && togglePlay();
+            if(root === document.activeElement){
+                player.paused ? playAudio() : pauseAudio();
+            }
         }
     }
 
@@ -106,13 +113,13 @@
 <svelte:window on:keydown={handleKeydown} />
 
 <div
-    class="audioplayer"
+    class="audioplayer {playerPlayingClassName}"
     on:click={setFocus}
     style="--theme-bg-color: {themeBgColor};--theme-color: {themeColor}"
 >
     <input type="text" class="root-focus" bind:this={root} />
     <div>
-        <div class={playerClassName}>
+        <div class="player">
             <img src={podcastCover} class="author" alt="" />
             <img
                 src="/img/podcast-player/podcast.png"
@@ -122,8 +129,20 @@
         </div>
     </div>
     <div class="panel">
+            <!-- svelte-ignore a11y-media-has-caption -->
+                <audio
+                src={audioSource}
+                bind:this={player}
+                bind:currentTime={time}
+                bind:duration
+                bind:playbackRate
+                on:loadedmetadata={onLoadedMetaData}
+                on:timeupdate={onTimeUpdate}
+                preload="metadata"
+            />
         <h2 class="podcast-title" title={podcastTitle}>
-            <span class="icon" on:click={togglePlay}>{@html toggleButton}</span>
+            <span class="icon play-button" on:click={playAudio}>{@html playButton}</span>
+            <span class="icon pause-button" on:click={pauseAudio}>{@html pauseButton}</span>
             {podcastTitle}
         </h2>
         <div
@@ -164,17 +183,7 @@
                 {/each}
             </ul>
         </div>
-        <!-- svelte-ignore a11y-media-has-caption -->
-        <audio
-            src={audioSource}
-            bind:this={player}
-            bind:currentTime={time}
-            bind:duration
-            bind:playbackRate
-            on:loadeddata={onLoadedData}
-            on:timeupdate={onTimeUpdate}
-            preload="metadata"
-        />
+
     </div>
 </div>
 
@@ -304,12 +313,21 @@
         border: 1px solid orange;
     }
 
-    .player.playing .author {
+    .playing .player .author {
         width: 90%;
     }
 
-    .player.playing .cover-bg {
+    .playing .player .cover-bg {
         filter: blur(1px);
+    }
+
+   :not(.playing) .pause-button,
+   .playing .play-button {
+        display: none;
+    }
+
+    .playing .pause-button{
+        display: inline-block;
     }
 
     .player img {
