@@ -9,7 +9,8 @@
         "preview": "astro preview"
     },
     "devDependencies": {
+        "@astrojs/sitemap": "^0.1.0",
         "@astrojs/svelte": "^0.0.2",
-        "astro": "^0.25.2"
+        "astro": "^0.26.1"
     }
 }
