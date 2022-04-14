@@ -1,6 +1,6 @@
 {
     "name": "allegro-tech-podcast",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "private": true,
     "scripts": {
         "dev": "astro dev",
@@ -10,7 +10,7 @@
     },
     "devDependencies": {
         "@astrojs/sitemap": "^0.1.0",
-        "@astrojs/svelte": "^0.0.2",
-        "astro": "^1.0.0-beta.2"
+        "@astrojs/svelte": "^0.1.1",
+        "astro": "^1.0.0-beta.11"
     }
 }
