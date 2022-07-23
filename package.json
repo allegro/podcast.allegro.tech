@@ -11,9 +11,7 @@
     "devDependencies": {
         "@astrojs/sitemap": "^0.2.6",
         "@astrojs/svelte": "^0.4.1",
-        "astro": "^1.0.0-beta.73"
-    },
-    "dependencies": {
+        "astro": "^1.0.0-beta.73",
         "@astrojs/rss": "^0.2.2"
     }
 }
