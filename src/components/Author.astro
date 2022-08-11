@@ -1,7 +1,8 @@
 ---
-import { Markdown } from 'astro/components';
+import MarkdownIt from 'markdown-it';
+const md = new MarkdownIt();
 export interface Props {
-  authorData: any;
+    authorData: any;
 }
 const { authorData } = Astro.props;
 
@@ -13,19 +14,21 @@ const socialItem = () => {
     }
 
     return Object.keys(socialDict).map(service => {
-            if (!!authorData[service]) {
-        return `<a class="username" href="${socialDict[service]}${authorData[service]}">
+        if (!!authorData[service]) {
+            return `<a class="username" href="${socialDict[service]}${authorData[service]}">
                 <span class="social"><img src="/img/social/${service}.svg" alt="${service}" /></span>
             </a>`
-    } else {
-        return '';
-    }
+        } else {
+            return '';
+        }
     }).join('')
 }
 ---
 
 <div class="m-card">
     <img src={`/img/authors/${authorData.author}.jpg`} alt={authorData.name} class="avatar" />
-    <h3> {authorData.name}  <Fragment set:html={socialItem()}/></h3>
-    <p><Markdown content={authorData.bio} /></p>
+    <h3> {authorData.name}
+        <Fragment set:html={socialItem()} />
+    </h3>
+    <Fragment set:html={md.render(authorData.bio)} />
 </div>
