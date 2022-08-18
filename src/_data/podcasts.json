@@ -648,5 +648,28 @@
         "season": 2,
         "episode": "12",
         "host": "bartosz.galek"
+    },
+    {
+        "date": "2022-08-25T00:00:00.000Z",
+        "slug": "o_quality_assurance_w_allegro",
+        "title": "O Quality Assurance w Allegro",
+        "author": "ewa.ludwiczak",
+        "name": "Ewa Ludwiczak",
+        "toc": [
+            "Na czym polega rola testera w Allegro?",
+            "Dlaczego testerzy w Allegro są blisko technologii i produktu?",
+            "Jak może rozwinąć się kariera testera, gdzie szukać aktualnej wiedzy i kim jest “Full Stack Tester”?",
+            "Czy pierwsze kroki w branży IT muszą być trudne i jak programowania uczą się dzieci?",
+            "Na te i inne pytania odpowiada Ewa Ludwiczak - liderka i testerka w Allegro. "
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/11164839",
+            "spotify": "https://open.spotify.com/episode/2x6dMXrADS3jB874KQITXO",
+            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-1-o-quality-assurance-w-allegro-ewa-ludwiczak/id1500315781?i=1000577291168",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTE2NDgzOQ?sa=X&ved=0CAUQkfYCahcKEwiw09383uH5AhUAAAAAHQAAAAAQAQ"
+        },
+        "season": 3,
+        "episode": "1",
+        "host": "jakub.dowgrid"
     }
 ]
