@@ -32,9 +32,12 @@ figcaption {
 }
 
 .post-author {
-    padding: 2em 0;
     overflow: hidden;
     font-size: 0.9em;
+}
+
+.post-author :nth-child(1) {
+    margin-top: 0;
 }
 
 .post-author .m-card {
@@ -49,7 +52,7 @@ figcaption {
     overflow: hidden;
 }
 
-.post-author .content+.content {
+.post-author .content + .content {
     border-top: 0;
 }
 
@@ -101,45 +104,47 @@ figcaption {
 }
 
 .post-header,
-.section-latest>header {
+.section-latest > header {
     background: #333;
 }
 
 @media all and (min-width: 320px) {
     .post-header,
-    .section-blog>header,
-    .section-latest>header {
+    .section-blog > header,
+    .section-latest > header {
         background-size: cover;
         position: relative;
     }
+
     .post-header .content,
-    .section-blog>header .content,
-    .section-latest>header .content {
+    .section-blog > header .content,
+    .section-latest > header .content {
         position: relative;
     }
+
     .post-header-podcast,
-    .section-podcast>header {
+    .section-podcast > header {
         background: #672600 url("../img/podcast/podcast-bg-4.png") center center;
         background-size: auto;
     }
 }
 
-.section-blog>header {
+.section-blog > header {
     padding: 3em 0 1em;
     color: #fff;
     font-weight: 300;
 }
 
-.section-blog>header a {
+.section-blog > header a {
     color: #ffa500;
     text-decoration: none;
 }
 
-.section-blog>header {
+.section-blog > header {
     padding: 24px 0;
 }
 
-.section-latest>header {
+.section-latest > header {
     padding: 24px 0;
 }
 
@@ -182,7 +187,7 @@ figcaption {
     justify-content: center;
 }
 
-.section-post-pagination>* {
+.section-post-pagination > * {
     justify-content: center;
 }
 
@@ -190,7 +195,8 @@ figcaption {
     .section-title {
         font-size: 6rem;
     }
-    .section-blog>header {
+
+    .section-blog > header {
         font-size: 2rem;
     }
 }
@@ -249,7 +255,7 @@ figcaption {
 }
 
 .section-posts h2,
-.repos-box>h3 {
+.repos-box > h3 {
     color: #555;
     font-size: 2.4rem;
     font-weight: 400;
@@ -261,6 +267,7 @@ figcaption {
     .section-twitter .content {
         padding: 0;
     }
+
     .section-twitter iframe {
         margin: 0 auto;
         display: block;
@@ -494,7 +501,7 @@ figcaption {
     display: inline;
 }
 
-.breadcrumb li+li span:before {
+.breadcrumb li + li span:before {
     content: ' • ';
     color: #ccc;
     padding: 0 10px 0 5px;
