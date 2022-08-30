@@ -131,11 +131,13 @@
       "bio": "Piotr’s main interests include creating a technological platform and combining human and technological development  –  the one that drives Allegro’s growth and lies at the core of the company’s operations. For 8 years, he has managed Allegro teams that develop the runtime platform for allegro.pl. Outside of work, he is a keen guitarist and a proud father of two sons"
     },
     "ewa.ludwiczak": {
-        "name": "Ewa Ludwiczak",
-        "bio": "Tester for a long time, team leader since recently. With her team Kuoka, she is contributing to the development of Allegro mobile application. She co-organizes Allegro Mobile Hackathon and DevDay. She enjoys coding with children, portrait photography and boogie dancing."
+      "name": "Ewa Ludwiczak",
+      "bio": "Tester for a long time, team leader since recently. With her team Kuoka, she is contributing to the development of Allegro mobile application. She co-organizes Allegro Mobile Hackathon and DevDay. She enjoys coding with children, portrait photography and boogie dancing.",
+      "linkedin": "ewa-ludwiczak-25268b54",
+      "twitter": "EwaLudwiczak"
     },
     "jakub.dowgrid": {
-        "name": "Jakub Dowgrid",
-        "bio": "Manager of the best informed team at Allegro (supposedly). Wanted to be a journalist, moved towards communication. Believe it not - it is a more creative option. A communication expert with more than 15 years of experience. In his spare time - a geek, traveler, podcast producer, actor and director in an amateur theater. Occasionally races his Mazda MX-5."
+      "name": "Jakub Dowgrid",
+      "bio": "Manager of the best informed team at Allegro (supposedly). Wanted to be a journalist, moved towards communication. Believe it not - it is a more creative option. A communication expert with more than 15 years of experience. In his spare time - a geek, traveler, podcast producer, actor and director in an amateur theater. Occasionally races his Mazda MX-5."
     }
 }
