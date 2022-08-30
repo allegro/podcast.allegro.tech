@@ -4,6 +4,10 @@ function displayEpisode(podcast){
     return `S${(podcast.season + "").padStart(2, '0')}E${(podcast.episode + "").padStart(2, '0')}`
   }
 
+function getPodcastImage(podcast){
+    return podcast.season > 2 ? "/img/podcast-player/podcast.png" : "/img/podcast-player/podcast-old.png"
+  }
+
 
 function getData() {
     return podcasts.map(podcast => {
@@ -17,7 +21,8 @@ function getData() {
             podcastTitle : displayEpisode(podcast)  + " - " + podcast.name   + " - " +  podcast.title,
             audioSource : podcast.platforms.buzzsprout + ".mp3",
             podcastPlatforms : podcast.platforms,
-            podcastCover : "/img/authors/" + podcast.author + ".jpg"
+            podcastCover : "/img/authors/" + podcast.author + ".jpg",
+            podcastImage : getPodcastImage(podcast)
           })
     }).sort((a, b) => b.date.localeCompare(a.date))
 }

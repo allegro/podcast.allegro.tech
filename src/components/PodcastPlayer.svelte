@@ -36,8 +36,9 @@
     export let podcastPlatforms = [];
     export let podcastTitle = "";
     export let podcastCover = "";
+    export let podcastImage = "";
     export let themeBgColor = "#FF7100";
-    export let themeColor = "#000";   
+    export let themeColor = "#000";
 
     let progressBarWidth, progressBarLeft;
 
@@ -60,14 +61,14 @@
         if (player.paused) {
             player.play();
             playerPlayingClassName = "playing";
-        } 
+        }
     }
 
     function pauseAudio() {
         if (player.played) {
             player.pause();
             playerPlayingClassName = "";
-        } 
+        }
     }
 
     function formatTime(seconds) {
@@ -122,7 +123,7 @@
         <div class="player">
             <img src={podcastCover} class="author" alt="" />
             <img
-                src="/img/podcast-player/podcast.png"
+                src={podcastImage}
                 class="cover-bg"
                 alt=""
             />
@@ -234,7 +235,7 @@
         margin: 0;
         display: -webkit-box;
         -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;  
+        -webkit-box-orient: vertical;
         overflow: hidden;
     }
 
