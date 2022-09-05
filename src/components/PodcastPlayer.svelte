@@ -35,7 +35,7 @@
     export let audioSource = "";
     export let podcastPlatforms = [];
     export let podcastTitle = "";
-    export let podcastCover = "";
+    export let podcastCovers = [];
     export let podcastImage = "";
     export let themeBgColor = "#FF7100";
     export let themeColor = "#000";
@@ -121,7 +121,9 @@
     <input type="text" class="root-focus" bind:this={root} />
     <div>
         <div class="player">
-            <img src={podcastCover} class="author" alt="" />
+            {#each podcastCovers as cover}
+                <img src={cover} class="author" alt="" />
+            {/each}
             <img
                 src={podcastImage}
                 class="cover-bg"
