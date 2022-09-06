@@ -28,7 +28,38 @@
       <itunes:category text="Technology" />
 
 
-      
+    <item>
+      <guid isPermaLink="true">https://podcast.allegro.tech/o-quality-assurance-w-allegro</guid>
+      <title><![CDATA[O Quality Assurance w Allegro]]></title>
+      <itunes:title><![CDATA[O Quality Assurance w Allegro]]></itunes:title>
+      <itunes:author>Ewa Ludwiczak</itunes:author>
+      <itunes:summary><![CDATA[Na czym polega rola testera w Allegro? Dlaczego testerzy w Allegro są blisko technologii i produktu? Jak może rozwinąć się kariera testera, gdzie szukać aktualnej wiedzy i kim jest “Full Stack Tester”? Czy pierwsze kroki w branży IT muszą być trudne i jak programowania uczą się dzieci? Na te i inne pytania odpowiada Ewa Ludwiczak - liderka i testerka w Allegro.]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://www.buzzsprout.com/887914/11164839-sezon-iii-1-o-quality-assurance-w-allegro-ewa-ludwiczak.mp3" type="audio/mpeg" />
+      <author>
+        <name>Ewa Ludwiczak</name>
+      </author>
+      <link>https://podcast.allegro.tech/o-quality-assurance-w-allegro</link>
+      <description><![CDATA[Na czym polega rola testera w Allegro? Dlaczego testerzy w Allegro są blisko technologii i produktu? Jak może rozwinąć się kariera testera, gdzie szukać aktualnej wiedzy i kim jest “Full Stack Tester”? Czy pierwsze kroki w branży IT muszą być trudne i jak programowania uczą się dzieci? Na te i inne pytania odpowiada Ewa Ludwiczak - liderka i testerka w Allegro.]]></description>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <guid isPermaLink="true">https://podcast.allegro.tech/rola_architekta_w_allegro</guid>
+      <title><![CDATA[Rola architekta w Allegro]]></title>
+      <itunes:title><![CDATA[Rola architekta w Allegro]]></itunes:title>
+      <itunes:author>Piotr Betkier</itunes:author>
+      <itunes:summary><![CDATA[Od kodowania do tworzenia strategii technicznej... Jak wygląda rola architekta w Allegro? Ile takich osób pracuje w naszej firmie i dlaczego ta rola jest tak różnorodna? Czym jest Andamio i jak rozwijamy naszą platformę – o tym wszystkim opowie Piotr Betkier – Inżynier, Architekt Platformy Technicznej w Allegro oraz twórca piosenek o IT :)]]></itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://www.buzzsprout.com/887914/8712218-sezon-ii-12-rola-architekta-w-allegro-piotr-betkier.mp3" type="audio/mpeg" />
+      <author>
+        <name>Piotr Betkier</name>
+      </author>
+      <link>https://podcast.allegro.tech/rola_architekta_w_allegro</link>
+      <description><![CDATA[Od kodowania do tworzenia strategii technicznej... Jak wygląda rola architekta w Allegro? Ile takich osób pracuje w naszej firmie i dlaczego ta rola jest tak różnorodna? Czym jest Andamio i jak rozwijamy naszą platformę – o tym wszystkim opowie Piotr Betkier – Inżynier, Architekt Platformy Technicznej w Allegro oraz twórca piosenek o IT :)]]></description>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+    </item>
+
   <item>
     <guid isPermaLink="true">https://podcast.allegro.tech/infrastruktura_Allegro</guid>
     <title><![CDATA[Infrastruktura Allegro]]></title>
