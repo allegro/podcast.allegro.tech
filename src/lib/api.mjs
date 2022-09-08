@@ -8,20 +8,34 @@ function getPodcastImage(podcast){
     return podcast.season > 2 ? "/img/podcast-player/podcast.png" : "/img/podcast-player/podcast-old.png"
   }
 
+function getPodcastCovers(authors){
+    return authors.map(({author, _}) => {
+            return "img/authors/" + author + ".jpg"
+        }
+    )
+  }
+
+function getGuestNames(authors){
+    return authors.map(({_, name}) => {return name}).join(", ")
+  }
+
 
 function getData() {
     return podcasts.map(podcast => {
-        let authorData = authors[podcast.author];
-        authorData.author = podcast.author;
+        let authorsData = podcast.authors.map((singleAuthor) => {
+            let authorData = authors[singleAuthor.author]
+            authorData.author = singleAuthor.author
+            return authorData
+        })
         let hostData = authors[podcast.host];
         hostData.author = podcast.host;
-        podcast.authorData = authorData;
+        podcast.authorsData = authorsData;
         podcast.hostData = hostData;
         return Object.assign(podcast, {
-            podcastTitle : displayEpisode(podcast)  + " - " + podcast.name   + " - " +  podcast.title,
+            podcastTitle : displayEpisode(podcast)  + " - " + getGuestNames(podcast.authors)   + " - " +  podcast.title,
             audioSource : podcast.platforms.buzzsprout + ".mp3",
             podcastPlatforms : podcast.platforms,
-            podcastCover : "/img/authors/" + podcast.author + ".jpg",
+            podcastCovers : getPodcastCovers(podcast.authors),
             podcastImage : getPodcastImage(podcast)
           })
     }).sort((a, b) => b.date.localeCompare(a.date))

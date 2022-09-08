@@ -35,7 +35,7 @@
     export let audioSource = "";
     export let podcastPlatforms = [];
     export let podcastTitle = "";
-    export let podcastCover = "";
+    export let podcastCovers = [];
     export let podcastImage = "";
     export let themeBgColor = "#FF7100";
     export let themeColor = "#000";
@@ -121,12 +121,16 @@
     <input type="text" class="root-focus" bind:this={root} />
     <div>
         <div class="player">
-            <img src={podcastCover} class="author" alt="" />
             <img
-                src={podcastImage}
-                class="cover-bg"
-                alt=""
+                    src={podcastImage}
+                    class="cover-bg"
+                    alt=""
             />
+            <aside class="authors">
+                {#each podcastCovers as cover}
+                    <img src={cover} class="author" alt="" />
+                {/each}
+            </aside>
         </div>
     </div>
     <div class="panel">
@@ -304,18 +308,25 @@
         z-index: 1;
     }
 
-    .author {
-        position: absolute;
+    .authors {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
         z-index: 2;
+        position: absolute;
         right: -13%;
         bottom: -13%;
+    }
+
+    .author {
         width: 36%;
         transition: 0.3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
         border: 1px solid orange;
+        margin-left: 5px;
     }
 
     .playing .player .author {
-        width: 90%;
+        width: 50%;
     }
 
     .playing .player .cover-bg {

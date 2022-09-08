@@ -40,18 +40,20 @@ let title =  podcast.title;
     <section class="content">
         <div class="m-card" itemType="http://schema.org/PodcastEpisode">
             <PodcastHeader podcast={podcast}/>
-            <PodcastPlayer 
-            audioSource = {podcast.audioSource} 
+            <PodcastPlayer
+            audioSource = {podcast.audioSource}
             podcastTitle = {podcast.podcastTitle}
             podcastPlatforms = {podcast.podcastPlatforms}
-            podcastCover = {podcast.podcastCover}
+            podcastCovers = {podcast.podcastCovers}
             podcastImage = {podcast.podcastImage}
             client:load/>
             <Description toc = {podcast.toc} />
         </div>
         <Links links = {podcast.links}/>
         <section class="post-author" id="autor">
-            <Author authorData = {podcast.authorData} />
+        {podcast.authorsData.map((authorData) => (
+            <Author authorData = {authorData} />
+            ))}
             <Author authorData = {podcast.hostData} />
         </section>
     </section>

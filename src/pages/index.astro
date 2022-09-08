@@ -25,12 +25,12 @@ const title = "Allegro.tech podcast";
     <div class="m-card" itemType="http://schema.org/PodcastEpisode">
       <PodcastHeader podcast={podcast}/>
       <div class="cover">
-       {index < 3 ? 
-               <PodcastPlayer 
-        audioSource = {podcast.audioSource} 
+       {index < 3 ?
+               <PodcastPlayer
+        audioSource = {podcast.audioSource}
         podcastTitle = {podcast.podcastTitle}
         podcastPlatforms = {podcast.podcastPlatforms}
-        podcastCover = {podcast.podcastCover}
+        podcastCovers = {podcast.podcastCovers}
         podcastImage = {podcast.podcastImage}
         themeBgColor = "#FF7100"
         themeColor = "#000"
@@ -43,6 +43,6 @@ const title = "Allegro.tech podcast";
 </section>
 ))}
 </div>
-<AboutPodcast /> 
+<AboutPodcast />
 </BaseBody>
 </html>

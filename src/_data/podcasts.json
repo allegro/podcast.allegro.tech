@@ -3,8 +3,12 @@
         "date": "2020-02-24T00:00:00.000Z",
         "slug": "o_zatrudnianiu_rozwoju_i_nie_tylko",
         "title": "O zatrudnianiu, rozwoju inżynierów i nie tylko",
-        "author": "piotr.orlowski",
-        "name": "Piotr Orłowski",
+        "authors": [
+          {
+            "author": "piotr.orlowski",
+            "name": "Piotr Orłowski"
+          }
+        ],
         "desc": "\n",
         "toc": [
             "W Allegro pracuje prawie 800 specjalistów IT i ponad 100 liderów.",
@@ -34,8 +38,12 @@
         "date": "2020-03-02T00:00:00.000Z",
         "slug": "infrastruktura_dla_1000_mikrouslug",
         "title": "Infrastruktura dla 1000 mikrousług w Allegro",
-        "author": "adam.dubiel",
-        "name": "Adam Dubiel",
+        "authors": [
+          {
+            "author": "adam.dubiel",
+            "name": "Adam Dubiel"
+          }
+        ],
         "desc": "\n",
         "toc": [
             "Na serwis allegro.pl składa się już prawie 1000 mikrousług. Jaka filozofia stoi za budowaniem ich środowiska uruchomieniowego?",
@@ -61,8 +69,12 @@
         "date": "2020-03-09T00:00:00.000Z",
         "slug": "jak_zostac_i_pozostac_dobrym_programista",
         "title": "Jak zostać i pozostać dobrym programistą?",
-        "author": "tomasz.nurkiewicz",
-        "name": "Tomasz Nurkiewicz",
+        "authors": [
+          {
+            "author": "tomasz.nurkiewicz",
+            "name": "Tomasz Nurkiewicz"
+          }
+        ],
         "desc": "\n",
         "toc": [
             "Jak skutecznie dzielić się wiedzą w społeczności IT?",
@@ -86,8 +98,12 @@
         "date": "2020-03-16T00:00:00.000Z",
         "slug": "it_security_w_allegro",
         "title": "IT security w Allegro",
-        "author": "wojciech.lesicki",
-        "name": "Wojciech Lesicki",
+        "authors": [
+          {
+            "author": "wojciech.lesicki",
+            "name": "Wojciech Lesicki"
+          }
+        ],
         "desc": "\n",
         "toc": [
             "Na czym skupiamy się w IT security w Allegro?",
@@ -117,8 +133,12 @@
         "date": "2020-03-23T00:00:00.000Z",
         "slug": "badania_ux_w_allegro",
         "title": "Badania UX w Allegro",
-        "author": "justyna.osten-sacken",
-        "name": "Justyna Osten-Sacken",
+      "authors": [
+        {
+          "author": "justyna.osten-sacken",
+          "name": "Justyna Osten-Sacken"
+        }
+      ],
         "desc": "\n",
         "toc": [
             "Jak wygląda dzień pracy badacza w Allegro?",
@@ -146,8 +166,12 @@
         "date": "2020-03-30T00:00:00.000Z",
         "slug": "wyszukiwanie_w_allegro",
         "title": "Wyszukiwanie w allegro - jak nie potknąć się o długi ogon?",
-        "author": "adam.dudczak",
-        "name": "Adam Dudczak",
+      "authors": [
+        {
+          "author": "adam.dudczak",
+          "name": "Adam Dudczak"
+        }
+      ],
         "toc": [
             "Dlaczego wyszukiwanie jest takie trudne?",
             "Jak często Polacy szukają czegoś na Allegro?",
@@ -180,8 +204,12 @@
         "date": "2020-04-06T00:00:00.000Z",
         "slug": "wydajnosc_frontendu",
         "title": "Wydajność front-endu",
-        "author": "eryk.napierala",
-        "name": "Eryk Napierała",
+      "authors": [
+        {
+          "author": "eryk.napierala",
+          "name": "Eryk Napierała"
+        }
+      ],
         "toc": [
             "Jak mierzymy wydajność Allegro i jak dbamy, by była jak najlepsza?",
             "Jakich narzędzi używamy? Przed jakimi wyzwaniami stajemy?",
@@ -210,8 +238,12 @@
         "date": "2020-04-20T00:00:00.000Z",
         "slug": "nie-tylko-jvm-czyli-jak-rozwijamy-uslugi-dotnet-w-allegro",
         "title": "Nie tylko JVM, czyli jak rozwijamy usługi dotNET w Allegro",
-        "author": "piotr.stapp",
-        "name": "Piotr Stapp",
+      "authors": [
+        {
+          "author": "piotr.stapp",
+          "name": "Piotr Stapp"
+        }
+      ],
         "toc": [
             "Jak to się stało, że spora grupa programistów .NET znalazła się w Allegro?",
             "Czy wprowadzenie kolejnej chmury publicznej do infrastruktury jest trudne?",
@@ -237,8 +269,12 @@
         "date": "2020-05-04T00:00:00.000Z",
         "slug": "jak_testy_moga_wplynac_na_zycie",
         "title": "Jak testy mogą wpłynąć na życie?",
-        "author": "pawel.zwierzchowski",
-        "name": "Paweł Zwierzchowski",
+      "authors": [
+        {
+          "author": "pawel.zwierzchowski",
+          "name": "Paweł Zwierzchowski"
+        }
+      ],
         "toc": [
             "Jaką wagę mają testy przy wytwarzaniu oprogramowania, pamiętając, że nie wszystkie testy są takie same?",
             "Jak ułożyć proces testowy, który się sprawdza?",
@@ -262,8 +298,12 @@
         "date": "2020-05-18T00:00:00.000Z",
         "slug": "misja_zmiana_branzy_zakonczona_sukcesem",
         "title": "Misja zmiana branży zakończona sukcesem! Jak wygląda dzień Product Managera",
-        "author": "martyna.niszczota",
-        "name": "Martyna Niszczota",
+      "authors": [
+        {
+          "author": "martyna.niszczota",
+          "name": "Martyna Niszczota"
+        }
+      ],
         "toc": [
             "Czy pracując w IT trzeba rozmawiać z ludźmi?",
             "Budowanie relacji to mity i każdy skupia się na swoim kodzie?",
@@ -287,8 +327,12 @@
         "date": "2020-06-01T00:00:00.000Z",
         "slug": "mobile_w_allegro",
         "title": "Mobile w Allegro",
-        "author": "kamil.borzym",
-        "name": "Kamil Borzym",
+      "authors": [
+        {
+          "author": "kamil.borzym",
+          "name": "Kamil Borzym"
+        }
+      ],
         "toc": [
             "Cały świat obserwuje jak telefony przejmują władzę nad Internetem.",
             "Ponad połowa ruchu na Allegro pochodzi z urządzeń mobilnych, a większość tego ruchu to aplikacje natywne.",
@@ -312,8 +356,12 @@
         "date": "2020-06-15T00:00:00.000Z",
         "slug": "projektowanie_ux_w_allegro",
         "title": "Projektowanie UX w Allegro, czyli wszystko zależy od doświadczenia",
-        "author": "kasia.wrobel",
-        "name": "Kasia Wróbel",
+      "authors": [
+        {
+          "author": "kasia.wrobel",
+          "name": "Kasia Wróbel"
+        }
+      ],
         "toc": [
             "Projektowanie na styku produktu, biznesu i potrzeb użytkownika.",
             "Budzenie ciekawości, czyli czy jesteś w stanie zmienić coś, co sprawia problem tak wielu osobom na raz?",
@@ -333,8 +381,12 @@
         "date": "2020-06-29T00:00:00.000Z",
         "slug": "badania_i_rozwoj_ml_w_allegro",
         "title": "Badania i rozwój ML w Allegro",
-        "author": "ireneusz.gawlik",
-        "name": "Ireneusz Gawlik",
+      "authors": [
+        {
+          "author": "ireneusz.gawlik",
+          "name": "Ireneusz Gawlik"
+        }
+      ],
         "toc": [
             "Gdzie kryje się Machine Learning w Allegro? Jakie projekty już dzisiaj korzystają z mocy sztucznej inteligencji?",
             "Jak na codzień pracuje grupa badaczy nie tylko aplikująca, ale też rozwijająca algorytmy uczenia maszynowego?",
@@ -357,8 +409,12 @@
         "date": "2021-02-10T00:00:00.000Z",
         "slug": "zbiory_danych_w_allegro",
         "title": "Zbiory danych w Allegro",
-        "author": "lukasz.sciga",
-        "name": "Łukasz Ściga",
+      "authors": [
+        {
+          "author": "lukasz.sciga",
+          "name": "Łukasz Ściga"
+        }
+      ],
         "toc": [
             "Czym zajmuje się inżynier danych? Jak powstało Big Data?",
             "Jak wykorzystuje się oraz kto korzysta z nowych zbiorów danych?",
@@ -380,8 +436,12 @@
         "date": "2021-02-25T00:00:00.000Z",
         "slug": "service_mesh_oraz_praca_programisty_w_allegro",
         "title": "Service Mesh oraz praca programisty w Allegro",
-        "author": "dariusz.jedrzejczyk",
-        "name": "Dariusz Jędrzejczyk",
+      "authors": [
+        {
+          "author": "dariusz.jedrzejczyk",
+          "name": "Dariusz Jędrzejczyk"
+        }
+      ],
         "toc": [
             "Czym jest Service Mesh? Jak został wdrożony do Allegro dla ponad 1000 usług na produkcji?",
             "Dlaczego usprawnianie pracy programistom jest dla nas ważne i dlaczego programista to klient?",
@@ -410,8 +470,12 @@
         "date": "2021-03-04T00:00:00.000Z",
         "slug": "sre_w_allegro",
         "title": "SRE w Allegro",
-        "author": "piotr.klapczynski",
-        "name": "Piotr Klapczyński",
+      "authors": [
+        {
+          "author": "piotr.klapczynski",
+          "name": "Piotr Klapczyński"
+        }
+      ],
         "toc": [
             "Jak w Allegro radzimy sobie z awariami?",
             "Jak im zapobiegać oraz dlaczego sami je wywołujemy?",
@@ -433,8 +497,12 @@
         "date": "2021-03-18T00:00:00.000Z",
         "slug": "summer_e_xperience_w_allegro",
         "title": "Summer e-Xperience w Allegro",
-        "author": "alicja.halamska",
-        "name": "Alicja Halamska",
+      "authors": [
+        {
+          "author": "alicja.halamska",
+          "name": "Alicja Halamska"
+        }
+      ],
         "toc": [
             "Jak wygląda program Summer e-Xperience w obszarze technologii?",
             "Czego można nauczyć się podczas programu jako Software Engineer?",
@@ -456,8 +524,12 @@
         "date": "2021-03-25T00:00:00.000Z",
         "slug": "logistyka_na_platformie_allegro",
         "title": "Logistyka na platformie Allegro",
-        "author": "jakub.kaczmarski",
-        "name": "Jakub Kaczmarski",
+      "authors": [
+        {
+          "author": "jakub.kaczmarski",
+          "name": "Jakub Kaczmarski"
+        }
+      ],
         "toc": [
             "Jak zarządzać zespołem ponad 100 osób?",
             "Jak rozwijać motywację, pasję i potencjał swoich pracowników? Na co zwracać uwagę?",
@@ -479,8 +551,12 @@
         "date": "2021-04-08T00:00:00.000Z",
         "slug": "swiat_product_managera_w_allegro",
         "title": "Świat Product Managera w Allegro",
-        "author": "aleksandra.wasielewska",
-        "name": "Aleksandra Wasielewska",
+      "authors": [
+        {
+          "author": "aleksandra.wasielewska",
+          "name": "Aleksandra Wasielewska"
+        }
+      ],
         "toc": [
             "Jak tworzy się produkty dla milionów kupujących?",
             "Jak wygląda warsztat i ekosystem Product Managera w Allegro?",
@@ -502,8 +578,12 @@
         "date": "2021-04-16T00:00:00.000Z",
         "slug": "data_scientist_w_allegro",
         "title": "Data Scientist w Allegro",
-        "author": "julia.bluszcz",
-        "name": "Julia Bluszcz",
+      "authors": [
+        {
+          "author": "julia.bluszcz",
+          "name": "Julia Bluszcz"
+        }
+      ],
         "toc": [
             "Czym zajmuje się Data Scientist?",
             "Jak wygląda proces budowania modeli danych?",
@@ -525,8 +605,12 @@
         "date": "2021-04-22T00:00:00.000Z",
         "slug": "inzynier_w_zespole_produktowym",
         "title": "Inżynier w zespole produktowym",
-        "author": "michal.bareja",
-        "name": "Michał Bareja",
+      "authors": [
+        {
+          "author": "michal.bareja",
+          "name": "Michał Bareja"
+        }
+      ],
         "toc": [
             "Czym zajmuje się Team Leader w Allegro?",
             "Jak wygląda cykl życia oprogramowania w zespole produktowym?",
@@ -556,8 +640,12 @@
         "date": "2021-05-06T00:00:00.000Z",
         "slug": "od_inzyniera_do_lidera_w_allegro",
         "title": "Od inżyniera do lidera w Allegro",
-        "author": "bartosz.galek",
-        "name": "Bartosz Gałek",
+      "authors": [
+        {
+          "author": "bartosz.galek",
+          "name": "Bartosz Gałek"
+        }
+      ],
         "toc": [
             "Czym jest Opbox i jakie wyzwania przed nim stoją?",
             "Jak w Allegro angażujemy się w rozwój kultury Open Source?",
@@ -579,8 +667,12 @@
         "date": "2021-05-20T00:00:00.000Z",
         "slug": "praca_architekta_ekosystemu_big_data_w_Allegro",
         "title": "Praca architekta ekosystemu big data w Allegro",
-        "author": "dariusz.eliasz",
-        "name": "Dariusz Eliasz",
+      "authors": [
+        {
+          "author": "dariusz.eliasz",
+          "name": "Dariusz Eliasz"
+        }
+      ],
         "toc": [
             "Jak wygląda praca architekta ekosystemu big data w Allegro?",
             "Jakie zadania realizuje nasz zespół odpowiedzialny za narzędzia i infrastrukturę dla przetwarzania danych?",
@@ -602,8 +694,12 @@
         "date": "2021-06-01T00:00:00.000Z",
         "slug": "infrastruktura_Allegro",
         "title": "Infrastruktura Allegro",
-        "author": "piotr.michonski",
-        "name": "Piotr Michoński",
+      "authors": [
+        {
+          "author": "piotr.michonski",
+          "name": "Piotr Michoński"
+        }
+      ],
         "toc": [
             "Jak jest zbudowane środowisko uruchomienia aplikacji Allegro?",
             "Jak działają serwerownie firmy i ile ich potrzeba, a które elementy Allegro działają w chmurze publicznej?",
@@ -625,8 +721,12 @@
         "date": "2021-06-16T00:00:00.000Z",
         "slug": "rola_architekta_w_allegro",
         "title": "Rola architekta w Allegro",
-        "author": "piotr.betkier",
-        "name": "Piotr Betkier",
+      "authors": [
+        {
+          "author": "piotr.betkier",
+          "name": "Piotr Betkier"
+        }
+      ],
         "toc": [
             "Od kodowania do tworzenia strategii technicznej...",
             "Jak wygląda rola architekta w Allegro?",
@@ -653,8 +753,12 @@
         "date": "2022-08-25T00:00:00.000Z",
         "slug": "o-quality-assurance-w-allegro",
         "title": "O Quality Assurance w Allegro",
-        "author": "ewa.ludwiczak",
-        "name": "Ewa Ludwiczak",
+      "authors": [
+        {
+          "author": "ewa.ludwiczak",
+          "name": "Ewa Ludwiczak"
+        }
+      ],
         "toc": [
             "Na czym polega rola testera w Allegro?",
             "Dlaczego testerzy w Allegro są blisko technologii i produktu?",
@@ -670,6 +774,37 @@
         },
         "season": 3,
         "episode": "1",
+        "host": "jakub.dowgrid"
+    },
+    {
+        "date": "2022-09-08T00:00:00.000Z",
+        "slug": "o-tym-jak-powstawaly-zielone-automaty-paczkowe-allegro-one-box",
+        "title": "O tym jak powstawały zielone automaty paczkowe Allegro One Box",
+        "authors": [
+          {
+            "author": "barbara.kaczorek",
+            "name": "Barbara Kaczorek"
+          },
+          {
+            "author": "jakub.kwietko",
+            "name": "Jakub Kwietko"
+          }
+        ],
+        "toc": [
+            "Jak wyglądała współpraca ponad 350 osób przy tak dużym i złożonym projekcie jak uruchomienie Allegro One Box? ",
+            "Z jakimi wyzwaniami zmierzyły się osoby, które przy nim pracowały?",
+            "Jak można mierzyć efekty swojej pracy w projektach takich, jak ten?",
+            "Dlaczego Product Manager musi czasem siedzieć z laptopem za prototypem urządzenia?",
+            "Na te i inne pytania odpowiadają Barbara Kaczorek - Product Manager w obszarze Delivery Experience w Allegro i Jakub Kwietko - lider zespołów developerskich OpenNet* zaangażowanych w powstawanie Allegro One Box."
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/11261942",
+            "spotify": "https://open.spotify.com/episode/6t3mSnlAVICBqu0HMS5L9T",
+            "applepodcasts": "https://podcasts.apple.com/eg/podcast/sezon-iii-2-o-tym-jak-powstawa%C5%82y-zielone-automaty-paczkowe/id1500315781?i=1000578792320",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTI2MTk0Mg?sa=X&ved=0CAUQkfYCahcKEwjAoYLmzIT6AhUAAAAAHQAAAAAQAQ"
+        },
+        "season": 3,
+        "episode": "2",
         "host": "jakub.dowgrid"
     }
 ]

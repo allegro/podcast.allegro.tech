@@ -8,8 +8,12 @@ const { podcast } = Astro.props;
 const displayEpisode = function(podcast){
   return `S${(podcast.season + "").padStart(2, '0')}E${(podcast.episode + "").padStart(2, '0')}`
 }
+
+const getGuestNames = function(authors){
+    return authors.map(({_, name}) => {return name}).join(", ")
+  }
 ---
 <time class="entry-date" dateTime={podcast.date}><span>{formatDate(podcast.date)}</span></time>
 <h2 itemProp="headline">
-<a itemProp="name" href={"/" + podcast.slug} class="post-link">{displayEpisode(podcast)} - {podcast.title} - {podcast.name}</a>
+<a itemProp="name" href={"/" + podcast.slug} class="post-link">{displayEpisode(podcast)} - {podcast.title} - {getGuestNames(podcast.authorsData)}</a>
 </h2>
