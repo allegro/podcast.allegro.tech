@@ -7,6 +7,7 @@ import {getAllPodcasts} from '../lib/api.mjs';
 import AboutPodcast from '../components/AboutPodcast.astro';
 import PodcastHeader from '../components/PodcastHeader.astro';
 import Description from '../components/Description.astro';
+import Footnotes from '../components/Footnotes.astro';
 
 const podcastsEnriched = getAllPodcasts();
 const title = "Allegro.tech podcast";
@@ -36,6 +37,7 @@ const title = "Allegro.tech podcast";
         themeColor = "#000"
         client:visible/>
         <Description toc = {podcast.toc} />
+        <Footnotes footnotes = {podcast.footnotes || []} />
         : ''}
 
       </div>

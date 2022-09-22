@@ -127,9 +127,13 @@
                     alt=""
             />
             <aside class="authors">
-                {#each podcastCovers as cover}
-                    <img src={cover} class="author" alt="" />
-                {/each}
+                {#if podcastCovers.length === 1}
+                    <img src={podcastCovers[0]} class="single-author" alt="" />
+                {:else}
+                    {#each podcastCovers as cover}
+                        <img src={cover} class="author" alt="" />
+                    {/each}
+                {/if}
             </aside>
         </div>
     </div>
@@ -318,7 +322,7 @@
         bottom: -13%;
     }
 
-    .author {
+    .author, .single-author {
         width: 36%;
         transition: 0.3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
         border: 1px solid orange;
@@ -327,6 +331,10 @@
 
     .playing .player .author {
         width: 50%;
+    }
+
+    .playing .player .single-author {
+        width: 90%;
     }
 
     .playing .player .cover-bg {

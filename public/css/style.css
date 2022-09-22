@@ -242,6 +242,16 @@ h2 {
     margin-left: 20px;
 }
 
+.podcast-footnotes {
+    margin: 10px 0 0 0;
+    list-style: none;
+}
+
+.podcast-footnotes li {
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
 .not-published {
     filter: grayscale(1);
     opacity: 0.6;
