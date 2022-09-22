@@ -774,7 +774,7 @@
         },
         "season": 3,
         "episode": "1",
-        "host": "jakub.dowgrid"
+        "host": "jakub.dowgird"
     },
     {
         "date": "2022-09-08T00:00:00.000Z",
@@ -806,7 +806,7 @@
         },
         "season": 3,
         "episode": "2",
-        "host": "jakub.dowgrid"
+        "host": "jakub.dowgird"
     },
     {
         "date": "2022-09-22T00:00:00.000Z",
@@ -838,6 +838,6 @@
         },
         "season": 3,
         "episode": "3",
-        "host": "jakub.dowgrid"
+        "host": "jakub.dowgird"
     }
 ]
