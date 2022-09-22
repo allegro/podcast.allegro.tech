@@ -807,5 +807,37 @@
         "season": 3,
         "episode": "2",
         "host": "jakub.dowgrid"
+    },
+    {
+        "date": "2022-09-22T00:00:00.000Z",
+        "slug": "o-data-i-ai-w-allegro-pay",
+        "title": "O Data & AI w Allegro Pay",
+        "authors": [
+          {
+            "author": "pawel.marcinkowski",
+            "name": "Paweł Marcinkowski"
+          }
+        ],
+        "toc": [
+            "Jak zbudowany jest obszar Data & AI w Allegro Pay i jak (współ)pracują w nim ze sobą poszczególne role oraz zespoły?",
+            "Jak działa decision engine, kluczowy komponent, od którego zależy sukces Allegro Pay?",
+            "Jak wyglądałby proces wprowadzenia zupełnie nowej funkcjonalności lub nowego produktu w Allegro Pay?",
+            "Kim jest i za co odpowiada Data Product Manager?",
+            "Jak w modelach Machine Learning do predykcji ryzyka kredytowego Allegro Pay wykorzystuje kontekst otoczenia?",
+            "Na te i inne pytania związane z pracą w największym fintechu w Europie Środkowej odpowiada Paweł Marcinkowski - lider obszaru Data & AI w Allegro Pay."
+        ],
+        "footnotes": [
+          "<sup>*</sup><i>NPS usługi Allegro Pay wynosi 94 pkt (na podstawie badania zadowolenia klientów)</i>",
+          "<sup>**</sup><i>średnia liczba odwiedzających Allegro.pl to ok. 22M miesięcznie (Gemius Mediapanel)</i>"
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/11344062",
+            "spotify": "https://open.spotify.com/episode/0zAgBL5NDsy6m1jF99yFc5",
+            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-3-o-data-ai-w-allegro-pay-pawe%C5%82-marcinkowski/id1500315781?i=1000580270354",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTM0NDA2Mg?sa=X&ved=0CAUQkfYCahcKEwiok-XM8af6AhUAAAAAHQAAAAAQAQ"
+        },
+        "season": 3,
+        "episode": "3",
+        "host": "jakub.dowgrid"
     }
 ]

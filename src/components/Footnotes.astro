@@ -1,0 +1,15 @@
+---
+export interface Props {
+ footnotes: any;
+}
+const { footnotes } = Astro.props;
+---
+{footnotes.length !== 0 ?
+<div class="cover-card"><div itemprop="footnotes" class="podcast-footnotes">
+    {<ul class="podcast-footnotes">
+        {footnotes.map((p) => (
+            <li set:html={p}></li>
+    ))}
+</ul>}
+</div></div> : ""}
+
