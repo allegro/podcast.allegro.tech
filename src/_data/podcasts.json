@@ -839,5 +839,37 @@
         "season": 3,
         "episode": "3",
         "host": "jakub.dowgird"
+    },
+    {
+        "date": "2022-10-06T00:00:00.000Z",
+        "slug": "o-rekrutacji-developerów-w-allegro",
+        "title": "O rekrutacji developerów w Allegro",
+        "authors": [
+          {
+            "author": "jakub.westfalewski",
+            "name": "Jakub Westfalewski"
+          },
+          {
+            "author": "pawel.wolak",
+            "name": "Paweł Wolak"
+          }
+        ],
+        "toc": [
+          "Jak zacząć pracę w Allegro i dlaczego #dobrzetubyć?",
+          "Jak wygląda proces rekrutacji na stanowiska developerskie?",
+          "Jak przygotować się do udziału w naszej rekrutacji i kim są “finiszujący perfekcjoniści”?",
+          "Czym jest i za co odpowiada Hiring Squad?",
+          "Jakie wymagania trzeba spełnić, aby być senior developerem, a jakie, żeby zostać juniorem?",
+          "Na te i inne pytania odpowiadają Jakub Westfalewski - Team Manager zespołu zajmującego się procesem zakupowym i pozakupowym oraz Paweł Wolak - Senior Front-end Software Engineer w Allegro."
+        ],
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/11427162",
+            "spotify": "https://open.spotify.com/episode/6TSbUpBWjg39a73SPXoPNH",
+            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-4-o-rekrutacji-developer%C3%B3w-w-allegro-jakub/id1500315781?i=1000581775815",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTQyNzE2Mg?sa=X&ved=0CAUQkfYCahcKEwjo4PbKn8v6AhUAAAAAHQAAAAAQAQ"
+        },
+        "season": 3,
+        "episode": "4",
+        "host": "jakub.dowgird"
     }
 ]
