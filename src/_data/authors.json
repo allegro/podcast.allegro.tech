@@ -164,5 +164,10 @@
       "name": "Paweł Wolak",
       "bio": "Front-end developer who’s responsible for notifications in Allegro (sometimes also from the back-end side). Interested in topics related to web performance, usability and accessibility.",
       "linkedin": "pwolaq"
+    },
+    "riccardo.belluzzo": {
+        "name": "Riccardo Belluzzo",
+        "bio": "Riccardo is a Research Engineer in the Allegro ML team and specializes in Natural Language Processing and Understanding. Riccardo is also a music freak, playing guitar in his free time and running a podcast about underground music and emerging artists.",
+        "linkedin": "riccardo-belluzzo"
     }
 }
