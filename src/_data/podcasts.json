@@ -871,5 +871,38 @@
         "season": 3,
         "episode": "4",
         "host": "jakub.dowgird"
+    },
+    {
+        "date": "2022-10-20T00:00:00.000Z",
+        "slug": "o-machine-learning-research-w-allegro",
+        "title": "O Machine Learning Research w Allegro",
+        "authors": [
+          {
+            "author": "riccardo.belluzzo",
+            "name": "Riccardo Belluzzo"
+          }
+        ],
+        "toc": [
+          "Jak wygląda praca Machine Learning Research Engineera w Allegro?",
+          "Jak udaje nam się efektywnie operować na ogromnej ilości danych oraz milionach parametrów?",
+          "Czym są modele językowe trenowane na korpusie danych pochodzących z Allegro i jaki mają wpływ na realizowane projekty?",
+          "Jak współpracujemy ze środowiskiem naukowym?",
+          "I wreszcie - gdzie i w jakiej formie można znaleźć wiedzę, którą dzieli się nasz zespół Machine Learning Research?",
+          "O tym wszystkim rozmawialiśmy z kolejnym gościem Allegro Tech Podcast, czyli Riccardo Belluzzo, który pracuje jako Machine Learning Research Engineer w Allegro."
+        ],
+        "links": {
+          "Allegro ML Research": "https://ml.allegro.tech/",
+          "Do you speak Allegro? Large Scale Language Modeling": "https://www.youtube.com/watch?v=6T-R4kgIbBs",
+          "HerBERT on GitHub": "https://github.com/allegro/HerBERT"
+        },
+        "platforms": {
+          "buzzsprout": "https://www.buzzsprout.com/887914/11513540",
+          "spotify": "https://open.spotify.com/episode/0oOJIn38JtKyMbMkZLlIg3",
+          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-5-o-machine-learning-research-w-allegro-riccardo/id1500315781?i=1000583264992",
+          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTUxMzU0MA?sa=X&ved=0CAUQkfYCahcKEwiIpLuNo-76AhUAAAAAHQAAAAAQAQ"
+        },
+        "season": 3,
+        "episode": "5",
+        "host": "jakub.dowgird"
     }
 ]
