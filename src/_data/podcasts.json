@@ -904,5 +904,34 @@
         "season": 3,
         "episode": "5",
         "host": "jakub.dowgird"
+    },
+    {
+        "date": "2022-11-03T00:00:00.000Z",
+        "slug": "tlumaczenia-na-allegro",
+        "title": "Tłumaczenia na Allegro",
+        "authors": [
+          {
+            "author": "bartosz.wojtkiewicz",
+            "name": "Bartosz Wojtkiewicz"
+          }
+        ],
+        "toc": [
+          "W jaki sposób Allegro stało się platformą wielojęzyczną?",
+          "Które treści tłumaczymy z pomocą tłumaczy, a które maszynowo?",
+          "Jak działa system, który automatyzuje zarządzanie komunikacją pomiędzy zespołami developerskimi a profesjonalnymi tłumaczami?",
+          "Jak dbamy o jakość tłumaczeń i badamy działanie silnika tłumaczeniowego?",
+          "Do czego wykorzystujemy nasze serwery w nocy oraz co to ma wspólnego z tłumaczeniami?",
+          "Na te i inne pytania odpowiada Bartosz Wojtkiewicz - Principal Software Engineer w Allegro w szóstym odcinku Allegro Tech Podcast."
+        ],
+        "links": {},
+        "platforms": {
+          "buzzsprout": "https://www.buzzsprout.com/887914/11614965",
+          "spotify": "https://open.spotify.com/episode/1NXzXulE1JynPGb0HZGzAy",
+          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-6-t%C5%82umaczenia-na-allegro-bartosz-wojtkiewicz/id1500315781?i=1000584894614",
+          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/[…]NDk2NQ?sa=X&ved=0CAUQkfYCahcKEwi41qT7ypH7AhUAAAAAHQAAAAAQCg"
+        },
+        "season": 3,
+        "episode": "6",
+        "host": "jakub.dowgird"
     }
 ]
