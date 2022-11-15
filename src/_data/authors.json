@@ -174,5 +174,15 @@
         "name": "Bartosz Wojtkiewicz",
         "bio": "Bartek is a Principal Software Engineer at Allegro who is working on making Allegro Platform ready for international customers. He tries to make a living as a T-Shaped engineer with a solid background in backend engineering. Enjoys pandemic lockdowns and obscure japanese games on Nintendo Switch.",
         "linkedin": "bartosz-wojtkiewicz-11585658"
+    },
+    "artur.chabera": {
+        "name": "Artur Chabera",
+        "bio": "Artur has been with Allegro for 2 years. His main focus is the area of payments and the iOS purchase process. He likes to look at the application through the prism of accessibility. He likes to spend his free time riding a bike and reading sci-fi novels.",
+        "twitter": "arturchabera"
+    },
+    "patrycja.haraburda": {
+        "name": "Patrycja Haraburda",
+        "bio": "A graduate of Computer Science and Biomedical Engineering at Warsaw University of Technology. On a daily basis, she develops Allegro applications for Android and iOS platforms. Her achievements include a scientific publication on the recognition of eye diseases using neural networks.",
+        "linkedin": "patrycjaharaburda"
     }
 }
