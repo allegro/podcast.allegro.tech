@@ -933,5 +933,38 @@
         "season": 3,
         "episode": "6",
         "host": "jakub.dowgird"
+    },
+    {
+        "date": "2022-11-17T00:00:00.000Z",
+        "slug": "o-pracy-mobile-engineerow-w-allegro",
+        "title": "O pracy Mobile Software Engineerów w Allegro",
+        "authors": [
+            {
+                "author": "patrycja.haraburda",
+                "name": "Patrycja Haraburda"
+            },
+            {
+                "author": "artur.chabera",
+                "name": "Artur Chabera"
+            }
+        ],
+        "toc": [
+            "Jak wygląda codzienność Mobile Software Engineerów w Allegro i skala, z którą pracują?",
+            "Jak przebiega proces developmentu w przypadku aplikacji mobilnych?",
+            "Jak radzimy sobie z łączeniem interesów różnych zespołów rozwijających tę samą aplikację i w czym pomaga nam tu modularyzacja?",
+            "Co nam dają testy usability i dlaczego warto pamiętać o dostępności?",
+            "Jak integruje się i rozwija społeczność mobilna w Allegro?",
+            "Wszystko wyjaśnią Wam Patrycja Haraburda i Artur Chabera - Mobile Software Engineerowie w Allegro."
+        ],
+        "links": {},
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/11696809",
+            "spotify": "https://open.spotify.com/episode/4FVd7TkRRwqPZByzd9hsqd",
+            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-7-o-pracy-mobile-software-engineer%C3%B3w-w-allegro/id1500315781?i=1000586531618",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/[…]NjgwOQ?sa=X&ved=0CAUQkfYCahcKEwignNSW4bT7AhUAAAAAHQAAAAAQCg"
+        },
+        "season": 3,
+        "episode": "7",
+        "host": "jakub.dowgird"
     }
 ]
