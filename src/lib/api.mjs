@@ -10,7 +10,7 @@ function getPodcastImage(podcast){
 
 function getPodcastCovers(authors){
     return authors.map(({author, _}) => {
-            return "img/authors/" + author + ".jpg"
+            return "/img/authors/" + author + ".jpg"
         }
     )
   }

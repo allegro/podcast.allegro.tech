@@ -354,6 +354,8 @@
         border-radius: 5px;
         max-width: 100%;
         display: block;
+        aspect-ratio: 1;
+        object-fit: cover
     }
 
     input.root-focus {
