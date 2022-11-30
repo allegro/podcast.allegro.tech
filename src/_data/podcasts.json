@@ -966,5 +966,34 @@
         "season": 3,
         "episode": "7",
         "host": "jakub.dowgird"
+    },
+    {
+        "date": "2022-12-01T00:00:00.000Z",
+        "slug": "o-pracy-w-allegro-ads",
+        "title": "O pracy w Allegro Ads",
+        "authors": [
+            {
+                "author": "michal.wisniewski",
+                "name": "Michał Wiśniewski"
+            }
+        ],
+        "toc": [
+            "Za co odpowiada, jak działa i co oferuje klientom Allegro Ads?",
+            "Co charakteryzuje DSP (Demand Side Platform), jeden z produktów w ekosystemie Allegro Ads?",
+            "Czego dotyczy wyśrubowanie wymagań technicznych w tym produkcie i z jakimi wyzwaniami mierzymy się biznesowo?",
+            "Skąd biorą się pomysły na rozwój Allegro Ads?",
+            "I wreszcie - jak wyglądała droga Michała od programu e-xperience do roli Junior Software Engineera oraz czym zaskoczyła go najbardziej?",
+            "Posłuchajcie kolejnego odcinka Allegro Tech Podcast."
+        ],
+        "links": {},
+        "platforms": {
+            "buzzsprout": "https://www.buzzsprout.com/887914/11786864",
+            "spotify": "https://open.spotify.com/episode/04whP3FO3GgYIlMe1c3kC0",
+            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-8-o-pracy-w-allegro-ads-micha%C5%82-wi%C5%9Bniewski/id1500315781?i=1000588262246",
+            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/[…]Njg2NA?sa=X&ved=0CAUQkfYCahcKEwiYqeyP_Nf7AhUAAAAAHQAAAAAQCg"
+        },
+        "season": 3,
+        "episode": "8",
+        "host": "jakub.dowgird"
     }
 ]

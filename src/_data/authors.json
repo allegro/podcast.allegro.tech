@@ -184,5 +184,11 @@
         "name": "Patrycja Haraburda",
         "bio": "A graduate of Computer Science and Biomedical Engineering at Warsaw University of Technology. On a daily basis, she develops Allegro applications for Android and iOS platforms. Her achievements include a scientific publication on the recognition of eye diseases using neural networks.",
         "linkedin": "patrycjaharaburda"
+    },
+    "michal.wisniewski": {
+        "name": "Michał Wiśniewski",
+        "bio": "Junior Software Engineer at Allegro Ads and Computer Science student at University of Warsaw. Responsible for DSP - advertising outside Allegro in the RTB model. He enjoys solving challenging problems - both business and technical. Privately, a lover of books, games and movies set in fantasy worlds like the Lord of the Rings or the Witcher.",
+        "linkedin": "michał-wiśniewski-0b63241b6",
+        "github": "questras"
     }
 }
