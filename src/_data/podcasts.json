@@ -995,5 +995,33 @@
         "season": 3,
         "episode": "8",
         "host": "jakub.dowgird"
+    },
+    {
+        "date": "2022-12-15T00:00:00.000Z",
+        "slug": "o-allegro-family",
+        "title": "O Allegro Family",
+        "authors": [
+            {
+                "author": "adrianna.dworniak",
+                "name": "Adrianna Dworniak"
+            },
+            {
+                "author": "lukasz.gomolka",
+                "name": "Łukasz Gomółka"
+            }
+        ],
+        "toc": [
+            "Czy współpraca dwóch Product Managerów przy jednym produkcie jest możliwa i jak zadbać o jej efektywność?",
+            "Czym jest “churn” i na czym polega w branży e-commerce?",
+            "Co wspólnego z błędnymi rekomendacjami zakupowymi mają maty do ćwiczeń?",
+            "Jak rozwiązywać wielopłaszczyznowe problemy, dzięki kompleksowemu zrozumieniu perspektywy klienta i bez wykorzystywania restrykcji?",
+            "Jak powstawało Allegro Family oraz dlaczego czasem warto zacząć weryfikację pomysłu na produkt od rozmowy z… teściową?",
+            "Na te i inne pytania odpowiadają  Adrianna Dworniak - Senior Product Manager i Łukasz Gomółka - Product Team Manager w Allegro."     
+        ],
+        "links": {},
+        "platforms": {},
+        "season": 3,
+        "episode": "9",
+        "host": "jakub.dowgird"
     }
 ]
