@@ -190,5 +190,15 @@
         "bio": "Junior Software Engineer at Allegro Ads and Computer Science student at University of Warsaw. Responsible for DSP - advertising outside Allegro in the RTB model. He enjoys solving challenging problems - both business and technical. Privately, a lover of books, games and movies set in fantasy worlds like the Lord of the Rings or the Witcher.",
         "linkedin": "michał-wiśniewski-0b63241b6",
         "github": "questras"
+    },
+    "adrianna.dworniak": {
+        "name": "Adrianna Dworniak",
+        "bio": "Product Manager at Allegro for 2 years. Although her tenure in the company is relatively short, the list of her Allegro achievements includes initiatives such as Allegro Family, coupons or onboarding for new users. Currently, she is exploring the secrets of the Allegro mobile application, so that its value could soon surprise you. In product management, she is most interested in finding a way to quickly and effectively test business hypotheses with the support of technology. She learns and wants to develop in growth, which she explores systematically and with undisguised passion.",
+        "linkedin": "adrianna-dworniak-5a6693199"
+    },
+    "lukasz.gomolka": {
+        "name": "Łukasz Gomółka",
+        "bio": "13 years at Allegro. From the beginning with product: he started his career as a business analyst, continuing it as product owner and product manager, until recently taking over the role of product team leader. His product portfolio covers mainly the areas of payments (Allegro Pay, consumer / commercial finance, installment products) and topics related to increasing consumer involvement (Allegro Family, coupons), he also co-leads large international projects at Allegro. As a leader, he likes to develop the strengths of product managers.",
+        "linkedin": "lukaszgomolka"
     }
 }
