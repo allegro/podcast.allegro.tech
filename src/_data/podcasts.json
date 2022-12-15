@@ -1019,7 +1019,12 @@
             "Na te i inne pytania odpowiadają  Adrianna Dworniak - Senior Product Manager i Łukasz Gomółka - Product Team Manager w Allegro."     
         ],
         "links": {},
-        "platforms": {},
+        "platforms": {
+          "buzzsprout": "https://www.buzzsprout.com/887914/11863175",
+          "spotify": "https://open.spotify.com/episode/3AVDRR6qwTQ4C5hmKC67lP",
+          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-9-o-allegro-family-adrianna-dworniak-i-%C5%82ukasz/id1500315781?i=1000590247250",
+          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTg2MzE3NQ?sa=X&ved=0CAUQkfYCahcKEwiA-NfFrPv7AhUAAAAAHQAAAAAQCg"
+        },
         "season": 3,
         "episode": "9",
         "host": "jakub.dowgird"
