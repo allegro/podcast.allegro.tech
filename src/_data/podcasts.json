@@ -1028,5 +1028,37 @@
         "season": 3,
         "episode": "9",
         "host": "jakub.dowgird"
+    },
+    {
+        "date": "2023-01-12T00:00:00.000Z",
+        "slug": "o-rozwiazaniach-opartych-na-badaniach",
+        "title": "O tym jak przygotowujemy rozwiązania dla klientów w oparciu o badania",
+        "authors": [
+            {
+                "author": "zosia.smierzchalska",
+                "name": "Zosia Śmierzchalska"
+            },
+            {
+                "author": "jakub.dodot",
+                "name": "Jakub Dodot"
+            }
+        ],
+        "toc": [
+            "W jaki sposób przygotowujemy rozwiązania dla klientów Allegro w oparciu o badania?",
+            "Jak wygląda ścieżka projektu od eksploracji do wdrożenia i późniejszego monitorowania?",
+            "Jaką korzyść dają badania usability?",
+            "Dlaczego warto, aby badanie było prowadzone przez dwoje badaczy?",
+            "O współpracy między badaczami i projektantami UX rozmawialiśmy z Zofią Śmierzchalską - Design Managerką i Jakubem Dodotem - Senior UX Research Managerem w Allegro."
+        ],
+        "links": {},
+        "platforms": {
+          "buzzsprout": "https://www.buzzsprout.com/887914/12028304",
+          "spotify": "https://open.spotify.com/episode/0GvLXHIiXarDZFhR0EHllT",
+          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-9-o-tym-jak-przygotowujemy-rozwi%C4%85zania-dla/id1500315781?i=1000594027729",
+          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMjAyODMwNA?sa=X&ved=0CAUQkfYCahcKEwjA4-fFpML8AhUAAAAAHQAAAAAQAQ"
+        },
+        "season": 3,
+        "episode": "10",
+        "host": "jakub.dowgird"
     }
 ]
