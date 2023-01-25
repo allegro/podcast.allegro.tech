@@ -1060,5 +1060,33 @@
         "season": 3,
         "episode": "10",
         "host": "jakub.dowgird"
+    },
+    {
+        "date": "2023-01-26T00:00:00.000Z",
+        "slug": "o-pracy-i-rozwoju-w-zespole-it-support",
+        "title": "O pracy i rozwoju w zespole IT Support",
+        "authors": [
+            {
+                "author": "bartosz.kaczynski",
+                "name": "Bartosz Kaczyński"
+            }
+        ],
+        "toc": [
+            "Jak wygląda praca w zespole, który zawsze udziela odpowiedzi na zadane pytania?",
+            "Co można zautomatyzować w obszarze wsparcia IT i jaki to może mieć cel?",
+            "Czy praca w zespole IT Support jest bramą do kariery w IT, może dawać możliwości rozwoju i przynosić satysfakcję?",
+            "Jakie wyzwania przed tym zespołem w Allegro postawiła pandemia koronawirusa?",
+            "O umożliwianiu pracownikom Grupy Allegro sprawnej pracy na narzędziach i usługach IT dostarczanych przez zespół Business Services & Automation opowiada Bartosz Kaczyński - IT Service Operations Manager w Allegro."
+        ],
+        "links": {},
+        "platforms": {
+          "buzzsprout": "https://www.buzzsprout.com/887914/12115526",
+          "spotify": "https://open.spotify.com/episode/3HL2S65umd9JShqlwNNmAG",
+          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-11-o-pracy-i-rozwoju-w-zespole-it-support/id1500315781?i=1000596674341",
+          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMjExNTUyNg?sa=X&ved=0CAUQkfYCahcKEwiAtf7W8-T8AhUAAAAAHQAAAAAQAQ"
+        },
+        "season": 3,
+        "episode": "11",
+        "host": "jakub.dowgird"
     }
 ]
