@@ -26,3 +26,9 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
         cname: podcast.allegro.tech
+    
+    - uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.REPO_TOKEN }}
+        repository: allegro/allegro.tech
+        event-type: blog-update
