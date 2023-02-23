@@ -9,10 +9,10 @@
         "preview": "astro preview"
     },
     "devDependencies": {
-        "@astrojs/rss": "^2.1.0",
-        "@astrojs/sitemap": "^1.0.0",
-        "@astrojs/svelte": "^2.0.0",
-        "astro": "^2.0.1",
+        "@astrojs/rss": "^2.1.1",
+        "@astrojs/sitemap": "^1.0.1",
+        "@astrojs/svelte": "^2.0.2",
+        "astro": "^2.0.13",
         "markdown-it": "^13.0.1"
     }
 }

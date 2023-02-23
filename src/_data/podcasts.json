@@ -1088,5 +1088,38 @@
         "season": 3,
         "episode": "11",
         "host": "jakub.dowgird"
-    }
+    },
+    {
+      "date": "2023-02-23T00:00:00.000Z",
+      "slug": "o-pracy-liderek-i-liderow-w-allegro",
+      "title": "O pracy liderek i liderów w Allegro - Alina Magowska i Agnieszka Jagusiak",
+      "authors": [
+          {
+              "author": "alina.magowska",
+              "name": "Alina Magowska"
+          },
+          {
+            "author": "agnieszka.jagusiak",
+            "name": "Agnieszka Jagusiak"
+        }
+      ],
+      "toc": [
+        "Jakimi umiejętnościami powinny wyróżniać się osoby na stanowiskach liderskich?",
+        "Czy wykształcenie techniczne to “must have”, aby dołączyć do zespołów Tech & Data w Allegro?",
+        "Czym charakteryzuje się praca liderek i liderów w Allegro oraz jak wspieramy ich rozwój?",
+        "Jaki wpływ na produkt oraz organizację mają liderki i liderzy w Allegro?",
+        "Jak zacząć budowanie swojej ścieżki kariery w roli liderskiej? Jakich wyzwań się spodziewać i jak sobie z nimi poradzić?",
+        "Posłuchajcie rozmowy z udziałem Aliny Magowskiej - Dyrektorki obszaru User Experience i Agnieszki Jagusiak - Senior Managerki w zespole Group IT Services w Allegro."        
+      ],
+      "links": {},
+      "platforms": {
+        "buzzsprout": "https://www.buzzsprout.com/887914/12295540",
+        "spotify": "https://open.spotify.com/episode/1X0iSNzNVyKgQInKM1fONh",
+        "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-12-o-pracy-liderek-i-lider%C3%B3w-w-allegro-alina/id1500315781?i=1000601217289",
+        "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMjI5NTU0MA?sa=X&ved=0CAUQkfYCahcKEwiQ1fSxk6v9AhUAAAAAHQAAAAAQAQ"
+      },
+      "season": 3,
+      "episode": "12",
+      "host": "jakub.dowgird"
+  }
 ]
