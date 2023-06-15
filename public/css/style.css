@@ -218,7 +218,6 @@ h2 {
 .cover-card {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0;
 }
 
 .cover-card img {
