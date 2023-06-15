@@ -2,14 +2,13 @@
 import BaseBody from '../layouts/Body.astro';
 import BaseHead from '../layouts/Head.astro';
 // Component Imports
-import PodcastPlayer from '../components/PodcastPlayer.svelte';
-import {getAllPodcasts} from '../lib/api.mjs';
+import PodcastPlayer from '../components/PodcastPlayer.astro';
+import {podcasts} from '../lib/api.mjs';
 import AboutPodcast from '../components/AboutPodcast.astro';
 import PodcastHeader from '../components/PodcastHeader.astro';
 import Description from '../components/Description.astro';
 import Footnotes from '../components/Footnotes.astro';
 
-const podcastsEnriched = getAllPodcasts();
 const title = "Allegro.tech podcast";
 
 ---
@@ -21,21 +20,13 @@ const title = "Allegro.tech podcast";
 
 
 <div class="desk">
-{podcastsEnriched.map( (podcast, index) => (
+{podcasts.map( (podcast, index) => (
 <section class="content">
     <div class="m-card" itemType="http://schema.org/PodcastEpisode">
       <PodcastHeader podcast={podcast}/>
       <div class="cover">
        {index < 3 ?
-               <PodcastPlayer
-        audioSource = {podcast.audioSource}
-        podcastTitle = {podcast.podcastTitle}
-        podcastPlatforms = {podcast.podcastPlatforms}
-        podcastCovers = {podcast.podcastCovers}
-        podcastImage = {podcast.podcastImage}
-        themeBgColor = "#FF7100"
-        themeColor = "#000"
-        client:visible/>
+        <PodcastPlayer url={podcast.spotify.url} />
         <Description toc = {podcast.toc} />
         <Footnotes footnotes = {podcast.footnotes || []} />
         : ''}

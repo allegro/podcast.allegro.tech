@@ -73,7 +73,6 @@
         "twitter": "piotrbetkier",
         "linkedin": "piotrbetkier"
     },
-
     "lukasz.sciga": {
         "name": "Łukasz Ściga",
         "bio": "Data Engineer w Allegro, którego pasją jest programowanie gier komputerowych.",
@@ -84,6 +83,12 @@
         "bio": "Principal Software Engineer at Allegro Technical Platform and former Leader of the team responsible for introducing Service Mesh.",
         "twitter": "chemicL",
         "linkedin": "dariuszjedrzejczyk"
+    },
+    "michal.janiszewski": {
+        "name": "Michał Janiszewski",
+        "bio": "Over 10 years in the IT industry in various roles. Addicted to building both great products and engineering teams at scale. Currently at Allegro, he is responsible, among others, for the Developers Experience of the Technical Platform products used daily by all engineers in the company. Privately, he builds drones, rides a motorcycle, with which he likes to tinker sometimes, and also takes amateur photos and films from his travels.",
+        "twitter": "mjaniszew",
+        "linkedin": "◌michał-janiszewski-345a0765"
     },
     "piotr.klapczynski": {
         "name": "Piotr Klapczyński",

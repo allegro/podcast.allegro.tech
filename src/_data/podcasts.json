@@ -1,1125 +1,1038 @@
 [
-    {
-        "date": "2020-02-24T00:00:00.000Z",
-        "slug": "o_zatrudnianiu_rozwoju_i_nie_tylko",
-        "title": "O zatrudnianiu, rozwoju inżynierów i nie tylko",
-        "authors": [
-          {
-            "author": "piotr.orlowski",
-            "name": "Piotr Orłowski"
-          }
-        ],
-        "desc": "\n",
-        "toc": [
-            "W Allegro pracuje prawie 800 specjalistów IT i ponad 100 liderów.",
-            "Jak zbudować taki zespół i zatrudnić do niego lepszych od siebie?",
-            "Jak pomóc inżynierom się rozwijać?",
-            "Co jest ważne w byciu liderem i jak nim zostać?",
-            "Czym jest Opbox i jak połączył frontend w świecie mikrousług?",
-            "O tym jak powstało allegro.tech i jaką drodzę przeszliśmy, aby być w tym miejscu, w którym jesteśmy teraz oraz dlaczego warto uczyć dzieci programowania posłuchacie w rozmowie z Piotrem Orłowskim - Software Development Managerem w Allegro."
-        ],
-        "links": {
-            "Open Source Hermes": "https://hermes.allegro.tech/",
-            "Prezentacja Hermes gubi eventy - Łukasz Drumiński": "https://prezi.com/i0tpqxeimbmz/hermes-loses-events/",
-            "j.Piknik 2014 - have a beer with Allegro engineers": "https://allegro.tech/2014/09/j.Piknik-2014-have-a-beer-with-Allegro-engineers.html",
-            "Allegro Tech Talks 33 Toruń - Jakie i dlaczego książki warto czytać będąc inżynierem? - Piotr Orłowski": "https://www.facebook.com/allegro.tech/videos/735697773617860/\""
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2799460-1-o-zatrudnianiu-i-rozwoju-inzynierow-i-nie-tylko-piotr-orlowski",
-            "spotify": "https://open.spotify.com/show/2rlbFoVg4eEVbrurrOkPHB",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/1-o-zatrudnianiu-i-rozwoju-in%C5%BCynier%C3%B3w-i-nie-tylko-piotr/id1500315781?i=1000466543310",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yNzk5NDYw&ved=0CAIQkfYCahcKEwi4-rTIvfvnAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 1,
-        "episode": 1,
-        "host": "piotr.betkier"
+  {
+    "date": "2020-02-24T00:00:00.000Z",
+    "slug": "o_zatrudnianiu_rozwoju_i_nie_tylko",
+    "title": "O zatrudnianiu, rozwoju inżynierów i nie tylko",
+    "authors": [
+      {
+        "author": "piotr.orlowski",
+        "name": "Piotr Orłowski"
+      }
+    ],
+    "desc": "\n",
+    "toc": [
+      "W Allegro pracuje prawie 800 specjalistów IT i ponad 100 liderów.",
+      "Jak zbudować taki zespół i zatrudnić do niego lepszych od siebie?",
+      "Jak pomóc inżynierom się rozwijać?",
+      "Co jest ważne w byciu liderem i jak nim zostać?",
+      "Czym jest Opbox i jak połączył frontend w świecie mikrousług?",
+      "O tym jak powstało allegro.tech i jaką drodzę przeszliśmy, aby być w tym miejscu, w którym jesteśmy teraz oraz dlaczego warto uczyć dzieci programowania posłuchacie w rozmowie z Piotrem Orłowskim - Software Development Managerem w Allegro."
+    ],
+    "links": {
+      "Open Source Hermes": "https://hermes.allegro.tech/",
+      "Prezentacja Hermes gubi eventy - Łukasz Drumiński": "https://prezi.com/i0tpqxeimbmz/hermes-loses-events/",
+      "j.Piknik 2014 - have a beer with Allegro engineers": "https://allegro.tech/2014/09/j.Piknik-2014-have-a-beer-with-Allegro-engineers.html",
+      "Allegro Tech Talks 33 Toruń - Jakie i dlaczego książki warto czytać będąc inżynierem? - Piotr Orłowski": "https://www.facebook.com/allegro.tech/videos/735697773617860/\""
     },
-    {
-        "date": "2020-03-02T00:00:00.000Z",
-        "slug": "infrastruktura_dla_1000_mikrouslug",
-        "title": "Infrastruktura dla 1000 mikrousług w Allegro",
-        "authors": [
-          {
-            "author": "adam.dubiel",
-            "name": "Adam Dubiel"
-          }
-        ],
-        "desc": "\n",
-        "toc": [
-            "Na serwis allegro.pl składa się już prawie 1000 mikrousług. Jaka filozofia stoi za budowaniem ich środowiska uruchomieniowego?",
-            "Czy Allegro lubi się z Chmurą Publiczną?",
-            "Jak rozumiemy powiedzenie “z wielką mocą idzie wielka odpowiedzialność” i dlaczego w Allegro zespół architektów platformy liczy tylko cztery osoby?",
-            "Czy możliwa jest usługa w .net w Allegro?",
-            "Jak podbijać wersje Javy i utrzymać 1000 mikrousług w świeżości? Ne te pytania odpowiada Adam Dubiel - Team Manager w Allegro."
-        ],
-        "links": {
-            "Java 11 and beyond at Allegro": "https://allegro.tech/2018/12/java-11-and-beyond-at-allegro.html"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2799484-2-infrastruktura-dla-1000-mikrouslug-w-allegro-adam-dubiel",
-            "spotify": "https://open.spotify.com/episode/7pws1eOuCtlC8ZziCWeUJC",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/2-infrastruktura-dla-1000-mikrous%C5%82ug-w-allegro-adam-dubiel/id1500315781?i=1000467205501",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yNzk5NDg0&ved=0CAIQkfYCahcKEwjo5a7tlv7nAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 1,
-        "episode": 2,
-        "host": "piotr.betkier"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/1---O-zatrudnianiu-i-rozwoju-inynierw-i-nie-tylko---Piotr-Orowski-e2455jb"
     },
-    {
-        "date": "2020-03-09T00:00:00.000Z",
-        "slug": "jak_zostac_i_pozostac_dobrym_programista",
-        "title": "Jak zostać i pozostać dobrym programistą?",
-        "authors": [
-          {
-            "author": "tomasz.nurkiewicz",
-            "name": "Tomasz Nurkiewicz"
-          }
-        ],
-        "desc": "\n",
-        "toc": [
-            "Jak skutecznie dzielić się wiedzą w społeczności IT?",
-            "Jaka przyszłość czeka Javę? A także jak wygląda praca programisty w Allegro i jak rekrutujemy?",
-            "Na te i więcej pytań odpowiada Tomek Nurkiewicz – Senior Software Engineer w Allegro, Java Champion."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2799559-3-jak-zostac-i-pozostac-dobrym-programista-tomasz-nurkiewicz",
-            "spotify": "https://open.spotify.com/episode/1hUrtS7gtqHGGlssUEfcxj",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/3-jak-zosta%C4%87-i-pozosta%C4%87-dobrym-programist%C4%85-tomasz-nurkiewicz/id1500315781?i=1000467870401",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yNzk5NTU5&ved=0CAIQkfYCahcKEwi40KbdkY3oAhUAAAAAHQAAAAAQAQ"
-        },
-        "links": {
-            "Charbusters - 10 mitów o Unicode, Tomasz Nurkiewicz": "https://www.facebook.com/allegro.tech/videos/318000685417753/"
-        },
-        "season": 1,
-        "episode": 3,
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 1,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-03-02T00:00:00.000Z",
+    "slug": "infrastruktura_dla_1000_mikrouslug",
+    "title": "Infrastruktura dla 1000 mikrousług w Allegro",
+    "authors": [
+      {
+        "author": "adam.dubiel",
+        "name": "Adam Dubiel"
+      }
+    ],
+    "desc": "\n",
+    "toc": [
+      "Na serwis allegro.pl składa się już prawie 1000 mikrousług. Jaka filozofia stoi za budowaniem ich środowiska uruchomieniowego?",
+      "Czy Allegro lubi się z Chmurą Publiczną?",
+      "Jak rozumiemy powiedzenie “z wielką mocą idzie wielka odpowiedzialność” i dlaczego w Allegro zespół architektów platformy liczy tylko cztery osoby?",
+      "Czy możliwa jest usługa w .net w Allegro?",
+      "Jak podbijać wersje Javy i utrzymać 1000 mikrousług w świeżości? Ne te pytania odpowiada Adam Dubiel - Team Manager w Allegro."
+    ],
+    "links": {
+      "Java 11 and beyond at Allegro": "https://allegro.tech/2018/12/java-11-and-beyond-at-allegro.html"
     },
-    {
-        "date": "2020-03-16T00:00:00.000Z",
-        "slug": "it_security_w_allegro",
-        "title": "IT security w Allegro",
-        "authors": [
-          {
-            "author": "wojciech.lesicki",
-            "name": "Wojciech Lesicki"
-          }
-        ],
-        "desc": "\n",
-        "toc": [
-            "Na czym skupiamy się w IT security w Allegro?",
-            "Jak radzimy sobie z bezpieczeństwem w dynamicznym środowisku mikrousług przy setkach wdrożeń dziennie?",
-            "Jakie testy robimy ciągle manualnie?",
-            "Skąd czerpać informacje na temat bezpieczeństwa i czemu warto zainteresować się frameworkiem Att&ck MITRE?",
-            "Na te i więcej pytań odpowiada Wojciech Lesicki – Team Leader w Allegro."
-        ],
-        "links": {
-            "Bezpieczeństwo przy tysiącach wdrożeń na konferencji CONFidence 2018 wraz z Pawłem Czubachowskim": "https://www.youtube.com/watch?v=7ONV-jLmlAw",
-            "CSP - Nasze doświadczenia z ochroną Allegro na konferencji Pozitivetech 2019 wraz z Pawłem Czubachowskim": "https://www.youtube.com/watch?v=T6HHipJRBUk",
-            "Polowanie na czerwony październik - na konferencji BSides Warsaw 2019, Dawid Golak, Jarosław Pukacki": "https://www.youtube.com/watch?v=LGMCQx-jZBw",
-            "Opis framework Att&ck MITRE": "https://attack.mitre.org/resources/getting-started/",
-            "Allegro Bug Bounty Program": "https://hackerone.com/allegro"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2903590-4-it-security-w-allegro-wojciechlesicki",
-            "spotify": "https://open.spotify.com/episode/4raXlG4uafbpArQZGXut37",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/4-it-security-w-allegro-wojciech-lesicki/id1500315781?i=1000468696801",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNTkw&ved=0CAIQkfYCahcKEwjA-OKj4J_oAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 1,
-        "episode": 4,
-        "host": "piotr.betkier"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/2---Infrastruktura-dla-1000-mikrousug-w-Allegro---Adam-Dubiel-e2455j4"
     },
-    {
-        "date": "2020-03-23T00:00:00.000Z",
-        "slug": "badania_ux_w_allegro",
-        "title": "Badania UX w Allegro",
-      "authors": [
-        {
-          "author": "justyna.osten-sacken",
-          "name": "Justyna Osten-Sacken"
-        }
-      ],
-        "desc": "\n",
-        "toc": [
-            "Jak wygląda dzień pracy badacza w Allegro?",
-            "Co właściwie \"badamy\" i dlaczego to robimy?",
-            "Jak opinie klientów wpływają na nasze produkty?",
-            "Jeśli temat user experience jest Ci bliski i chcesz spróbować swoich sił w tej branży - posłuchaj rozmowy z Justyną Osten-Sacken badaczką UX w Allego - a dowiesz się jak to zrobić."
-        ],
-        "links": {
-            "Więcej o naszym programie stażowym": "https://allegro.pl/praca/staze",
-            "Aplikuj na staż w naszym zespole": "https://jobs.smartrecruiters.com/Allegro/743999708732057-ux-researcher-intern",
-            "Kurs dotyczący procesu projektowego, wprowadzenie do badań - świetny na początek (po angielsku)": "https://www.plusacumen.org/courses/introduction-human-centered-design",
-            "Allegro UX Talks | Porozmawiajmy o [dostępności]": "https://www.facebook.com/848329198535765/videos/939114486480430/"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2903638-5-badania-ux-w-allegro-justyna-osten-sacken",
-            "spotify": "https://open.spotify.com/episode/79oX79WEs4ANoelV5qYtAF",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/5-badania-ux-w-allegro-justyna-osten-sacken/id1500315781?i=1000469272030",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNjM4&ved=0CAIQkfYCahcKEwjg9KXVhLDoAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 1,
-        "episode": 5,
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 2,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-03-09T00:00:00.000Z",
+    "slug": "jak_zostac_i_pozostac_dobrym_programista",
+    "title": "Jak zostać i pozostać dobrym programistą?",
+    "authors": [
+      {
+        "author": "tomasz.nurkiewicz",
+        "name": "Tomasz Nurkiewicz"
+      }
+    ],
+    "desc": "\n",
+    "toc": [
+      "Jak skutecznie dzielić się wiedzą w społeczności IT?",
+      "Jaka przyszłość czeka Javę? A także jak wygląda praca programisty w Allegro i jak rekrutujemy?",
+      "Na te i więcej pytań odpowiada Tomek Nurkiewicz – Senior Software Engineer w Allegro, Java Champion."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/3---Jak-zosta-i-pozosta-dobrym-programist----Tomasz-Nurkiewicz-e2455jf"
     },
-    {
-        "date": "2020-03-30T00:00:00.000Z",
-        "slug": "wyszukiwanie_w_allegro",
-        "title": "Wyszukiwanie w allegro - jak nie potknąć się o długi ogon?",
-      "authors": [
-        {
-          "author": "adam.dudczak",
-          "name": "Adam Dudczak"
-        }
-      ],
-        "toc": [
-            "Dlaczego wyszukiwanie jest takie trudne?",
-            "Jak często Polacy szukają czegoś na Allegro?",
-            "Z jakimi danymi pracujemy tworząc wyszukiwarkę Allegro?",
-            "Jakich technologii używamy by odpowiadać na zapytania użytkownika w ciągu kilku milisekund?",
-            "Do czego używamy uczenia maszynowego i jak budujemy modele, które odpowiadają za sortowanie ofert w wynikach wyszukiwania?",
-            "Na te i inne pytania odpowiada Adam Dudczak - Team Manager w zespole wyszukiwarki Allegro."
-        ],
-        "links": {
-            "Apache Solr": "https://lucene.apache.org/solr/",
-            "Jak dostosowujemy i używamy Solr-a, opowiada Andrzej Wisłowski - nagranie z konferencji Activate": "https://www.youtube.com/watch?v=-pWeEvFNhV8",
-            "Plugin do exportowania dokumentów z Solra - utrzymywany przez Rafała Zarajczyka": "https://github.com/allegro/solr-ids-export-plugin",
-            "Plugin do Elasticsearch wpinający Morfologika w potok analizy w ES - zainicjowane przez Pawła Bobruka": "https://github.com/allegro/elasticsearch-analysis-morfologik",
-            "Plugin pozwalajacy łatwo odpalać ES na potrzeby testów integracyjnych - zainicjowane również przez Pawła Bobruka": "https://github.com/allegro/embedded-elasticsearch",
-            "Biblioteka do tworzenia modeli Learning-to-rank, stworzona w Allegro w zespole Machine Learning Research": "https://github.com/allegro/allRank",
-            "Spotkania Poznańskiej grupy użytkowników języka Java": "https://www.meetup.com/pl-PL/Poznan-Java-User-Group/",
-            "Konferencja GeeCON": "https://2020.geecon.org/"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2903653-6-wyszukiwanie-w-allegro-jak-nie-potknac-sie-o-dlugi-ogon-adam-dudczak",
-            "spotify": "https://open.spotify.com/episode/5oPZZTkam59QHLTENmS4s5",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/6-wyszukiwanie-w-allegro-jak-nie-potkn%C4%85%C4%87-si%C4%99-o-d%C5%82ugi/id1500315781?i=1000469902782",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNjUz&ved=0CAcQ38oDahcKEwjgkoeDwsHoAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 1,
-        "episode": 6,
-        "host": "piotr.betkier"
+    "links": {
+      "Charbusters - 10 mitów o Unicode, Tomasz Nurkiewicz": "https://www.facebook.com/allegro.tech/videos/318000685417753/"
     },
-    {
-        "date": "2020-04-06T00:00:00.000Z",
-        "slug": "wydajnosc_frontendu",
-        "title": "Wydajność front-endu",
-      "authors": [
-        {
-          "author": "eryk.napierala",
-          "name": "Eryk Napierała"
-        }
-      ],
-        "toc": [
-            "Jak mierzymy wydajność Allegro i jak dbamy, by była jak najlepsza?",
-            "Jakich narzędzi używamy? Przed jakimi wyzwaniami stajemy?",
-            "Czym w ogóle jest dla nas wydajność?",
-            "Jak przekłada się ona na odczucia użytkownika?",
-            "Co się stało, że strona koszyka dwukrotnie przyspieszyła? Eryk wszystko Wam opowie."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2903683-7-wydajnosc-front-endu-eryk-napierala",
-            "spotify": "https://open.spotify.com/episode/0ZVItTb0cZmsiNWe5hT5Eo",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/7-wydajno%C5%9B%C4%87-front-endu-eryk-napiera%C5%82a/id1500315781?i=1000470604603",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNjgz&ved=0CAcQ38oDahcKEwjIq6S1itPoAhUAAAAAHQAAAAAQAQ"
-        },
-        "links": {
-            "Performance of JavaScript optional chaining": "https://allegro.tech/2019/11/performance-of-javascript-optional-chaining.html",
-            "Page visibility and performance metrics": "https://allegro.tech/2019/09/page-visibility-and-performance-metrics.html",
-            "Allegro Tech Talks 9 Warszawa - “Web Performance w Allegro”, Eryk Napierała": "https://www.facebook.com/allegro.tech/videos/948680958836629/",
-            "Allegro Tech Talks 9 Warszawa - “Renderowanie w Node.js”, Krzysztof Kwiatkowski": "https://www.facebook.com/allegro.tech/videos/272334407038128/",
-            "Allegro Tech Talks 9 Warszawa - “Header Challenge - zróbmy to lepiej niż Ronaldo!”, Rafał Augustyniak": "https://www.facebook.com/allegro.tech/videos/2380504828866498/"
-        },
-        "season": 1,
-        "episode": 7,
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 3,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-03-16T00:00:00.000Z",
+    "slug": "it_security_w_allegro",
+    "title": "IT security w Allegro",
+    "authors": [
+      {
+        "author": "wojciech.lesicki",
+        "name": "Wojciech Lesicki"
+      }
+    ],
+    "desc": "\n",
+    "toc": [
+      "Na czym skupiamy się w IT security w Allegro?",
+      "Jak radzimy sobie z bezpieczeństwem w dynamicznym środowisku mikrousług przy setkach wdrożeń dziennie?",
+      "Jakie testy robimy ciągle manualnie?",
+      "Skąd czerpać informacje na temat bezpieczeństwa i czemu warto zainteresować się frameworkiem Att&ck MITRE?",
+      "Na te i więcej pytań odpowiada Wojciech Lesicki – Team Leader w Allegro."
+    ],
+    "links": {
+      "Bezpieczeństwo przy tysiącach wdrożeń na konferencji CONFidence 2018 wraz z Pawłem Czubachowskim": "https://www.youtube.com/watch?v=7ONV-jLmlAw",
+      "CSP - Nasze doświadczenia z ochroną Allegro na konferencji Pozitivetech 2019 wraz z Pawłem Czubachowskim": "https://www.youtube.com/watch?v=T6HHipJRBUk",
+      "Polowanie na czerwony październik - na konferencji BSides Warsaw 2019, Dawid Golak, Jarosław Pukacki": "https://www.youtube.com/watch?v=LGMCQx-jZBw",
+      "Opis framework Att&ck MITRE": "https://attack.mitre.org/resources/getting-started/",
+      "Allegro Bug Bounty Program": "https://hackerone.com/allegro"
     },
-    {
-        "date": "2020-04-20T00:00:00.000Z",
-        "slug": "nie-tylko-jvm-czyli-jak-rozwijamy-uslugi-dotnet-w-allegro",
-        "title": "Nie tylko JVM, czyli jak rozwijamy usługi dotNET w Allegro",
-      "authors": [
-        {
-          "author": "piotr.stapp",
-          "name": "Piotr Stapp"
-        }
-      ],
-        "toc": [
-            "Jak to się stało, że spora grupa programistów .NET znalazła się w Allegro?",
-            "Czy wprowadzenie kolejnej chmury publicznej do infrastruktury jest trudne?",
-            "Czy da się programować w .NET na Mac, nie mając pod ręką Windows?",
-            "Czym różni się bycie Microsoft MVP od Java Champion?",
-            "Na te i inne pytania odpowiada Piotr Stapp -  Senior Software Engineer w Allegro"
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2997940-8-nie-tylko-jvm-czyli-jak-rozwijamy-uslugi-net-w-allegro-piotr-stapp",
-            "spotify": "https://open.spotify.com/episode/205QBToGoUMWQdjgYjo8VE",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/8-nie-tylko-jvm-czyli-jak-rozwijamy-us%C5%82ugi-net-w-allegro/id1500315781?i=1000472054322",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTk3OTQw&ved=0CAcQ38oDahcKEwjgtP_qovboAhUAAAAAHQAAAAAQAQ"
-        },
-        "links": {
-            "Stapp Space": "https://stapp.space",
-            "dotNETomaniak tech blog": "https://blog.dotnetomaniak.pl"
-        },
-        "season": 1,
-        "episode": 8,
-        "host": "piotr.betkier"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/4---IT-security-w-Allegro---Wojciech-Lesicki-e2455im"
     },
-    {
-        "date": "2020-05-04T00:00:00.000Z",
-        "slug": "jak_testy_moga_wplynac_na_zycie",
-        "title": "Jak testy mogą wpłynąć na życie?",
-      "authors": [
-        {
-          "author": "pawel.zwierzchowski",
-          "name": "Paweł Zwierzchowski"
-        }
-      ],
-        "toc": [
-            "Jaką wagę mają testy przy wytwarzaniu oprogramowania, pamiętając, że nie wszystkie testy są takie same?",
-            "Jak ułożyć proces testowy, który się sprawdza?",
-            "Czy tester powinien tylko testować i jak może zdjąć ogrom pracy ze swojego zespołu przy okazji żyjąc w zgodzie z developerami?",
-            "Czyli praca testera w scrumie i nie tylko. Na te i inne pytania odpowiada Paweł Zwierzchowski - Senior Software Test Engineer w Allegro."
-        ],
-        "links": {
-            "Allegro Tech Talks 32 Toruń - Wild, Wild Test... with microservices - Paweł Zwierzchowski": "https://www.facebook.com/allegro.tech/videos/536167340289191/"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2903665-9-jak-testy-moga-wplynac-na-zycie-pawel-zwierzchowski",
-            "spotify": "https://open.spotify.com/episode/6uFNwITBKYKYRbNT22mr91",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/9-jak-testy-mog%C4%85-wp%C5%82yn%C4%85%C4%87-na-%C5%BCycie-pawe%C5%82-zwierzchowski/id1500315781?i=1000473469220",
-            "googlepodcasts": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz&episode=QnV6enNwcm91dC0yOTAzNjY1&ved=0CAcQ38oDahcKEwjo3fqi4ZnpAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 1,
-        "episode": 9,
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 4,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-03-23T00:00:00.000Z",
+    "slug": "badania_ux_w_allegro",
+    "title": "Badania UX w Allegro",
+    "authors": [
+      {
+        "author": "justyna.osten-sacken",
+        "name": "Justyna Osten-Sacken"
+      }
+    ],
+    "desc": "\n",
+    "toc": [
+      "Jak wygląda dzień pracy badacza w Allegro?",
+      "Co właściwie \"badamy\" i dlaczego to robimy?",
+      "Jak opinie klientów wpływają na nasze produkty?",
+      "Jeśli temat user experience jest Ci bliski i chcesz spróbować swoich sił w tej branży - posłuchaj rozmowy z Justyną Osten-Sacken badaczką UX w Allego - a dowiesz się jak to zrobić."
+    ],
+    "links": {
+      "Więcej o naszym programie stażowym": "https://allegro.pl/praca/staze",
+      "Aplikuj na staż w naszym zespole": "https://jobs.smartrecruiters.com/Allegro/743999708732057-ux-researcher-intern",
+      "Kurs dotyczący procesu projektowego, wprowadzenie do badań - świetny na początek (po angielsku)": "https://www.plusacumen.org/courses/introduction-human-centered-design",
+      "Allegro UX Talks | Porozmawiajmy o [dostępności]": "https://www.facebook.com/848329198535765/videos/939114486480430/"
     },
-    {
-        "date": "2020-05-18T00:00:00.000Z",
-        "slug": "misja_zmiana_branzy_zakonczona_sukcesem",
-        "title": "Misja zmiana branży zakończona sukcesem! Jak wygląda dzień Product Managera",
-      "authors": [
-        {
-          "author": "martyna.niszczota",
-          "name": "Martyna Niszczota"
-        }
-      ],
-        "toc": [
-            "Czy pracując w IT trzeba rozmawiać z ludźmi?",
-            "Budowanie relacji to mity i każdy skupia się na swoim kodzie?",
-            "Gdzie w całej tej układance jest Klient, czy jest tylko odbiorcą naszych rozwiązań?",
-            "Martyna odpowie na te pytania i przybliży nam jak wygląda jej dzień w roli Product Managera. Posiada ona background HRowy, dlatego jej spojrzenie na świat IT może różnić się od tego standardowego."
-        ],
-        "links": {
-            "Allegro Tech Talks - Misja zmiana branży - Martyna Niszczota": "https://www.facebook.com/allegro.tech/videos/422730938455309"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2799574-9-ep09_martyna_niszczota",
-            "spotify": "https://open.spotify.com/episode/2qew8aegQoDOf9NimcAI9N",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/10-misja-zmiana-bran%C5%BCy-zako%C5%84czona-sukcesem-jak-wygl%C4%85d%C4%85/id1500315781?i=1000474989027",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0yNzk5NTc0?ved=0CAcQ38oDahcKEwjAn7Da4bzpAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 1,
-        "episode": 10,
-        "host": "piotr.betkier"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/5---Badania-UX-w-Allegro---Justyna-Osten-Sacken-e2455if"
     },
-    {
-        "date": "2020-06-01T00:00:00.000Z",
-        "slug": "mobile_w_allegro",
-        "title": "Mobile w Allegro",
-      "authors": [
-        {
-          "author": "kamil.borzym",
-          "name": "Kamil Borzym"
-        }
-      ],
-        "toc": [
-            "Cały świat obserwuje jak telefony przejmują władzę nad Internetem.",
-            "Ponad połowa ruchu na Allegro pochodzi z urządzeń mobilnych, a większość tego ruchu to aplikacje natywne.",
-            "Żarty się skończyły ;) Kamil opowie Wam jak specjaliści mobilni z Allegro skalują development swojej aplikacji."
-        ],
-        "links": {
-            "try! Swift Tokyo talk": "https://www.youtube.com/watch?v=QTS2_CcnAgU",
-            "iOS bug adventure": "https://allegro.tech/2016/08/the-ios-bug-chase.html"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/3011989-11-mobile-w-allegro-kamil-borzym",
-            "spotify": "https://open.spotify.com/episode/61P48AgpHXOTRIknHnB7uF",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/11-mobile-w-allegro-kamil-borzym/id1500315781?i=1000476356373",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0zMDExOTg5?ved=0CAcQ38oDahcKEwigz4fX89_pAhUAAAAAHQAAAAAQAw"
-        },
-        "season": 1,
-        "episode": 11,
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 5,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-03-30T00:00:00.000Z",
+    "slug": "wyszukiwanie_w_allegro",
+    "title": "Wyszukiwanie w allegro - jak nie potknąć się o długi ogon?",
+    "authors": [
+      {
+        "author": "adam.dudczak",
+        "name": "Adam Dudczak"
+      }
+    ],
+    "toc": [
+      "Dlaczego wyszukiwanie jest takie trudne?",
+      "Jak często Polacy szukają czegoś na Allegro?",
+      "Z jakimi danymi pracujemy tworząc wyszukiwarkę Allegro?",
+      "Jakich technologii używamy by odpowiadać na zapytania użytkownika w ciągu kilku milisekund?",
+      "Do czego używamy uczenia maszynowego i jak budujemy modele, które odpowiadają za sortowanie ofert w wynikach wyszukiwania?",
+      "Na te i inne pytania odpowiada Adam Dudczak - Team Manager w zespole wyszukiwarki Allegro."
+    ],
+    "links": {
+      "Apache Solr": "https://lucene.apache.org/solr/",
+      "Jak dostosowujemy i używamy Solr-a, opowiada Andrzej Wisłowski - nagranie z konferencji Activate": "https://www.youtube.com/watch?v=-pWeEvFNhV8",
+      "Plugin do exportowania dokumentów z Solra - utrzymywany przez Rafała Zarajczyka": "https://github.com/allegro/solr-ids-export-plugin",
+      "Plugin do Elasticsearch wpinający Morfologika w potok analizy w ES - zainicjowane przez Pawła Bobruka": "https://github.com/allegro/elasticsearch-analysis-morfologik",
+      "Plugin pozwalajacy łatwo odpalać ES na potrzeby testów integracyjnych - zainicjowane również przez Pawła Bobruka": "https://github.com/allegro/embedded-elasticsearch",
+      "Biblioteka do tworzenia modeli Learning-to-rank, stworzona w Allegro w zespole Machine Learning Research": "https://github.com/allegro/allRank",
+      "Spotkania Poznańskiej grupy użytkowników języka Java": "https://www.meetup.com/pl-PL/Poznan-Java-User-Group/",
+      "Konferencja GeeCON": "https://2020.geecon.org/"
     },
-    {
-        "date": "2020-06-15T00:00:00.000Z",
-        "slug": "projektowanie_ux_w_allegro",
-        "title": "Projektowanie UX w Allegro, czyli wszystko zależy od doświadczenia",
-      "authors": [
-        {
-          "author": "kasia.wrobel",
-          "name": "Kasia Wróbel"
-        }
-      ],
-        "toc": [
-            "Projektowanie na styku produktu, biznesu i potrzeb użytkownika.",
-            "Budzenie ciekawości, czyli czy jesteś w stanie zmienić coś, co sprawia problem tak wielu osobom na raz?",
-            "Kasia opowiada o \"układaniu klocków\", których użytkownik wie jak użyć."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/3011998-11-projektowanie-ux-w-allegro-czyli-wszystko-zalezy-od-doswiadczenia-katarzyna-wrobel",
-            "spotify": "https://open.spotify.com/episode/2icYp8DtsZu5fQ0NGuMw3Y",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/11-ep11-katrazyna-wr%C3%B3bel/id1500315781?i=1000477953978",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0zMDExOTk4?ved=0CAcQ38oDahcKEwjY2oK_kIPqAhUAAAAAHQAAAAAQAg"
-        },
-        "season": 1,
-        "episode": 12,
-        "host": "piotr.betkier"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/6---Wyszukiwanie-w-Allegro---jak-nie-potkn-si-o-dugi-ogon----Adam-Dudczak-e2455jc"
     },
-    {
-        "date": "2020-06-29T00:00:00.000Z",
-        "slug": "badania_i_rozwoj_ml_w_allegro",
-        "title": "Badania i rozwój ML w Allegro",
-      "authors": [
-        {
-          "author": "ireneusz.gawlik",
-          "name": "Ireneusz Gawlik"
-        }
-      ],
-        "toc": [
-            "Gdzie kryje się Machine Learning w Allegro? Jakie projekty już dzisiaj korzystają z mocy sztucznej inteligencji?",
-            "Jak na codzień pracuje grupa badaczy nie tylko aplikująca, ale też rozwijająca algorytmy uczenia maszynowego?",
-            "Irek, Team Manager w grupie Allegro ML Research, opowiada więcej o tym jak się tworzy AI w Polsce."
-        ],
-        "links": {
-            "Research Engineer - Machine Learning": "https://jobs.smartrecruiters.com/Allegro/743999697865924"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/2998819-13-badania-i-rozwoj-ml-w-allegro-ireneusz-gawlik",
-            "spotify": "https://open.spotify.com/episode/1FhlLpxkChaGT05xdmkEvx",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/13-badania-i-rozw%C3%B3j-ml-w-allegro-ireneusz-gawlik/id1500315781?i=1000480129707",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0yOTk4ODE5?ved=2ahUKEwjTp--ltabqAhVCdJoKHSkcDH8QkfYCegQIARAF"
-        },
-        "season": 1,
-        "episode": 13,
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 6,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-04-06T00:00:00.000Z",
+    "slug": "wydajnosc_frontendu",
+    "title": "Wydajność front-endu",
+    "authors": [
+      {
+        "author": "eryk.napierala",
+        "name": "Eryk Napierała"
+      }
+    ],
+    "toc": [
+      "Jak mierzymy wydajność Allegro i jak dbamy, by była jak najlepsza?",
+      "Jakich narzędzi używamy? Przed jakimi wyzwaniami stajemy?",
+      "Czym w ogóle jest dla nas wydajność?",
+      "Jak przekłada się ona na odczucia użytkownika?",
+      "Co się stało, że strona koszyka dwukrotnie przyspieszyła? Eryk wszystko Wam opowie."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/7---Wydajno-front-endu---Eryk-Napieraa-e2455ig"
     },
-    {
-        "date": "2021-02-10T00:00:00.000Z",
-        "slug": "zbiory_danych_w_allegro",
-        "title": "Zbiory danych w Allegro",
-      "authors": [
-        {
-          "author": "lukasz.sciga",
-          "name": "Łukasz Ściga"
-        }
-      ],
-        "toc": [
-            "Czym zajmuje się inżynier danych? Jak powstało Big Data?",
-            "Jak wykorzystuje się oraz kto korzysta z nowych zbiorów danych?",
-            "Czym różni się Data Scientist od Data Engineera?",
-            "Jak połączyć przetwarzanie streamingowe z przetwarzaniem batchowym? Z jakich narzędzi korzysta Data Engineer?",
-            "Na te pytania odpowie Łukasz Ściga - Data Engineer w Allegro, którego pasją jest programowanie gier komputerowych."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/7426294-sezon-ii-1-zbiory-danych-w-allegro-lukasz-scigak",
-            "spotify": "https://open.spotify.com/episode/7eYECNP5CQl8MrYGb1pRtw",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-1-zbiory-danych-w-allegro-%C5%82ukasz-%C5%9Bciga/id1500315781?i=1000508592979",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC03NDI2Mjk0?sa=X&ved=0CAUQkfYCahcKEwiov-_gxuHuAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "1",
-        "host": "piotr.betkier"
+    "links": {
+      "Performance of JavaScript optional chaining": "https://allegro.tech/2019/11/performance-of-javascript-optional-chaining.html",
+      "Page visibility and performance metrics": "https://allegro.tech/2019/09/page-visibility-and-performance-metrics.html",
+      "Allegro Tech Talks 9 Warszawa - “Web Performance w Allegro”, Eryk Napierała": "https://www.facebook.com/allegro.tech/videos/948680958836629/",
+      "Allegro Tech Talks 9 Warszawa - “Renderowanie w Node.js”, Krzysztof Kwiatkowski": "https://www.facebook.com/allegro.tech/videos/272334407038128/",
+      "Allegro Tech Talks 9 Warszawa - “Header Challenge - zróbmy to lepiej niż Ronaldo!”, Rafał Augustyniak": "https://www.facebook.com/allegro.tech/videos/2380504828866498/"
     },
-    {
-        "date": "2021-02-25T00:00:00.000Z",
-        "slug": "service_mesh_oraz_praca_programisty_w_allegro",
-        "title": "Service Mesh oraz praca programisty w Allegro",
-      "authors": [
-        {
-          "author": "dariusz.jedrzejczyk",
-          "name": "Dariusz Jędrzejczyk"
-        }
-      ],
-        "toc": [
-            "Czym jest Service Mesh? Jak został wdrożony do Allegro dla ponad 1000 usług na produkcji?",
-            "Dlaczego usprawnianie pracy programistom jest dla nas ważne i dlaczego programista to klient?",
-            "Jak wytwarzamy produkty używane przez zespoły deweloperskie?",
-            "Kim jest Principal w Allegro? Jak może wyglądać ścieżka kariery programisty?",
-            "Na te pytania odpowie Dariusz Jędrzejczyk - Principal Software Engineer."
-        ],
-        "links": {
-            "Migrating to Service Mesh": " https://blog.allegro.tech/2020/05/migrating-to-service-mesh.html",
-            "Jakie korzyści daje Service Mesh?": " https://nofluffjobs.com/blog/jakie-korzysci-daje-service-mesh/",
-            "allegro/envoy-control": "https://github.com/allegro/envoy-control/",
-            "Service Mesh Failure Stories at Scale - Krzysztof Słonka": " https://www.youtube.com/watch?v=lQxpIGBW4CQ",
-            "Engineering Management: The Pendulum Or The Ladder": " https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/7917649-sezon-ii-2-service-mesh-oraz-praca-praca-programisty-w-allegro-dariusz-jedrzejczak",
-            "spotify": "https://open.spotify.com/episode/2x91gASCWCcnUqpeEeXYFR",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-2-service-mesh-oraz-praca-programisty-w-allegro/id1500315781?i=1000510739607",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC03OTE3NjQ5?sa=X&ved=0CAUQkfYCahcKEwjQjKTrzITvAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "2",
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 7,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-04-20T00:00:00.000Z",
+    "slug": "nie-tylko-jvm-czyli-jak-rozwijamy-uslugi-dotnet-w-allegro",
+    "title": "Nie tylko JVM, czyli jak rozwijamy usługi dotNET w Allegro",
+    "authors": [
+      {
+        "author": "piotr.stapp",
+        "name": "Piotr Stapp"
+      }
+    ],
+    "toc": [
+      "Jak to się stało, że spora grupa programistów .NET znalazła się w Allegro?",
+      "Czy wprowadzenie kolejnej chmury publicznej do infrastruktury jest trudne?",
+      "Czy da się programować w .NET na Mac, nie mając pod ręką Windows?",
+      "Czym różni się bycie Microsoft MVP od Java Champion?",
+      "Na te i inne pytania odpowiada Piotr Stapp -  Senior Software Engineer w Allegro"
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/8---Nie-tylko-JVM--czyli-jak-rozwijamy-usugi--NET-w-Allegro---Piotr-Stapp-e2455il"
     },
-    {
-        "date": "2021-03-04T00:00:00.000Z",
-        "slug": "sre_w_allegro",
-        "title": "SRE w Allegro",
-      "authors": [
-        {
-          "author": "piotr.klapczynski",
-          "name": "Piotr Klapczyński"
-        }
-      ],
-        "toc": [
-            "Jak w Allegro radzimy sobie z awariami?",
-            "Jak im zapobiegać oraz dlaczego sami je wywołujemy?",
-            "Czy szalonym jest składanie całego Data Center?",
-            "Czym jest SRE w Allegro i dlaczego jest unikatowe?",
-            "Na te wszystkie pytania odpowie Piotr Klapczyński - Team Leader w Allegro."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8059450-sezon-ii-3-piotr-klapczynski",
-            "spotify": "https://open.spotify.com/episode/3wkUImvtXDYWOeg69M8V11",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-3-sre-w-allegro-piotr-klapczy%C5%84ski/id1500315781?i=1000511567674",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MDU5NDUw?sa=X&ved=0CAUQkfYCahcKEwigpcuHiZbvAhUAAAAAHQAAAAAQAg"
-        },
-        "season": 2,
-        "episode": "3",
-        "host": "piotr.betkier"
+    "links": {
+      "Stapp Space": "https://stapp.space",
+      "dotNETomaniak tech blog": "https://blog.dotnetomaniak.pl"
     },
-    {
-        "date": "2021-03-18T00:00:00.000Z",
-        "slug": "summer_e_xperience_w_allegro",
-        "title": "Summer e-Xperience w Allegro",
-      "authors": [
-        {
-          "author": "alicja.halamska",
-          "name": "Alicja Halamska"
-        }
-      ],
-        "toc": [
-            "Jak wygląda program Summer e-Xperience w obszarze technologii?",
-            "Czego można nauczyć się podczas programu jako Software Engineer?",
-            "Dlaczego #dobrzetubyć najlepiej oddaje ideę programu?",
-            "Komu polecamy nasz letni program i co radzimy?",
-            "Na te pytania odpowie Alicja Halamska - Junior Software Engineer w Allegro, która w 2020 roku dołączyła do programu Summer e-Xperience."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8150206-sezon-ii-4-summer-e-xperience-w-allegro-alicja-halamska",
-            "spotify": "https://open.spotify.com/episode/5z7PVKR7bXkqsNsSgRv00t",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-4-summer-e-xperience-w-allegro-alicja-halamska/id1500315781?i=1000513647494",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MTUwMjA2?sa=X&ved=0CAUQkfYCahcKEwjoio3vq7nvAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "4",
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 8,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-05-04T00:00:00.000Z",
+    "slug": "jak_testy_moga_wplynac_na_zycie",
+    "title": "Jak testy mogą wpłynąć na życie?",
+    "authors": [
+      {
+        "author": "pawel.zwierzchowski",
+        "name": "Paweł Zwierzchowski"
+      }
+    ],
+    "toc": [
+      "Jaką wagę mają testy przy wytwarzaniu oprogramowania, pamiętając, że nie wszystkie testy są takie same?",
+      "Jak ułożyć proces testowy, który się sprawdza?",
+      "Czy tester powinien tylko testować i jak może zdjąć ogrom pracy ze swojego zespołu przy okazji żyjąc w zgodzie z developerami?",
+      "Czyli praca testera w scrumie i nie tylko. Na te i inne pytania odpowiada Paweł Zwierzchowski - Senior Software Test Engineer w Allegro."
+    ],
+    "links": {
+      "Allegro Tech Talks 32 Toruń - Wild, Wild Test... with microservices - Paweł Zwierzchowski": "https://www.facebook.com/allegro.tech/videos/536167340289191/"
     },
-    {
-        "date": "2021-03-25T00:00:00.000Z",
-        "slug": "logistyka_na_platformie_allegro",
-        "title": "Logistyka na platformie Allegro",
-      "authors": [
-        {
-          "author": "jakub.kaczmarski",
-          "name": "Jakub Kaczmarski"
-        }
-      ],
-        "toc": [
-            "Jak zarządzać zespołem ponad 100 osób?",
-            "Jak rozwijać motywację, pasję i potencjał swoich pracowników? Na co zwracać uwagę?",
-            "Jakie inspiracje można czerpać ze sportu w zarządzaniu?",
-            "Jak zorganizować swoją pracę?",
-            "O tym opowie Jakub Kaczmarski - Technology Director odpowiadając za obszar Delivery Experience i Allegro Smart! na platformie Allegro."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8163669",
-            "spotify": "https://open.spotify.com/episode/7y9nnne57FjQpiZKLBAC9H",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-5-logistyka-na-platformie-allegro-jakub-kaczmarski/id1500315781?i=1000514424112",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MTYzNjY5?sa=X&ved=0CAUQkfYCahcKEwjgg9uM9crvAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "5",
-        "host": "piotr.betkier"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/9---Jak-testy-mog-wpyn-na-ycie----Pawe-Zwierzchowski-e2455jd"
     },
-    {
-        "date": "2021-04-08T00:00:00.000Z",
-        "slug": "swiat_product_managera_w_allegro",
-        "title": "Świat Product Managera w Allegro",
-      "authors": [
-        {
-          "author": "aleksandra.wasielewska",
-          "name": "Aleksandra Wasielewska"
-        }
-      ],
-        "toc": [
-            "Jak tworzy się produkty dla milionów kupujących?",
-            "Jak wygląda warsztat i ekosystem Product Managera w Allegro?",
-            "Jak zaskakujące jest Allegro od środka? Jak mądrze wykorzystywać dane w pracy Product Managera?",
-            "I jak w Allegro jeśli się chce, to można realizować się nie tylko jako pracownik, ale człowiek?",
-            "Nie tylko to, ale też wiele wiele więcej w rozmowie z Piotrkiem, odkryje przed Wami Ola Wasielewska - Senior Product Manager w Allegro."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8163682",
-            "spotify": "https://open.spotify.com/episode/2Gu9LCEGmzcrhuk11Vmog9",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-6-%C5%9Bwiat-product-managera-w-allegro-aleksandra/id1500315781?i=1000516382450",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MTYzNjgy?sa=X&ved=0CAUQkfYCahcKEwiQ1OPJjO7vAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "6",
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 9,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-05-18T00:00:00.000Z",
+    "slug": "misja_zmiana_branzy_zakonczona_sukcesem",
+    "title": "Misja zmiana branży zakończona sukcesem! Jak wygląda dzień Product Managera",
+    "authors": [
+      {
+        "author": "martyna.niszczota",
+        "name": "Martyna Niszczota"
+      }
+    ],
+    "toc": [
+      "Czy pracując w IT trzeba rozmawiać z ludźmi?",
+      "Budowanie relacji to mity i każdy skupia się na swoim kodzie?",
+      "Gdzie w całej tej układance jest Klient, czy jest tylko odbiorcą naszych rozwiązań?",
+      "Martyna odpowie na te pytania i przybliży nam jak wygląda jej dzień w roli Product Managera. Posiada ona background HRowy, dlatego jej spojrzenie na świat IT może różnić się od tego standardowego."
+    ],
+    "links": {
+      "Allegro Tech Talks - Misja zmiana branży - Martyna Niszczota": "https://www.facebook.com/allegro.tech/videos/422730938455309"
     },
-    {
-        "date": "2021-04-16T00:00:00.000Z",
-        "slug": "data_scientist_w_allegro",
-        "title": "Data Scientist w Allegro",
-      "authors": [
-        {
-          "author": "julia.bluszcz",
-          "name": "Julia Bluszcz"
-        }
-      ],
-        "toc": [
-            "Czym zajmuje się Data Scientist?",
-            "Jak wygląda proces budowania modeli danych?",
-            "Jak klasyczne i bayesowskie metody statystyczne pozwalają nam odpowiedzieć na pytanie “dlaczego”?",
-            "Czym różni się korelacja od kauzacji i jak estymować efekty różnego rodzaju zmian, nawet gdy nie możemy przeprowadzić testów AB?",
-            "Odpowiedzi na te pytania znajdziecie w najnowszym podcascie, którego gościem jest Julia Bluszcz."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8333231",
-            "spotify": "https://open.spotify.com/episode/37wNNKRsAcBQOiQ6uQ35Wl",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-7-data-scientist-w-allegro-julia-bluszcz/id1500315781?i=1000517380562",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MzMzMjMx?sa=X&ved=0CAUQkfYCahcKEwjY-tubqILwAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "7",
-        "host": "piotr.betkier"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/10---Misja-zmiana-brany-zakoczona-sukcesem--Jak-wygld-dzie-Product-Managera---Martyna-Niszczota-e2455iv"
     },
-    {
-        "date": "2021-04-22T00:00:00.000Z",
-        "slug": "inzynier_w_zespole_produktowym",
-        "title": "Inżynier w zespole produktowym",
-      "authors": [
-        {
-          "author": "michal.bareja",
-          "name": "Michał Bareja"
-        }
-      ],
-        "toc": [
-            "Czym zajmuje się Team Leader w Allegro?",
-            "Jak wygląda cykl życia oprogramowania w zespole produktowym?",
-            "Jaka jest rola inżyniera oprogramowania w rozwoju produktu?",
-            "W jaki sposób wykorzystujemy w Allegro Event Storming?",
-            "Jakich technologii używają programiści w zespołach produktowych?",
-            "Między innymi o tym opowie Michał Bareja, Team Manager w Allegro, w rozmowie z Piotrem Betkierem."
-        ],
-        "links": {
-            "Prezentacja Macieja Szarlińskiego o Event Stormingu": "https://www.youtube.com/watch?v=V_tHe7oIL-I",
-            "Migrating to Service Mesh": "https://blog.allegro.tech/2020/05/migrating-to-service-mesh.html",
-            "Service Mesh oraz praca programisty w Allegro": "https://podcast.allegro.tech/service_mesh_oraz_praca_programisty_w_allegro/",
-            "Wyszukiwanie w allegro - jak nie potknąć się o długi ogon?": "https://podcast.allegro.tech/wyszukiwanie_w_allegro",
-            "Architektura Heksagonalna": "https://www.youtube.com/watch?v=ILBX9fa9aJo"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8371888",
-            "spotify": "https://open.spotify.com/episode/0viZ7a4OojDtIN8kxi2u1B",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-8-in%C5%BCynier-w-zespole-produktowym-micha%C5%82-bareja/id1500315781?i=1000518189720",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04MzcxODg4?sa=X&ved=0CAUQkfYCahcKEwjo5eS3npHwAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "8",
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 10,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-06-01T00:00:00.000Z",
+    "slug": "mobile_w_allegro",
+    "title": "Mobile w Allegro",
+    "authors": [
+      {
+        "author": "kamil.borzym",
+        "name": "Kamil Borzym"
+      }
+    ],
+    "toc": [
+      "Cały świat obserwuje jak telefony przejmują władzę nad Internetem.",
+      "Ponad połowa ruchu na Allegro pochodzi z urządzeń mobilnych, a większość tego ruchu to aplikacje natywne.",
+      "Żarty się skończyły ;) Kamil opowie Wam jak specjaliści mobilni z Allegro skalują development swojej aplikacji."
+    ],
+    "links": {
+      "try! Swift Tokyo talk": "https://www.youtube.com/watch?v=QTS2_CcnAgU",
+      "iOS bug adventure": "https://allegro.tech/2016/08/the-ios-bug-chase.html"
     },
-    {
-        "date": "2021-05-06T00:00:00.000Z",
-        "slug": "od_inzyniera_do_lidera_w_allegro",
-        "title": "Od inżyniera do lidera w Allegro",
-      "authors": [
-        {
-          "author": "bartosz.galek",
-          "name": "Bartosz Gałek"
-        }
-      ],
-        "toc": [
-            "Czym jest Opbox i jakie wyzwania przed nim stoją?",
-            "Jak w Allegro angażujemy się w rozwój kultury Open Source?",
-            "Ile mamy projektów na GitHubie i jak świętujemy Hacktoberfest?",
-            "W jaki sposób można rozwinąć się od inżyniera do lidera?",
-            "Na te pytania w najnowszym Allegro Tech Podcast odpowie Bartek Gałek, Team Leader w Allegro."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8455586-sezon-ii-9-od-inzyniera-do-lidera-w-allegro-bartosz-galek",
-            "spotify": "https://open.spotify.com/episode/6HBAu8UWxm0kGaxQrIdsYl",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-9-od-in%C5%BCyniera-do-lidera-w-allegro-bartosz-ga%C5%82ek/id1500315781?i=1000520516802",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04NDU1NTg2?sa=X&ved=0CAUQkfYCahcKEwjQ04_FwbTwAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "9",
-        "host": "piotr.betkier"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/11---Mobile-w-Allegro---Kamil-Borzym-e2455j2"
     },
-    {
-        "date": "2021-05-20T00:00:00.000Z",
-        "slug": "praca_architekta_ekosystemu_big_data_w_Allegro",
-        "title": "Praca architekta ekosystemu big data w Allegro",
-      "authors": [
-        {
-          "author": "dariusz.eliasz",
-          "name": "Dariusz Eliasz"
-        }
-      ],
-        "toc": [
-            "Jak wygląda praca architekta ekosystemu big data w Allegro?",
-            "Jakie zadania realizuje nasz zespół odpowiedzialny za narzędzia i infrastrukturę dla przetwarzania danych?",
-            "Kiedy możemy mówić o dużych danych i ile petabajtów przetwarza Allegro?",
-            "Skąd pochodzą dane Allegro i dlaczego jest ich tak dużo oraz z jakiego powodu dopiero teraz przenosimy się do chmury?",
-            "O tym wszystkim opowie zdobywca statuetki Allegro Tech Hero - Dariusz Eliasz – Team Manager & Platform Architect w Allegro."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8554742-sezon-ii-10-przetwarzanie-danych-w-allegro-dariusz-eliasz",
-            "spotify": "https://open.spotify.com/episode/2H4SaKOXV4fLfJ1FEImOsW",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-10-przetwarzanie-danych-w-allegro-dariusz-eliasz/id1500315781?i=1000522516217",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04NTU0NzQy?sa=X&ved=0CAUQkfYCahcKEwjg36DxttjwAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "10",
-        "host": "bartosz.galek"
+    "season": 1,
+    "episode": 11,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-06-15T00:00:00.000Z",
+    "slug": "projektowanie_ux_w_allegro",
+    "title": "Projektowanie UX w Allegro, czyli wszystko zależy od doświadczenia",
+    "authors": [
+      {
+        "author": "kasia.wrobel",
+        "name": "Kasia Wróbel"
+      }
+    ],
+    "toc": [
+      "Projektowanie na styku produktu, biznesu i potrzeb użytkownika.",
+      "Budzenie ciekawości, czyli czy jesteś w stanie zmienić coś, co sprawia problem tak wielu osobom na raz?",
+      "Kasia opowiada o \"układaniu klocków\", których użytkownik wie jak użyć."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/12---Projektowanie-UX-w-Allegro--czyli-wszystko-zaley-od-dowiadczenia---Katarzyna-Wrbel-e2455j6"
     },
-    {
-        "date": "2021-06-01T00:00:00.000Z",
-        "slug": "infrastruktura_Allegro",
-        "title": "Infrastruktura Allegro",
-      "authors": [
-        {
-          "author": "piotr.michonski",
-          "name": "Piotr Michoński"
-        }
-      ],
-        "toc": [
-            "Jak jest zbudowane środowisko uruchomienia aplikacji Allegro?",
-            "Jak działają serwerownie firmy i ile ich potrzeba, a które elementy Allegro działają w chmurze publicznej?",
-            "Jak przebiegała transformacja w Allegro i co zmieniało się przez lata?",
-            "Jak wzrost biznesu wpływa na wielkość infrastruktury i jak infrastruktura Allegro odczuła przyjście pandemii?",
-            "O tym, a także o rozwoju liderów technologii w Allegro oraz o historii powstania dżingla do naszych podcastów, opowie Piotr Michoński - menadżer Zespołów tworzących infrastrukturę Allegro."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8623783-sezon-ii-11-infrastruktura-allegro-piotr-michonski",
-            "spotify": "https://open.spotify.com/show/2rlbFoVg4eEVbrurrOkPHB",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/allegro-tech-podcast/id1500315781",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz"
-        },
-        "season": 2,
-        "episode": "11",
-        "host": "piotr.betkier"
+    "season": 1,
+    "episode": 12,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2020-06-29T00:00:00.000Z",
+    "slug": "badania_i_rozwoj_ml_w_allegro",
+    "title": "Badania i rozwój ML w Allegro",
+    "authors": [
+      {
+        "author": "ireneusz.gawlik",
+        "name": "Ireneusz Gawlik"
+      }
+    ],
+    "toc": [
+      "Gdzie kryje się Machine Learning w Allegro? Jakie projekty już dzisiaj korzystają z mocy sztucznej inteligencji?",
+      "Jak na codzień pracuje grupa badaczy nie tylko aplikująca, ale też rozwijająca algorytmy uczenia maszynowego?",
+      "Irek, Team Manager w grupie Allegro ML Research, opowiada więcej o tym jak się tworzy AI w Polsce."
+    ],
+    "links": {
+      "Research Engineer - Machine Learning": "https://jobs.smartrecruiters.com/Allegro/743999697865924"
     },
-    {
-        "date": "2021-06-16T00:00:00.000Z",
-        "slug": "rola_architekta_w_allegro",
-        "title": "Rola architekta w Allegro",
-      "authors": [
-        {
-          "author": "piotr.betkier",
-          "name": "Piotr Betkier"
-        }
-      ],
-        "toc": [
-            "Od kodowania do tworzenia strategii technicznej...",
-            "Jak wygląda rola architekta w Allegro?",
-            "Ile takich osób pracuje w naszej firmie i dlaczego ta rola jest tak różnorodna?",
-            "Czym jest Andamio i jak rozwijamy naszą platformę – o tym wszystkim opowie Piotr Betkier – Inżynier, Architekt Platformy Technicznej w Allegro oraz twórca piosenek o IT :)"
-        ],
-        "links": {
-            "Common code approach: from rich libraries to rich environment": "https://blog.allegro.tech/2020/07/common-code-approach.html",
-            "Piosenka smutnego Puppecisty": "https://www.youtube.com/watch?v=mlXSMb2obd0",
-            "Konferencja Confitura (dawniej Javarsovia)": "https://confitura.pl",
-            "Growing Spring-based commons, lessons learned (Spring I/O 2017)": "https://www.youtube.com/watch?v=y6uFC_T_fcc"
-        },
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/8712218",
-            "spotify": "https://open.spotify.com/episode/4cGe2Llr0as8kplBMZOP2i",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-ii-12-rola-architekta-w-allegro-piotr-betkier/id1500315781?i=1000525829886",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC04NzEyMjE4?sa=X&ved=0CAUQkfYCahcKEwjIjdHVhJ7xAhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 2,
-        "episode": "12",
-        "host": "bartosz.galek"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/13---Badania-i-rozwj-ML-w-Allegro---Ireneusz-Gawlik-e2455iq"
     },
-    {
-        "date": "2022-08-25T00:00:00.000Z",
-        "slug": "o-quality-assurance-w-allegro",
-        "title": "O Quality Assurance w Allegro",
-      "authors": [
-        {
-          "author": "ewa.ludwiczak",
-          "name": "Ewa Ludwiczak"
-        }
-      ],
-        "toc": [
-            "Na czym polega rola testera w Allegro?",
-            "Dlaczego testerzy w Allegro są blisko technologii i produktu?",
-            "Jak może rozwinąć się kariera testera, gdzie szukać aktualnej wiedzy i kim jest “Full Stack Tester”?",
-            "Czy pierwsze kroki w branży IT muszą być trudne i jak programowania uczą się dzieci?",
-            "Na te i inne pytania odpowiada Ewa Ludwiczak - liderka i testerka w Allegro. "
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/11164839",
-            "spotify": "https://open.spotify.com/episode/2x6dMXrADS3jB874KQITXO",
-            "applepodcasts": "https://podcasts.apple.com/eg/podcast/sezon-iii-1-o-quality-assurance-w-allegro-ewa-ludwiczak/id1500315781?i=1000577291168",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTE2NDgzOQ?sa=X&ved=0CAUQkfYCahcKEwiwpqvr3eH5AhUAAAAAHQAAAAAQCg"
-        },
-        "season": 3,
-        "episode": "1",
-        "host": "jakub.dowgird"
+    "season": 1,
+    "episode": 13,
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-02-10T00:00:00.000Z",
+    "slug": "zbiory_danych_w_allegro",
+    "title": "Zbiory danych w Allegro",
+    "authors": [
+      {
+        "author": "lukasz.sciga",
+        "name": "Łukasz Ściga"
+      }
+    ],
+    "toc": [
+      "Czym zajmuje się inżynier danych? Jak powstało Big Data?",
+      "Jak wykorzystuje się oraz kto korzysta z nowych zbiorów danych?",
+      "Czym różni się Data Scientist od Data Engineera?",
+      "Jak połączyć przetwarzanie streamingowe z przetwarzaniem batchowym? Z jakich narzędzi korzysta Data Engineer?",
+      "Na te pytania odpowie Łukasz Ściga - Data Engineer w Allegro, którego pasją jest programowanie gier komputerowych."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-1-Zbiory-danych-w-Allegro---ukasz-ciga-e2455j8"
     },
-    {
-        "date": "2022-09-08T00:00:00.000Z",
-        "slug": "o-tym-jak-powstawaly-zielone-automaty-paczkowe-allegro-one-box",
-        "title": "O tym jak powstawały automaty paczkowe Allegro One Box",
-        "authors": [
-          {
-            "author": "barbara.kaczorek",
-            "name": "Barbara Kaczorek"
-          },
-          {
-            "author": "jakub.kwietko",
-            "name": "Jakub Kwietko"
-          }
-        ],
-        "toc": [
-            "Jak wyglądała współpraca ponad 350 osób przy tak dużym i złożonym projekcie jak uruchomienie Allegro One Box? ",
-            "Z jakimi wyzwaniami zmierzyły się osoby, które przy nim pracowały?",
-            "Jak można mierzyć efekty swojej pracy w projektach takich, jak ten?",
-            "Dlaczego Product Manager musi czasem siedzieć z laptopem za prototypem urządzenia?",
-            "Na te i inne pytania odpowiadają Barbara Kaczorek - Product Manager w obszarze Delivery Experience w Allegro i Jakub Kwietko - lider zespołów developerskich OpenNet zaangażowanych w powstawanie Allegro One Box.",
-            "Dobrze wiedzieć: OpenNet to wiodący dostawca rozwiązań technologicznych dla branży logistycznej w Polsce i za granicą, od 2021 roku jest częścią Grupy Allegro."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/11261942",
-            "spotify": "https://open.spotify.com/episode/6t3mSnlAVICBqu0HMS5L9T",
-            "applepodcasts": "https://podcasts.apple.com/eg/podcast/sezon-iii-2-o-tym-jak-powstawa%C5%82y-zielone-automaty-paczkowe/id1500315781?i=1000578792320",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTI2MTk0Mg?sa=X&ved=0CAUQkfYCahcKEwjAoYLmzIT6AhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 3,
-        "episode": "2",
-        "host": "jakub.dowgird"
+    "season": 2,
+    "episode": "1",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-02-25T00:00:00.000Z",
+    "slug": "service_mesh_oraz_praca_programisty_w_allegro",
+    "title": "Service Mesh oraz praca programisty w Allegro",
+    "authors": [
+      {
+        "author": "dariusz.jedrzejczyk",
+        "name": "Dariusz Jędrzejczyk"
+      }
+    ],
+    "toc": [
+      "Czym jest Service Mesh? Jak został wdrożony do Allegro dla ponad 1000 usług na produkcji?",
+      "Dlaczego usprawnianie pracy programistom jest dla nas ważne i dlaczego programista to klient?",
+      "Jak wytwarzamy produkty używane przez zespoły deweloperskie?",
+      "Kim jest Principal w Allegro? Jak może wyglądać ścieżka kariery programisty?",
+      "Na te pytania odpowie Dariusz Jędrzejczyk - Principal Software Engineer."
+    ],
+    "links": {
+      "Migrating to Service Mesh": " https://blog.allegro.tech/2020/05/migrating-to-service-mesh.html",
+      "Jakie korzyści daje Service Mesh?": " https://nofluffjobs.com/blog/jakie-korzysci-daje-service-mesh/",
+      "allegro/envoy-control": "https://github.com/allegro/envoy-control/",
+      "Service Mesh Failure Stories at Scale - Krzysztof Słonka": " https://www.youtube.com/watch?v=lQxpIGBW4CQ",
+      "Engineering Management: The Pendulum Or The Ladder": " https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/"
     },
-    {
-        "date": "2022-09-22T00:00:00.000Z",
-        "slug": "o-data-i-ai-w-allegro-pay",
-        "title": "O Data & AI w Allegro Pay",
-        "authors": [
-          {
-            "author": "pawel.marcinkowski",
-            "name": "Paweł Marcinkowski"
-          }
-        ],
-        "toc": [
-            "Jak zbudowany jest obszar Data & AI w Allegro Pay i jak (współ)pracują w nim ze sobą poszczególne role oraz zespoły?",
-            "Jak działa decision engine, kluczowy komponent, od którego zależy sukces Allegro Pay?",
-            "Jak wyglądałby proces wprowadzenia zupełnie nowej funkcjonalności lub nowego produktu w Allegro Pay?",
-            "Kim jest i za co odpowiada Data Product Manager?",
-            "Jak w modelach Machine Learning do predykcji ryzyka kredytowego Allegro Pay wykorzystuje kontekst otoczenia?",
-            "Na te i inne pytania związane z pracą w największym fintechu w Europie Środkowej odpowiada Paweł Marcinkowski - lider obszaru Data & AI w Allegro Pay."
-        ],
-        "footnotes": [
-          "<sup>*</sup><i>NPS usługi Allegro Pay wynosi 94 pkt (na podstawie badania zadowolenia klientów)</i>",
-          "<sup>**</sup><i>średnia liczba odwiedzających Allegro.pl to ok. 22M miesięcznie (Gemius Mediapanel)</i>"
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/11344062",
-            "spotify": "https://open.spotify.com/episode/0zAgBL5NDsy6m1jF99yFc5",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-3-o-data-ai-w-allegro-pay-pawe%C5%82-marcinkowski/id1500315781?i=1000580270354",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTM0NDA2Mg?sa=X&ved=0CAUQkfYCahcKEwiok-XM8af6AhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 3,
-        "episode": "3",
-        "host": "jakub.dowgird"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-2---Service-Mesh-oraz-praca-programisty-w-Allegro---Dariusz-Jdrzejczyk-e2455ir"
     },
-    {
-        "date": "2022-10-06T00:00:00.000Z",
-        "slug": "o-rekrutacji-developerów-w-allegro",
-        "title": "O rekrutacji developerów w Allegro",
-        "authors": [
-          {
-            "author": "jakub.westfalewski",
-            "name": "Jakub Westfalewski"
-          },
-          {
-            "author": "pawel.wolak",
-            "name": "Paweł Wolak"
-          }
-        ],
-        "toc": [
-          "Jak zacząć pracę w Allegro i dlaczego #dobrzetubyć?",
-          "Jak wygląda proces rekrutacji na stanowiska developerskie?",
-          "Jak przygotować się do udziału w naszej rekrutacji i kim są “finiszujący perfekcjoniści”?",
-          "Czym jest i za co odpowiada Hiring Squad?",
-          "Jakie wymagania trzeba spełnić, aby być senior developerem, a jakie, żeby zostać juniorem?",
-          "Na te i inne pytania odpowiadają Jakub Westfalewski - Team Manager zespołu zajmującego się procesem zakupowym i pozakupowym oraz Paweł Wolak - Senior Front-end Software Engineer w Allegro."
-        ],
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/11427162",
-            "spotify": "https://open.spotify.com/episode/6TSbUpBWjg39a73SPXoPNH",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-4-o-rekrutacji-developer%C3%B3w-w-allegro-jakub/id1500315781?i=1000581775815",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTQyNzE2Mg?sa=X&ved=0CAUQkfYCahcKEwjo4PbKn8v6AhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 3,
-        "episode": "4",
-        "host": "jakub.dowgird"
+    "season": 2,
+    "episode": "2",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-03-04T00:00:00.000Z",
+    "slug": "sre_w_allegro",
+    "title": "SRE w Allegro",
+    "authors": [
+      {
+        "author": "piotr.klapczynski",
+        "name": "Piotr Klapczyński"
+      }
+    ],
+    "toc": [
+      "Jak w Allegro radzimy sobie z awariami?",
+      "Jak im zapobiegać oraz dlaczego sami je wywołujemy?",
+      "Czy szalonym jest składanie całego Data Center?",
+      "Czym jest SRE w Allegro i dlaczego jest unikatowe?",
+      "Na te wszystkie pytania odpowie Piotr Klapczyński - Team Leader w Allegro."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-3---SRE-w-Allegro---Piotr-Klapczyski-e2455is"
     },
-    {
-        "date": "2022-10-20T00:00:00.000Z",
-        "slug": "o-machine-learning-research-w-allegro",
-        "title": "O Machine Learning Research w Allegro",
-        "authors": [
-          {
-            "author": "riccardo.belluzzo",
-            "name": "Riccardo Belluzzo"
-          }
-        ],
-        "toc": [
-          "Jak wygląda praca Machine Learning Research Engineera w Allegro?",
-          "Jak udaje nam się efektywnie operować na ogromnej ilości danych oraz milionach parametrów?",
-          "Czym są modele językowe trenowane na korpusie danych pochodzących z Allegro i jaki mają wpływ na realizowane projekty?",
-          "Jak współpracujemy ze środowiskiem naukowym?",
-          "I wreszcie - gdzie i w jakiej formie można znaleźć wiedzę, którą dzieli się nasz zespół Machine Learning Research?",
-          "O tym wszystkim rozmawialiśmy z kolejnym gościem Allegro Tech Podcast, czyli Riccardo Belluzzo, który pracuje jako Machine Learning Research Engineer w Allegro."
-        ],
-        "links": {
-          "Allegro ML Research": "https://ml.allegro.tech/",
-          "Do you speak Allegro? Large Scale Language Modeling": "https://www.youtube.com/watch?v=6T-R4kgIbBs",
-          "HerBERT on GitHub": "https://github.com/allegro/HerBERT"
-        },
-        "platforms": {
-          "buzzsprout": "https://www.buzzsprout.com/887914/11513540",
-          "spotify": "https://open.spotify.com/episode/0oOJIn38JtKyMbMkZLlIg3",
-          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-5-o-machine-learning-research-w-allegro-riccardo/id1500315781?i=1000583264992",
-          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTUxMzU0MA?sa=X&ved=0CAUQkfYCahcKEwiIpLuNo-76AhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 3,
-        "episode": "5",
-        "host": "jakub.dowgird"
+    "season": 2,
+    "episode": "3",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-03-18T00:00:00.000Z",
+    "slug": "summer_e_xperience_w_allegro",
+    "title": "Summer e-Xperience w Allegro",
+    "authors": [
+      {
+        "author": "alicja.halamska",
+        "name": "Alicja Halamska"
+      }
+    ],
+    "toc": [
+      "Jak wygląda program Summer e-Xperience w obszarze technologii?",
+      "Czego można nauczyć się podczas programu jako Software Engineer?",
+      "Dlaczego #dobrzetubyć najlepiej oddaje ideę programu?",
+      "Komu polecamy nasz letni program i co radzimy?",
+      "Na te pytania odpowie Alicja Halamska - Junior Software Engineer w Allegro, która w 2020 roku dołączyła do programu Summer e-Xperience."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-4----Summer-e-Xperience-w-Allegro---Alicja-Halamska-e2455ic"
     },
-    {
-        "date": "2022-11-03T00:00:00.000Z",
-        "slug": "tlumaczenia-na-allegro",
-        "title": "Tłumaczenia na Allegro",
-        "authors": [
-          {
-            "author": "bartosz.wojtkiewicz",
-            "name": "Bartosz Wojtkiewicz"
-          }
-        ],
-        "toc": [
-          "W jaki sposób Allegro stało się platformą wielojęzyczną?",
-          "Które treści tłumaczymy z pomocą tłumaczy, a które maszynowo?",
-          "Jak działa system, który automatyzuje zarządzanie komunikacją pomiędzy zespołami developerskimi a profesjonalnymi tłumaczami?",
-          "Jak dbamy o jakość tłumaczeń i badamy działanie silnika tłumaczeniowego?",
-          "Do czego wykorzystujemy nasze serwery w nocy oraz co to ma wspólnego z tłumaczeniami?",
-          "Na te i inne pytania odpowiada Bartosz Wojtkiewicz - Principal Software Engineer w Allegro w szóstym odcinku Allegro Tech Podcast."
-        ],
-        "links": {},
-        "platforms": {
-          "buzzsprout": "https://www.buzzsprout.com/887914/11614965",
-          "spotify": "https://open.spotify.com/episode/1NXzXulE1JynPGb0HZGzAy",
-          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-6-t%C5%82umaczenia-na-allegro-bartosz-wojtkiewicz/id1500315781?i=1000584894614",
-          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTYxNDk2NQ?sa=X&ved=0CAUQkfYCahcKEwi41qT7ypH7AhUAAAAAHQAAAAAQCg"
-        },
-        "season": 3,
-        "episode": "6",
-        "host": "jakub.dowgird"
+    "season": 2,
+    "episode": "4",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-03-25T00:00:00.000Z",
+    "slug": "logistyka_na_platformie_allegro",
+    "title": "Logistyka na platformie Allegro",
+    "authors": [
+      {
+        "author": "jakub.kaczmarski",
+        "name": "Jakub Kaczmarski"
+      }
+    ],
+    "toc": [
+      "Jak zarządzać zespołem ponad 100 osób?",
+      "Jak rozwijać motywację, pasję i potencjał swoich pracowników? Na co zwracać uwagę?",
+      "Jakie inspiracje można czerpać ze sportu w zarządzaniu?",
+      "Jak zorganizować swoją pracę?",
+      "O tym opowie Jakub Kaczmarski - Technology Director odpowiadając za obszar Delivery Experience i Allegro Smart! na platformie Allegro."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-5---Logistyka-na-platformie-Allegro---Jakub-Kaczmarski-e2455j7"
     },
-    {
-        "date": "2022-11-17T00:00:00.000Z",
-        "slug": "o-pracy-mobile-engineerow-w-allegro",
-        "title": "O pracy Mobile Software Engineerów w Allegro",
-        "authors": [
-            {
-                "author": "patrycja.haraburda",
-                "name": "Patrycja Haraburda"
-            },
-            {
-                "author": "artur.chabera",
-                "name": "Artur Chabera"
-            }
-        ],
-        "toc": [
-            "Jak wygląda codzienność Mobile Software Engineerów w Allegro i skala, z którą pracują?",
-            "Jak przebiega proces developmentu w przypadku aplikacji mobilnych?",
-            "Jak radzimy sobie z łączeniem interesów różnych zespołów rozwijających tę samą aplikację i w czym pomaga nam tu modularyzacja?",
-            "Co nam dają testy usability i dlaczego warto pamiętać o dostępności?",
-            "Jak integruje się i rozwija społeczność mobilna w Allegro?",
-            "Wszystko wyjaśnią Wam Patrycja Haraburda i Artur Chabera - Mobile Software Engineerowie w Allegro."
-        ],
-        "links": {},
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/11696809",
-            "spotify": "https://open.spotify.com/episode/4FVd7TkRRwqPZByzd9hsqd",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-7-o-pracy-mobile-software-engineer%C3%B3w-w-allegro/id1500315781?i=1000586531618",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTY5NjgwOQ?sa=X&ved=0CAUQkfYCahcKEwignNSW4bT7AhUAAAAAHQAAAAAQCg"
-        },
-        "season": 3,
-        "episode": "7",
-        "host": "jakub.dowgird"
+    "season": 2,
+    "episode": "5",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-04-08T00:00:00.000Z",
+    "slug": "swiat_product_managera_w_allegro",
+    "title": "Świat Product Managera w Allegro",
+    "authors": [
+      {
+        "author": "aleksandra.wasielewska",
+        "name": "Aleksandra Wasielewska"
+      }
+    ],
+    "toc": [
+      "Jak tworzy się produkty dla milionów kupujących?",
+      "Jak wygląda warsztat i ekosystem Product Managera w Allegro?",
+      "Jak zaskakujące jest Allegro od środka? Jak mądrze wykorzystywać dane w pracy Product Managera?",
+      "I jak w Allegro jeśli się chce, to można realizować się nie tylko jako pracownik, ale człowiek?",
+      "Nie tylko to, ale też wiele wiele więcej w rozmowie z Piotrkiem, odkryje przed Wami Ola Wasielewska - Senior Product Manager w Allegro."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-6---wiat-Product-Managera-w-Allegro---Aleksandra-Wasielewska-e2455jn"
     },
-    {
-        "date": "2022-12-01T00:00:00.000Z",
-        "slug": "o-pracy-w-allegro-ads",
-        "title": "O pracy w Allegro Ads",
-        "authors": [
-            {
-                "author": "michal.wisniewski",
-                "name": "Michał Wiśniewski"
-            }
-        ],
-        "toc": [
-            "Za co odpowiada, jak działa i co oferuje klientom Allegro Ads?",
-            "Co charakteryzuje DSP (Demand Side Platform), jeden z produktów w ekosystemie Allegro Ads?",
-            "Czego dotyczy wyśrubowanie wymagań technicznych w tym produkcie i z jakimi wyzwaniami mierzymy się biznesowo?",
-            "Skąd biorą się pomysły na rozwój Allegro Ads?",
-            "I wreszcie - jak wyglądała droga Michała od programu e-xperience do roli Junior Software Engineera oraz czym zaskoczyła go najbardziej?",
-            "Posłuchajcie kolejnego odcinka Allegro Tech Podcast."
-        ],
-        "links": {},
-        "platforms": {
-            "buzzsprout": "https://www.buzzsprout.com/887914/11786864",
-            "spotify": "https://open.spotify.com/episode/04whP3FO3GgYIlMe1c3kC0",
-            "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-8-o-pracy-w-allegro-ads-micha%C5%82-wi%C5%9Bniewski/id1500315781?i=1000588262246",
-            "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTc4Njg2NA?sa=X&ved=0CAUQkfYCahcKEwiYqeyP_Nf7AhUAAAAAHQAAAAAQCg"
-        },
-        "season": 3,
-        "episode": "8",
-        "host": "jakub.dowgird"
+    "season": 2,
+    "episode": "6",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-04-16T00:00:00.000Z",
+    "slug": "data_scientist_w_allegro",
+    "title": "Data Scientist w Allegro",
+    "authors": [
+      {
+        "author": "julia.bluszcz",
+        "name": "Julia Bluszcz"
+      }
+    ],
+    "toc": [
+      "Czym zajmuje się Data Scientist?",
+      "Jak wygląda proces budowania modeli danych?",
+      "Jak klasyczne i bayesowskie metody statystyczne pozwalają nam odpowiedzieć na pytanie “dlaczego”?",
+      "Czym różni się korelacja od kauzacji i jak estymować efekty różnego rodzaju zmian, nawet gdy nie możemy przeprowadzić testów AB?",
+      "Odpowiedzi na te pytania znajdziecie w najnowszym podcascie, którego gościem jest Julia Bluszcz."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-7---Data-Scientist-w-Allegro---Julia-Bluszcz-e2455ji"
     },
-    {
-        "date": "2022-12-15T00:00:00.000Z",
-        "slug": "o-allegro-family",
-        "title": "O Allegro Family",
-        "authors": [
-            {
-                "author": "adrianna.dworniak",
-                "name": "Adrianna Dworniak"
-            },
-            {
-                "author": "lukasz.gomolka",
-                "name": "Łukasz Gomółka"
-            }
-        ],
-        "toc": [
-            "Czy współpraca dwóch Product Managerów przy jednym produkcie jest możliwa i jak zadbać o jej efektywność?",
-            "Czym jest “churn” i na czym polega w branży e-commerce?",
-            "Co wspólnego z błędnymi rekomendacjami zakupowymi mają maty do ćwiczeń?",
-            "Jak rozwiązywać wielopłaszczyznowe problemy, dzięki kompleksowemu zrozumieniu perspektywy klienta i bez wykorzystywania restrykcji?",
-            "Jak powstawało Allegro Family oraz dlaczego czasem warto zacząć weryfikację pomysłu na produkt od rozmowy z… teściową?",
-            "Na te i inne pytania odpowiadają  Adrianna Dworniak - Senior Product Manager i Łukasz Gomółka - Product Team Manager w Allegro."     
-        ],
-        "links": {},
-        "platforms": {
-          "buzzsprout": "https://www.buzzsprout.com/887914/11863175",
-          "spotify": "https://open.spotify.com/episode/3AVDRR6qwTQ4C5hmKC67lP",
-          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-9-o-allegro-family-adrianna-dworniak-i-%C5%82ukasz/id1500315781?i=1000590247250",
-          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMTg2MzE3NQ?sa=X&ved=0CAUQkfYCahcKEwiA-NfFrPv7AhUAAAAAHQAAAAAQCg"
-        },
-        "season": 3,
-        "episode": "9",
-        "host": "jakub.dowgird"
+    "season": 2,
+    "episode": "7",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-04-22T00:00:00.000Z",
+    "slug": "inzynier_w_zespole_produktowym",
+    "title": "Inżynier w zespole produktowym",
+    "authors": [
+      {
+        "author": "michal.bareja",
+        "name": "Michał Bareja"
+      }
+    ],
+    "toc": [
+      "Czym zajmuje się Team Leader w Allegro?",
+      "Jak wygląda cykl życia oprogramowania w zespole produktowym?",
+      "Jaka jest rola inżyniera oprogramowania w rozwoju produktu?",
+      "W jaki sposób wykorzystujemy w Allegro Event Storming?",
+      "Jakich technologii używają programiści w zespołach produktowych?",
+      "Między innymi o tym opowie Michał Bareja, Team Manager w Allegro, w rozmowie z Piotrem Betkierem."
+    ],
+    "links": {
+      "Prezentacja Macieja Szarlińskiego o Event Stormingu": "https://www.youtube.com/watch?v=V_tHe7oIL-I",
+      "Migrating to Service Mesh": "https://blog.allegro.tech/2020/05/migrating-to-service-mesh.html",
+      "Service Mesh oraz praca programisty w Allegro": "https://podcast.allegro.tech/service_mesh_oraz_praca_programisty_w_allegro/",
+      "Wyszukiwanie w allegro - jak nie potknąć się o długi ogon?": "https://podcast.allegro.tech/wyszukiwanie_w_allegro",
+      "Architektura Heksagonalna": "https://www.youtube.com/watch?v=ILBX9fa9aJo"
     },
-    {
-        "date": "2023-01-12T00:00:00.000Z",
-        "slug": "o-rozwiazaniach-opartych-na-badaniach",
-        "title": "O tym jak przygotowujemy rozwiązania dla klientów w oparciu o badania",
-        "authors": [
-            {
-                "author": "zosia.smierzchalska",
-                "name": "Zosia Śmierzchalska"
-            },
-            {
-                "author": "jakub.dodot",
-                "name": "Jakub Dodot"
-            }
-        ],
-        "toc": [
-            "W jaki sposób przygotowujemy rozwiązania dla klientów Allegro w oparciu o badania?",
-            "Jak wygląda ścieżka projektu od eksploracji do wdrożenia i późniejszego monitorowania?",
-            "Jaką korzyść dają badania usability?",
-            "Dlaczego warto, aby badanie było prowadzone przez dwoje badaczy?",
-            "O współpracy między badaczami i projektantami UX rozmawialiśmy z Zofią Śmierzchalską - Design Managerką i Jakubem Dodotem - Senior UX Research Managerem w Allegro."
-        ],
-        "links": {},
-        "platforms": {
-          "buzzsprout": "https://www.buzzsprout.com/887914/12028304",
-          "spotify": "https://open.spotify.com/episode/0GvLXHIiXarDZFhR0EHllT",
-          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-9-o-tym-jak-przygotowujemy-rozwi%C4%85zania-dla/id1500315781?i=1000594027729",
-          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMjAyODMwNA?sa=X&ved=0CAUQkfYCahcKEwjA4-fFpML8AhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 3,
-        "episode": "10",
-        "host": "jakub.dowgird"
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-8---Inynier-w-zespole-produktowym---Micha-Bareja-e2455jj"
     },
-    {
-        "date": "2023-01-26T00:00:00.000Z",
-        "slug": "o-pracy-i-rozwoju-w-zespole-it-support",
-        "title": "O pracy i rozwoju w zespole IT Support",
-        "authors": [
-            {
-                "author": "bartosz.kaczynski",
-                "name": "Bartosz Kaczyński"
-            }
-        ],
-        "toc": [
-            "Jak wygląda praca w zespole, który zawsze udziela odpowiedzi na zadane pytania?",
-            "Co można zautomatyzować w obszarze wsparcia IT i jaki to może mieć cel?",
-            "Czy praca w zespole IT Support jest bramą do kariery w IT, może dawać możliwości rozwoju i przynosić satysfakcję?",
-            "Jakie wyzwania przed tym zespołem w Allegro postawiła pandemia koronawirusa?",
-            "O umożliwianiu pracownikom Grupy Allegro sprawnej pracy na narzędziach i usługach IT dostarczanych przez zespół Business Services & Automation opowiada Bartosz Kaczyński - IT Service Operations Manager w Allegro."
-        ],
-        "links": {},
-        "platforms": {
-          "buzzsprout": "https://www.buzzsprout.com/887914/12115526",
-          "spotify": "https://open.spotify.com/episode/3HL2S65umd9JShqlwNNmAG",
-          "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-11-o-pracy-i-rozwoju-w-zespole-it-support/id1500315781?i=1000596674341",
-          "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMjExNTUyNg?sa=X&ved=0CAUQkfYCahcKEwiAtf7W8-T8AhUAAAAAHQAAAAAQAQ"
-        },
-        "season": 3,
-        "episode": "11",
-        "host": "jakub.dowgird"
+    "season": 2,
+    "episode": "8",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-05-06T00:00:00.000Z",
+    "slug": "od_inzyniera_do_lidera_w_allegro",
+    "title": "Od inżyniera do lidera w Allegro",
+    "authors": [
+      {
+        "author": "bartosz.galek",
+        "name": "Bartosz Gałek"
+      }
+    ],
+    "toc": [
+      "Czym jest Opbox i jakie wyzwania przed nim stoją?",
+      "Jak w Allegro angażujemy się w rozwój kultury Open Source?",
+      "Ile mamy projektów na GitHubie i jak świętujemy Hacktoberfest?",
+      "W jaki sposób można rozwinąć się od inżyniera do lidera?",
+      "Na te pytania w najnowszym Allegro Tech Podcast odpowie Bartek Gałek, Team Leader w Allegro."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-9---Od-inyniera-do-lidera-w-Allegro---Bartosz-Gaek-e2455ii"
     },
-    {
-      "date": "2023-02-23T00:00:00.000Z",
-      "slug": "o-pracy-liderek-i-liderow-w-allegro",
-      "title": "O pracy liderek i liderów w Allegro",
-      "authors": [
-          {
-              "author": "alina.magowska",
-              "name": "Alina Magowska"
-          },
-          {
-            "author": "agnieszka.jagusiak",
-            "name": "Agnieszka Jagusiak"
-        }
-      ],
-      "toc": [
-        "Jakimi umiejętnościami powinny wyróżniać się osoby na stanowiskach liderskich?",
-        "Czy wykształcenie techniczne to “must have”, aby dołączyć do zespołów Tech & Data w Allegro?",
-        "Czym charakteryzuje się praca liderek i liderów w Allegro oraz jak wspieramy ich rozwój?",
-        "Jaki wpływ na produkt oraz organizację mają liderki i liderzy w Allegro?",
-        "Jak zacząć budowanie swojej ścieżki kariery w roli liderskiej? Jakich wyzwań się spodziewać i jak sobie z nimi poradzić?",
-        "Posłuchajcie rozmowy z udziałem Aliny Magowskiej - Dyrektorki obszaru User Experience i Agnieszki Jagusiak - Senior Managerki w zespole Group IT Services w Allegro."        
-      ],
-      "links": {},
-      "platforms": {
-        "buzzsprout": "https://www.buzzsprout.com/887914/12295540",
-        "spotify": "https://open.spotify.com/episode/1X0iSNzNVyKgQInKM1fONh",
-        "applepodcasts": "https://podcasts.apple.com/pl/podcast/sezon-iii-12-o-pracy-liderek-i-lider%C3%B3w-w-allegro-alina/id1500315781?i=1000601217289",
-        "googlepodcasts": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84ODc5MTQucnNz/episode/QnV6enNwcm91dC0xMjI5NTU0MA?sa=X&ved=0CAUQkfYCahcKEwiQ1fSxk6v9AhUAAAAAHQAAAAAQAQ"
+    "season": 2,
+    "episode": "9",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-05-20T00:00:00.000Z",
+    "slug": "praca_architekta_ekosystemu_big_data_w_Allegro",
+    "title": "Praca architekta ekosystemu big data w Allegro",
+    "authors": [
+      {
+        "author": "dariusz.eliasz",
+        "name": "Dariusz Eliasz"
+      }
+    ],
+    "toc": [
+      "Jak wygląda praca architekta ekosystemu big data w Allegro?",
+      "Jakie zadania realizuje nasz zespół odpowiedzialny za narzędzia i infrastrukturę dla przetwarzania danych?",
+      "Kiedy możemy mówić o dużych danych i ile petabajtów przetwarza Allegro?",
+      "Skąd pochodzą dane Allegro i dlaczego jest ich tak dużo oraz z jakiego powodu dopiero teraz przenosimy się do chmury?",
+      "O tym wszystkim opowie zdobywca statuetki Allegro Tech Hero - Dariusz Eliasz – Team Manager & Platform Architect w Allegro."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-10---Przetwarzanie-danych-w-Allegro---Dariusz-Eliasz-e2455ja"
+    },
+    "season": 2,
+    "episode": "10",
+    "host": "bartosz.galek"
+  },
+  {
+    "date": "2021-06-01T00:00:00.000Z",
+    "slug": "infrastruktura_Allegro",
+    "title": "Infrastruktura Allegro",
+    "authors": [
+      {
+        "author": "piotr.michonski",
+        "name": "Piotr Michoński"
+      }
+    ],
+    "toc": [
+      "Jak jest zbudowane środowisko uruchomienia aplikacji Allegro?",
+      "Jak działają serwerownie firmy i ile ich potrzeba, a które elementy Allegro działają w chmurze publicznej?",
+      "Jak przebiegała transformacja w Allegro i co zmieniało się przez lata?",
+      "Jak wzrost biznesu wpływa na wielkość infrastruktury i jak infrastruktura Allegro odczuła przyjście pandemii?",
+      "O tym, a także o rozwoju liderów technologii w Allegro oraz o historii powstania dżingla do naszych podcastów, opowie Piotr Michoński - menadżer Zespołów tworzących infrastrukturę Allegro."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-11---Infrastruktura-Allegro---Piotr-Michoski-e2455jk"
+    },
+    "season": 2,
+    "episode": "11",
+    "host": "piotr.betkier"
+  },
+  {
+    "date": "2021-06-16T00:00:00.000Z",
+    "slug": "rola_architekta_w_allegro",
+    "title": "Rola architekta w Allegro",
+    "authors": [
+      {
+        "author": "piotr.betkier",
+        "name": "Piotr Betkier"
+      }
+    ],
+    "toc": [
+      "Od kodowania do tworzenia strategii technicznej...",
+      "Jak wygląda rola architekta w Allegro?",
+      "Ile takich osób pracuje w naszej firmie i dlaczego ta rola jest tak różnorodna?",
+      "Czym jest Andamio i jak rozwijamy naszą platformę – o tym wszystkim opowie Piotr Betkier – Inżynier, Architekt Platformy Technicznej w Allegro oraz twórca piosenek o IT :)"
+    ],
+    "links": {
+      "Common code approach: from rich libraries to rich environment": "https://blog.allegro.tech/2020/07/common-code-approach.html",
+      "Piosenka smutnego Puppecisty": "https://www.youtube.com/watch?v=mlXSMb2obd0",
+      "Konferencja Confitura (dawniej Javarsovia)": "https://confitura.pl",
+      "Growing Spring-based commons, lessons learned (Spring I/O 2017)": "https://www.youtube.com/watch?v=y6uFC_T_fcc"
+    },
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-II-12---Rola-architekta-w-Allegro---Piotr-Betkier-e2455jl"
+    },
+    "season": 2,
+    "episode": "12",
+    "host": "bartosz.galek"
+  },
+  {
+    "date": "2022-08-25T00:00:00.000Z",
+    "slug": "o-quality-assurance-w-allegro",
+    "title": "O Quality Assurance w Allegro",
+    "authors": [
+      {
+        "author": "ewa.ludwiczak",
+        "name": "Ewa Ludwiczak"
+      }
+    ],
+    "toc": [
+      "Na czym polega rola testera w Allegro?",
+      "Dlaczego testerzy w Allegro są blisko technologii i produktu?",
+      "Jak może rozwinąć się kariera testera, gdzie szukać aktualnej wiedzy i kim jest “Full Stack Tester”?",
+      "Czy pierwsze kroki w branży IT muszą być trudne i jak programowania uczą się dzieci?",
+      "Na te i inne pytania odpowiada Ewa Ludwiczak - liderka i testerka w Allegro. "
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-1---O-Quality-Assurance-w-Allegro---Ewa-Ludwiczak-e2455ij"
+    },
+    "season": 3,
+    "episode": "1",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2022-09-08T00:00:00.000Z",
+    "slug": "o-tym-jak-powstawaly-zielone-automaty-paczkowe-allegro-one-box",
+    "title": "O tym jak powstawały automaty paczkowe Allegro One Box",
+    "authors": [
+      {
+        "author": "barbara.kaczorek",
+        "name": "Barbara Kaczorek"
       },
-      "season": 3,
-      "episode": "12",
-      "host": "jakub.dowgird"
+      {
+        "author": "jakub.kwietko",
+        "name": "Jakub Kwietko"
+      }
+    ],
+    "toc": [
+      "Jak wyglądała współpraca ponad 350 osób przy tak dużym i złożonym projekcie jak uruchomienie Allegro One Box? ",
+      "Z jakimi wyzwaniami zmierzyły się osoby, które przy nim pracowały?",
+      "Jak można mierzyć efekty swojej pracy w projektach takich, jak ten?",
+      "Dlaczego Product Manager musi czasem siedzieć z laptopem za prototypem urządzenia?",
+      "Na te i inne pytania odpowiadają Barbara Kaczorek - Product Manager w obszarze Delivery Experience w Allegro i Jakub Kwietko - lider zespołów developerskich OpenNet zaangażowanych w powstawanie Allegro One Box.",
+      "Dobrze wiedzieć: OpenNet to wiodący dostawca rozwiązań technologicznych dla branży logistycznej w Polsce i za granicą, od 2021 roku jest częścią Grupy Allegro."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-2-O-tym-jak-powstaway-automaty-paczkowe-Allegro-One-Box---Barbara-Kaczorek-i-Jakub-Kwietko-e2455jg"
+    },
+    "season": 3,
+    "episode": "2",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2022-09-22T00:00:00.000Z",
+    "slug": "o-data-i-ai-w-allegro-pay",
+    "title": "O Data & AI w Allegro Pay",
+    "authors": [
+      {
+        "author": "pawel.marcinkowski",
+        "name": "Paweł Marcinkowski"
+      }
+    ],
+    "toc": [
+      "Jak zbudowany jest obszar Data & AI w Allegro Pay i jak (współ)pracują w nim ze sobą poszczególne role oraz zespoły?",
+      "Jak działa decision engine, kluczowy komponent, od którego zależy sukces Allegro Pay?",
+      "Jak wyglądałby proces wprowadzenia zupełnie nowej funkcjonalności lub nowego produktu w Allegro Pay?",
+      "Kim jest i za co odpowiada Data Product Manager?",
+      "Jak w modelach Machine Learning do predykcji ryzyka kredytowego Allegro Pay wykorzystuje kontekst otoczenia?",
+      "Na te i inne pytania związane z pracą w największym fintechu w Europie Środkowej odpowiada Paweł Marcinkowski - lider obszaru Data & AI w Allegro Pay."
+    ],
+    "footnotes": [
+      "<sup>*</sup><i>NPS usługi Allegro Pay wynosi 94 pkt (na podstawie badania zadowolenia klientów)</i>",
+      "<sup>**</sup><i>średnia liczba odwiedzających Allegro.pl to ok. 22M miesięcznie (Gemius Mediapanel)</i>"
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-3-O-Data--AI-w-Allegro-Pay---Pawe-Marcinkowski-e2455jp"
+    },
+    "season": 3,
+    "episode": "3",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2022-10-06T00:00:00.000Z",
+    "slug": "o-rekrutacji-developerów-w-allegro",
+    "title": "O rekrutacji developerów w Allegro",
+    "authors": [
+      {
+        "author": "jakub.westfalewski",
+        "name": "Jakub Westfalewski"
+      },
+      {
+        "author": "pawel.wolak",
+        "name": "Paweł Wolak"
+      }
+    ],
+    "toc": [
+      "Jak zacząć pracę w Allegro i dlaczego #dobrzetubyć?",
+      "Jak wygląda proces rekrutacji na stanowiska developerskie?",
+      "Jak przygotować się do udziału w naszej rekrutacji i kim są “finiszujący perfekcjoniści”?",
+      "Czym jest i za co odpowiada Hiring Squad?",
+      "Jakie wymagania trzeba spełnić, aby być senior developerem, a jakie, żeby zostać juniorem?",
+      "Na te i inne pytania odpowiadają Jakub Westfalewski - Team Manager zespołu zajmującego się procesem zakupowym i pozakupowym oraz Paweł Wolak - Senior Front-end Software Engineer w Allegro."
+    ],
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-4-O-rekrutacji-developerw-w-Allegro---Jakub-Westfalewski-i-Pawe-Wolak-e2455ik"
+    },
+    "season": 3,
+    "episode": "4",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2022-10-20T00:00:00.000Z",
+    "slug": "o-machine-learning-research-w-allegro",
+    "title": "O Machine Learning Research w Allegro",
+    "authors": [
+      {
+        "author": "riccardo.belluzzo",
+        "name": "Riccardo Belluzzo"
+      }
+    ],
+    "toc": [
+      "Jak wygląda praca Machine Learning Research Engineera w Allegro?",
+      "Jak udaje nam się efektywnie operować na ogromnej ilości danych oraz milionach parametrów?",
+      "Czym są modele językowe trenowane na korpusie danych pochodzących z Allegro i jaki mają wpływ na realizowane projekty?",
+      "Jak współpracujemy ze środowiskiem naukowym?",
+      "I wreszcie - gdzie i w jakiej formie można znaleźć wiedzę, którą dzieli się nasz zespół Machine Learning Research?",
+      "O tym wszystkim rozmawialiśmy z kolejnym gościem Allegro Tech Podcast, czyli Riccardo Belluzzo, który pracuje jako Machine Learning Research Engineer w Allegro."
+    ],
+    "links": {
+      "Allegro ML Research": "https://ml.allegro.tech/",
+      "Do you speak Allegro? Large Scale Language Modeling": "https://www.youtube.com/watch?v=6T-R4kgIbBs",
+      "HerBERT on GitHub": "https://github.com/allegro/HerBERT"
+    },
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-5-O-Machine-Learning-Research-w-Allegro---Riccardo-Belluzzo-e2455ip"
+    },
+    "season": 3,
+    "episode": "5",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2022-11-03T00:00:00.000Z",
+    "slug": "tlumaczenia-na-allegro",
+    "title": "Tłumaczenia na Allegro",
+    "authors": [
+      {
+        "author": "bartosz.wojtkiewicz",
+        "name": "Bartosz Wojtkiewicz"
+      }
+    ],
+    "toc": [
+      "W jaki sposób Allegro stało się platformą wielojęzyczną?",
+      "Które treści tłumaczymy z pomocą tłumaczy, a które maszynowo?",
+      "Jak działa system, który automatyzuje zarządzanie komunikacją pomiędzy zespołami developerskimi a profesjonalnymi tłumaczami?",
+      "Jak dbamy o jakość tłumaczeń i badamy działanie silnika tłumaczeniowego?",
+      "Do czego wykorzystujemy nasze serwery w nocy oraz co to ma wspólnego z tłumaczeniami?",
+      "Na te i inne pytania odpowiada Bartosz Wojtkiewicz - Principal Software Engineer w Allegro w szóstym odcinku Allegro Tech Podcast."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-6-Tumaczenia-na-Allegro---Bartosz-Wojtkiewicz-e2455jm"
+    },
+    "season": 3,
+    "episode": "6",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2022-11-17T00:00:00.000Z",
+    "slug": "o-pracy-mobile-engineerow-w-allegro",
+    "title": "O pracy Mobile Software Engineerów w Allegro",
+    "authors": [
+      {
+        "author": "patrycja.haraburda",
+        "name": "Patrycja Haraburda"
+      },
+      {
+        "author": "artur.chabera",
+        "name": "Artur Chabera"
+      }
+    ],
+    "toc": [
+      "Jak wygląda codzienność Mobile Software Engineerów w Allegro i skala, z którą pracują?",
+      "Jak przebiega proces developmentu w przypadku aplikacji mobilnych?",
+      "Jak radzimy sobie z łączeniem interesów różnych zespołów rozwijających tę samą aplikację i w czym pomaga nam tu modularyzacja?",
+      "Co nam dają testy usability i dlaczego warto pamiętać o dostępności?",
+      "Jak integruje się i rozwija społeczność mobilna w Allegro?",
+      "Wszystko wyjaśnią Wam Patrycja Haraburda i Artur Chabera - Mobile Software Engineerowie w Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-7-O-pracy-Mobile-Software-Engineerw-w-Allegro---Patrycja-Haraburda-i-Artur-Chabera-e2455jh"
+    },
+    "season": 3,
+    "episode": "7",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2022-12-01T00:00:00.000Z",
+    "slug": "o-pracy-w-allegro-ads",
+    "title": "O pracy w Allegro Ads",
+    "authors": [
+      {
+        "author": "michal.wisniewski",
+        "name": "Michał Wiśniewski"
+      }
+    ],
+    "toc": [
+      "Za co odpowiada, jak działa i co oferuje klientom Allegro Ads?",
+      "Co charakteryzuje DSP (Demand Side Platform), jeden z produktów w ekosystemie Allegro Ads?",
+      "Czego dotyczy wyśrubowanie wymagań technicznych w tym produkcie i z jakimi wyzwaniami mierzymy się biznesowo?",
+      "Skąd biorą się pomysły na rozwój Allegro Ads?",
+      "I wreszcie - jak wyglądała droga Michała od programu e-xperience do roli Junior Software Engineera oraz czym zaskoczyła go najbardziej?",
+      "Posłuchajcie kolejnego odcinka Allegro Tech Podcast."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-8-O-pracy-w-Allegro-Ads---Micha-Winiewski-e2455je"
+    },
+    "season": 3,
+    "episode": "8",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2022-12-15T00:00:00.000Z",
+    "slug": "o-allegro-family",
+    "title": "O Allegro Family",
+    "authors": [
+      {
+        "author": "adrianna.dworniak",
+        "name": "Adrianna Dworniak"
+      },
+      {
+        "author": "lukasz.gomolka",
+        "name": "Łukasz Gomółka"
+      }
+    ],
+    "toc": [
+      "Czy współpraca dwóch Product Managerów przy jednym produkcie jest możliwa i jak zadbać o jej efektywność?",
+      "Czym jest “churn” i na czym polega w branży e-commerce?",
+      "Co wspólnego z błędnymi rekomendacjami zakupowymi mają maty do ćwiczeń?",
+      "Jak rozwiązywać wielopłaszczyznowe problemy, dzięki kompleksowemu zrozumieniu perspektywy klienta i bez wykorzystywania restrykcji?",
+      "Jak powstawało Allegro Family oraz dlaczego czasem warto zacząć weryfikację pomysłu na produkt od rozmowy z… teściową?",
+      "Na te i inne pytania odpowiadają  Adrianna Dworniak - Senior Product Manager i Łukasz Gomółka - Product Team Manager w Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-9-O-Allegro-Family---Adrianna-Dworniak-i-ukasz-Gomka-e2455jo"
+    },
+    "season": 3,
+    "episode": "9",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-01-12T00:00:00.000Z",
+    "slug": "o-rozwiazaniach-opartych-na-badaniach",
+    "title": "O tym jak przygotowujemy rozwiązania dla klientów w oparciu o badania",
+    "authors": [
+      {
+        "author": "zosia.smierzchalska",
+        "name": "Zosia Śmierzchalska"
+      },
+      {
+        "author": "jakub.dodot",
+        "name": "Jakub Dodot"
+      }
+    ],
+    "toc": [
+      "W jaki sposób przygotowujemy rozwiązania dla klientów Allegro w oparciu o badania?",
+      "Jak wygląda ścieżka projektu od eksploracji do wdrożenia i późniejszego monitorowania?",
+      "Jaką korzyść dają badania usability?",
+      "Dlaczego warto, aby badanie było prowadzone przez dwoje badaczy?",
+      "O współpracy między badaczami i projektantami UX rozmawialiśmy z Zofią Śmierzchalską - Design Managerką i Jakubem Dodotem - Senior UX Research Managerem w Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-10-O-tym-jak-przygotowujemy-rozwizania-dla-klientw-w-oparciu-o-badania---Zofia-mierzchalska-i-Jakub-Dodot-e2455jr"
+    },
+    "season": 3,
+    "episode": "10",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-01-26T00:00:00.000Z",
+    "slug": "o-pracy-i-rozwoju-w-zespole-it-support",
+    "title": "O pracy i rozwoju w zespole IT Support",
+    "authors": [
+      {
+        "author": "bartosz.kaczynski",
+        "name": "Bartosz Kaczyński"
+      }
+    ],
+    "toc": [
+      "Jak wygląda praca w zespole, który zawsze udziela odpowiedzi na zadane pytania?",
+      "Co można zautomatyzować w obszarze wsparcia IT i jaki to może mieć cel?",
+      "Czy praca w zespole IT Support jest bramą do kariery w IT, może dawać możliwości rozwoju i przynosić satysfakcję?",
+      "Jakie wyzwania przed tym zespołem w Allegro postawiła pandemia koronawirusa?",
+      "O umożliwianiu pracownikom Grupy Allegro sprawnej pracy na narzędziach i usługach IT dostarczanych przez zespół Business Services & Automation opowiada Bartosz Kaczyński - IT Service Operations Manager w Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-11-O-pracy-i-rozwoju-w-zespole-IT-Support---Bartosz-Kaczyski-e2455iu"
+    },
+    "season": 3,
+    "episode": "11",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-02-23T00:00:00.000Z",
+    "slug": "o-pracy-liderek-i-liderow-w-allegro",
+    "title": "O pracy liderek i liderów w Allegro",
+    "authors": [
+      {
+        "author": "alina.magowska",
+        "name": "Alina Magowska"
+      },
+      {
+        "author": "agnieszka.jagusiak",
+        "name": "Agnieszka Jagusiak"
+      }
+    ],
+    "toc": [
+      "Jakimi umiejętnościami powinny wyróżniać się osoby na stanowiskach liderskich?",
+      "Czy wykształcenie techniczne to “must have”, aby dołączyć do zespołów Tech & Data w Allegro?",
+      "Czym charakteryzuje się praca liderek i liderów w Allegro oraz jak wspieramy ich rozwój?",
+      "Jaki wpływ na produkt oraz organizację mają liderki i liderzy w Allegro?",
+      "Jak zacząć budowanie swojej ścieżki kariery w roli liderskiej? Jakich wyzwań się spodziewać i jak sobie z nimi poradzić?",
+      "Posłuchajcie rozmowy z udziałem Aliny Magowskiej - Dyrektorki obszaru User Experience i Agnieszki Jagusiak - Senior Managerki w zespole Group IT Services w Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-III-12-O-pracy-liderek-i-liderw-w-Allegro---Alina-Magowska-i-Agnieszka-Jagusiak-e2455j3"
+    },
+    "season": 3,
+    "episode": "12",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-06-15T00:00:00.000Z",
+    "slug": "o-developer-experience-czyli-jak-pracuje-sie-programistkom-w-allegro",
+    "title": "O Developer Experience, czyli jak pracuje się programist(k)om w Allegro",
+    "authors": [
+      {
+        "author": "michal.janiszewski",
+        "name": "Michał Janiszewski"
+      }
+    ],
+    "toc": [
+      "Czym jest Developer Experience (DX) w Allegro i kto za nie odpowiada?",
+      "Co robimy, jako firma, aby nasi developerzy(-ki) mieli(-ły) jak największy komfort pracy?",
+      "Czym jest Allegro Developer Platform i jak dużą swobodę w wyborze technologii pozostawia developer(k)om?",
+      "Jak mierzymy zadowolenie użytkowników i efektywność naszych narzędzi? Skąd wiemy co naprawdę się sprawdza na różnych płaszczyznach?"
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-IV-1-O-Developer-Experience--czyli-jak-pracuje-si-programistkom-w-Allegro---Micha-Janiszewski-e253bui/a-a9ug9ev"
+    },
+    "season": 4,
+    "episode": "1",
+    "host": "jakub.dowgird"
   }
 ]

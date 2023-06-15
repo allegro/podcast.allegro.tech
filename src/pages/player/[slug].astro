@@ -1,11 +1,10 @@
 ---
-import {getAllPodcasts,  getPodcastBySlug} from '../../lib/api.mjs';
-import PodcastPlayer from '../../components/PodcastPlayer.svelte';
+import {podcasts,  getPodcastBySlug} from '../../lib/api.mjs';
+import PodcastPlayer from '../../components/PodcastPlayer.astro';
 import BaseHead from '../../layouts/HeadSingle.astro';
 
 export async function getStaticPaths() {
-    const podcastsEnriched = getAllPodcasts();
-    return podcastsEnriched.map(item => {
+    return podcasts.map(item => {
         return {
             params : {slug: item.slug}
         }
@@ -22,12 +21,6 @@ let title =  podcast.title;
 <BaseHead podcast = {podcast}/>
 </head>
  <body>
-        <PodcastPlayer
-        audioSource = {podcast.audioSource}
-        podcastTitle = {podcast.podcastTitle}
-        podcastPlatforms = {podcast.podcastPlatforms}
-        podcastCovers = {podcast.podcastCovers}
-        podcastImage = {podcast.podcastImage}
-        client:load/>
+    <PodcastPlayer url={podcast.spotify.url} />
  </body>
  </html>

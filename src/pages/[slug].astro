@@ -1,32 +1,23 @@
 ---
-
 import BaseBody from '../layouts/Body.astro';
 import BaseHead from '../layouts/HeadSingle.astro';
-
-import {getAllPodcasts,  getPodcastBySlug} from '../lib/api.mjs';
-import PodcastPlayer from '../components/PodcastPlayer.svelte';
+import {podcasts,  getPodcastBySlug} from '../lib/api.mjs';
+import PodcastPlayer from '../components/PodcastPlayer.astro';
 import Links from '../components/Links.astro';
 import Description from '../components/Description.astro';
 import Footnotes from '../components/Footnotes.astro';
-
 import PodcastHeader from '../components/PodcastHeader.astro';
 import Author from '../components/Author.astro';
 
-
 // Component Imports
-
-
 export async function getStaticPaths({rss}) {
-    const podcastsEnriched = getAllPodcasts();
-
-    return podcastsEnriched.map(item => {
+    return podcasts.map(item => {
         return {
             params : {slug: item.slug}
         }
     })
 }
 const {slug} = Astro.params;
-
 
 const podcast =  getPodcastBySlug(slug);
 let title =  podcast.title;
@@ -41,22 +32,14 @@ let title =  podcast.title;
     <section class="content">
         <div class="m-card" itemType="http://schema.org/PodcastEpisode">
             <PodcastHeader podcast={podcast}/>
-            <PodcastPlayer
-            audioSource = {podcast.audioSource}
-            podcastTitle = {podcast.podcastTitle}
-            podcastPlatforms = {podcast.podcastPlatforms}
-            podcastCovers = {podcast.podcastCovers}
-            podcastImage = {podcast.podcastImage}
-            client:load/>
+            <PodcastPlayer url={podcast.spotify.url} />
             <Description toc = {podcast.toc} />
             <Footnotes footnotes = {podcast.footnotes || []} />
         </div>
         <Links links = {podcast.links}/>
         <section class="post-author" id="autor">
-        {podcast.authorsData.map((authorData) => (
-            <Author authorData = {authorData} />
-            ))}
-            <Author authorData = {podcast.hostData} />
+        {podcast.authorsData.map((authorData) => (<Author authorData={authorData} />))}
+        <Author authorData= {podcast.hostData} />
         </section>
     </section>
     </div>
