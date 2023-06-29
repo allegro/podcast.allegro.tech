@@ -1034,5 +1034,34 @@
     "season": 4,
     "episode": "1",
     "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-06-29T00:00:00.000Z",
+    "slug": "o-technologiach-i-projektach-w-allegro-pay",
+    "title": "O technologiach i projektach w Allegro Pay",
+    "authors": [
+      {
+        "author": "mariusz.budzyn",
+        "name": "Mariusz Budzyn"
+      },
+      {
+        "author": "tomasz.szczerba",
+        "name": "Tomasz Szczerba"
+      }
+    ],
+    "toc": [
+      "Jak powstała usługa Allegro Pay i co ma wspólnego z ratatouille?",
+      "Jakie projekty i technologie stoją za tym rozwiązaniem?",
+      "Jak to jest pracować w Azure i obsługiwać ruch, który generuje Allegro?", 
+      "Czym inżynierów może zaskoczyć praca w Allegro Pay i co czeka na nich (na przykład) w programie All4Customer?", 
+      "O migrowaniu baz CosmosDB, wymaganiach skali i dostępności, a także o rozwijaniu ludzi i technologii rozmawialiśmy z Mariuszem Budzynem i Tomaszem Szczerbą. Zapraszamy do słuchania! na różnych płaszczyznach?"
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/SEZON-IV-2-O-technologiach-i-projektach-w-Allegro-Pay---Mariusz-Budzyn--Tomasz-Szczerba-e26a6bk"
+    },
+    "season": 4,
+    "episode": "2",
+    "host": "jakub.dowgird"
   }
 ]

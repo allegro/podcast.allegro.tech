@@ -229,5 +229,15 @@
         "name": "Agnieszka Jagusiak",
         "bio": "At Allegro, she develops IT products and solutions - currently supporting quality and effective customer service and the Trust & Safety area. She is responsible for innovative technological transformation programs based on automation and ML. As a mentor and coach, she helps other leaders in the IT industry to develop.",
         "linkedin": "agnieszka-jagusiak"
+    },
+    "tomasz.szczerba": {
+        "name": "Tomasz Szczerba",
+        "bio": "Senior Manager at Allegro Pay. On a daily basis, he deals with improving Allegro Pay from the usability and technological side. He feels best with C# but I like learning new things, which made me write scala, f# and javascript, among others. Privately, I like to explore on a bike, read books about space and play Nintendo games.",
+        "linkedin": "tomasz-szczerba"
+    },
+    "mariusz.budzyn": {
+        "name": "Mariusz Budzyn",
+        "bio": "Senior Manager at Allegro Pay. Leader of technical teams for the financial services Allegro Pay, Allegro Pay Business and Merchant Finance. He uses strong analytical skills to simplify the world of finance through technology, and as an F1 fan, he strives for faster and reliable solutions. He feels that petrol also flows in his veins, and spends his free time adapting smart home solutions in his home.",
+        "linkedin": "mariuszbudzyn"
     }
 }
