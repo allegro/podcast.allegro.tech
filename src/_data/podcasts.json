@@ -1052,8 +1052,8 @@
     "toc": [
       "Jak powstała usługa Allegro Pay i co ma wspólnego z ratatouille?",
       "Jakie projekty i technologie stoją za tym rozwiązaniem?",
-      "Jak to jest pracować w Azure i obsługiwać ruch, który generuje Allegro?", 
-      "Czym inżynierów może zaskoczyć praca w Allegro Pay i co czeka na nich (na przykład) w programie All4Customer?", 
+      "Jak to jest pracować w Azure i obsługiwać ruch, który generuje Allegro?",
+      "Czym inżynierów może zaskoczyć praca w Allegro Pay i co czeka na nich (na przykład) w programie All4Customer?",
       "O migrowaniu baz CosmosDB, wymaganiach skali i dostępności, a także o rozwijaniu ludzi i technologii rozmawialiśmy z Mariuszem Budzynem i Tomaszem Szczerbą. Zapraszamy do słuchania! na różnych płaszczyznach?"
     ],
     "links": {},
@@ -1062,6 +1062,35 @@
     },
     "season": 4,
     "episode": "2",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-07-14T00:00:00.000Z",
+    "slug": "o-data-science-hub-w-allegro",
+    "title": "O Data Science Hub w Allegro",
+    "authors": [
+      {
+        "author": "karolina.nieradka",
+        "name": "Karolina Nieradka"
+      },
+      {
+        "author": "kamil.konikiewicz",
+        "name": "Kamil Konikiewicz"
+      }
+    ],
+    "toc": [
+      "Co kryje się pod pojęciem Data Science Hub w Allegro?",
+      "Jakie działania rozwijamy w tym obszarze i jak oceniamy ich potencjał?",
+      "O czym jest projekt Wilson i na czym skupiamy się w projekcie przewidywania zakupów cyklicznych?",
+      "Jak wykorzystujemy sztuczną inteligencję i gdzie jest dla niej miejsce wśród naszych kierunków rozwoju?",
+      "O AI Transformation, poczuciu sprawczości, mieszance kompetencji i talentów zamkniętej w rolach Data Scientist, Data Engineer i Data Analyst rozmawialiśmy z Karoliną Nieradką i Kamilem Konikiewiczem.,"
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/Sezon-IV-3---O-Data-Science-Hub-w-Allegro---Karolina-Nieradka--Kamil-Konikiewicz-e26s3rb"
+    },
+    "season": 4,
+    "episode": "3",
     "host": "jakub.dowgird"
   }
 ]

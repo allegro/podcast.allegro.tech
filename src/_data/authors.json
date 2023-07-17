@@ -239,5 +239,15 @@
         "name": "Mariusz Budzyn",
         "bio": "Senior Manager at Allegro Pay. Leader of technical teams for the financial services Allegro Pay, Allegro Pay Business and Merchant Finance. He uses strong analytical skills to simplify the world of finance through technology, and as an F1 fan, he strives for faster and reliable solutions. He feels that petrol also flows in his veins, and spends his free time adapting smart home solutions in his home.",
         "linkedin": "mariuszbudzyn"
+    },
+    "karolina.nieradka": {
+        "name": "Karolina Nieradka",
+        "bio": "Senior AI Project Manager in the Data Science Team. On a daily basis, she manages AI projects through their entire lifecycle - from idea scoping to technical model implementation. She's a big fan of agile delivery methodologies constantly focusing on ways to improve the daily work of the project teams.",
+        "linkedin": "karolina-nieradka"
+    },
+    "kamil.konikiewicz": {
+        "name": "Kamil Konikiewicz",
+        "bio": "Head of Data Science at Allegro responsible for the Data Science area, where we implement machine learning projects, e.g. for commercial, marketing, logistics or advertising teams. Regardless of whether we use classic methods of predictive modeling, contextual embedding or computer vision techniques, we always focus on maximizing the business effect and this is the approach I try to share and spread in the Data world.",
+        "linkedin": "kamilkonikiewicz"
     }
 }
