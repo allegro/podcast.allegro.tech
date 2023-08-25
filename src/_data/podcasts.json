@@ -1122,5 +1122,34 @@
     "season": 4,
     "episode": "4",
     "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-08-24T00:00:00.000Z",
+    "slug": "o-roli-analitykow-biznesowych-w-allegro",
+    "title": "O roli analityków biznesowych w Allegro",
+    "authors": [
+      {
+        "author": "jakub.krol",
+        "name": "Jakub Król"
+      },
+      {
+        "author": "mateusz.falkowski",
+        "name": "Mateusz Falkowski"
+      }
+    ],
+    "toc": [
+      "Czym zajmują się analitycy danych w Allegro i za jakie projekty odpowiadają?",
+      "Z jakich rodzajów danych i narzędzi korzystają w codziennej pracy?",
+      "Jakie (przykładowe) obszary tematyczne pokrywamy danymi, które analizujemy w Allegro?",
+      "Jakich umiejętności szukamy u analityków biznesowych w Allegro i jak można do nas dołączyć?",
+      "O roli analityków biznesowych i pracy w skali Allegro opowiadają Jakub Król i Mateusz Falkowski - Senior Data Analysts w Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/Sezon-IV-5-O-roli-analitykw-biznesowych-w-Allegro---Mateusz-Falkowski--Jakub-Krl-e28e0jb"
+    },
+    "season": 4,
+    "episode": "5",
+    "host": "jakub.dowgird"
   }
 ]

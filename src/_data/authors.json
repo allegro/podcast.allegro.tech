@@ -259,5 +259,15 @@
         "name": "Michał Kosmulski",
         "bio": "Michał is interested in all things high-performance, whether it be low-level stuff like analyzing how OS caches affect I/O operations or high-level things like proper application design and functional programming.At Allegro, he is a Principal Software Engineer and  the Allegro Tech Blog’s editor-in-chief.",
         "linkedin": "kosmulski"
+    },
+    "jakub.krol": {
+        "name": "Jakub Król",
+        "bio": "Jakub is a full-time problem solver. Past 2 years spent as a core member of the Market Intelligence Team in Allegro, working with the external data, analyzing the ecommerce environment and spreading the market & competitive insights across the organization. Free time used mostly for sports, cooking and candle-making.",
+        "linkedin": "jakubkrol95"
+    },
+    "mateusz.falkowski": {
+        "name": "Mateusz Falkowski",
+        "bio": "Mateusz considers himself a business-oriented Data Analyst. Working in Allegro for 3 years, mostly on developing Advertising self-service products' analytics. When not writing SQL or Python scripts he likes to dig into fairly complex board games.",
+        "linkedin": "mateusz-falkowski-2759a913b"
     }
 }
