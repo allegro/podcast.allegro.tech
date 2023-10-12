@@ -1151,5 +1151,30 @@
     "season": 4,
     "episode": "5",
     "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-10-11T00:00:00.000Z",
+    "slug": "o-chatbotach-i-ich-wplywie-na-allegro",
+    "title": "O chatbotach i ich wpływie na Allegro",
+    "authors": [
+      {
+        "author": "rafal.gajewski",
+        "name": "Rafał Gajewski"
+      }
+    ],
+    "toc": [
+      "Jakie procesy automatyzujemy w Allegro i co warto o nich wiedzieć w kontekście obszaru Customer Experience?",
+      "W czym pomagają nam chatboty, jak je rozwijamy i dbamy o ich jakość?",
+      "Kim są Allina oraz Albert i co mają wspólnego z automatyzacją?",
+      "Za jakie rozwiązania otrzymaliśmy nagrodę hiperautomatyzacji?",
+      "O tym wszystkim posłuchacie w odcinku z udziałem Rafała Gajewskiego - Managera w obszarze IT Services w Allegro."      
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/Sezon-IV-6-O-chatbotach-i-ich-wpywie-na-Allegro---Rafa-Gajewski-e290e05"
+    },
+    "season": 4,
+    "episode": "6",
+    "host": "jakub.dowgird"
   }
 ]

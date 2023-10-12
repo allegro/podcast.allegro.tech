@@ -269,5 +269,10 @@
         "name": "Mateusz Falkowski",
         "bio": "Mateusz considers himself a business-oriented Data Analyst. Working in Allegro for 3 years, mostly on developing Advertising self-service products' analytics. When not writing SQL or Python scripts he likes to dig into fairly complex board games.",
         "linkedin": "mateusz-falkowski-2759a913b"
+    },
+    "rafal.gajewski": {
+        "name": "Rafał Gajewski",
+        "bio": "Manager with over 9 years of experience in managing development teams, running own business and producing own and clients' IT products. He has been with Allegro for 6 years and is currently the manager of the team responsible for the automation of the Customer Experience department. On weekends, he shares his knowledge and experience in IT project management with students at one of Poznań's universities. Privately, he is a fan of motor sports and snowboarding.",
+        "linkedin": "rafal-gajewski-a11a2955"
     }
 }
