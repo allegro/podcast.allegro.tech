@@ -1176,5 +1176,34 @@
     "season": 4,
     "episode": "6",
     "host": "jakub.dowgird"
+  },
+  {
+    "date": "2023-11-16T00:00:00.000Z",
+    "slug": "mbox-server-driven-ui-dla-aplikacji-mobilnych",
+    "title": "MBox: server-driven UI dla aplikacji mobilnych",
+    "authors": [
+      {
+        "author": "paulina.sadowska",
+        "name": "Paulina Sadowska"
+      },
+      {
+        "author": "tomasz.gebarowski",
+        "name": "Tomasz Gębarowski"
+      }
+    ],
+    "toc": [
+      "Czym jest i jak powstał MBox: wewnętrzna platforma server-driven UI dla aplikacji mobilnych w Allegro?",
+      "Skąd wziął się pomysł na to rozwiązanie i na jakie bolączki odpowiada?",
+      "Dlaczego zdecydowaliśmy się na budowanie tego typu rozwiązania in-house i z jakimi wyzwaniami mierzyliśmy się w procesie tworzenia?",
+      "Co wyróżnia zespoły pracujące nad tym narzędziem i jak pracuje im się bez Product Ownera?",
+      "Posłuchajcie siódmego odcinka Allegro Tech Podcast z udziałem Pauliny Sadowskiej i Tomasza Gębarowskiego - Managerów w obszarze Technical Platform Services w Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/Sezon-IV-7-MBox-server-driven-UI-dla-aplikacji-mobilnych---Paulina-Sadowska--Tomasz-Gbarowski-e2ao101"
+    },
+    "season": 4,
+    "episode": "7",
+    "host": "jakub.dowgird"
   }
 ]

@@ -274,5 +274,15 @@
         "name": "Rafał Gajewski",
         "bio": "Manager with over 9 years of experience in managing development teams, running own business and producing own and clients' IT products. He has been with Allegro for 6 years and is currently the manager of the team responsible for the automation of the Customer Experience department. On weekends, he shares his knowledge and experience in IT project management with students at one of Poznań's universities. Privately, he is a fan of motor sports and snowboarding.",
         "linkedin": "rafal-gajewski-a11a2955"
+    },
+    "paulina.sadowska": {
+        "name": "Paulina Sadowska",
+        "bio": "Paulina is the team manager of the team working on MBox - the server-side rendering tool that allows developing features in native Android and iOS apps on the backend side. She enjoys reading, exercising, and sharing knowledge on her blog and Youtube channel.",
+        "linkedin": "paulina-sadowska-135a0791"
+    },
+    "tomasz.gebarowski": {
+        "name": "Tomasz Gębarowski",
+        "bio": "Engineering Manager and Software Engineering passionate. At Allegro, he is bringing server-driven UI to the e-commerce world. He previously worked on mobile banking, secure messaging, and distributed VoIP services. He is interested in scaling things and improving the process. Experienced in maintaining large codebases and long-term projects. Privately father of two, home automation lover, and LEGO builder.",
+        "linkedin": "tomaszgebarowski"
     }
 }
