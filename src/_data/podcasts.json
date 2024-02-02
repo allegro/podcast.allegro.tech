@@ -1205,5 +1205,34 @@
     "season": 4,
     "episode": "7",
     "host": "jakub.dowgird"
+  },
+  {
+    "date": "2024-02-01T00:00:00.000Z",
+    "slug": "programowanie-co-liczy-sie-w-nim-najbardziej",
+    "title": "Programowanie - co liczy się w nim najbardziej?",
+    "authors": [
+      {
+        "author": "rafal.schmidt",
+        "name": "Rafał Schmidt"
+      },
+      {
+        "author": "waldemar.panas",
+        "name": "Waldemar Panas"
+      }
+    ],
+    "toc": [
+      "Jaką ścieżkę trzeba przejść, aby dobrze programować?",
+      "Gdzie zdobywać wiedzę, doświadczenie i szlifować swoje umiejętności?",
+      "Ile czasu potrzeba aby nabrać doświadczenia i jak zadbać o swój dalszy rozwój?",
+      "Na czym w praktyce polegają role (Senior) Software Engineer oraz Engineering Manager w Allegro i kto najlepiej sprawdza się w naszych zespołach?",
+      "Posłuchajcie nowego odcinka Allegro Tech Podcast z udziałem Rafała Schmidta (Senior Software Engineer) i Waldemara Panasa (Manager, Engineering) z Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/Sezon-IV-8-Jak-zosta-dobrym-programist----Rafa-Schmidt-i-Waldemar-Panas-e2f33nu"
+    },
+    "season": 4,
+    "episode": "8",
+    "host": "jakub.dowgird"
   }
 ]

@@ -284,5 +284,15 @@
         "name": "Tomasz Gębarowski",
         "bio": "Engineering Manager and Software Engineering passionate. At Allegro, he is bringing server-driven UI to the e-commerce world. He previously worked on mobile banking, secure messaging, and distributed VoIP services. He is interested in scaling things and improving the process. Experienced in maintaining large codebases and long-term projects. Privately father of two, home automation lover, and LEGO builder.",
         "linkedin": "tomaszgebarowski"
+    },
+    "rafal.schmidt": {
+        "name": "Rafał Schmidt",
+        "bio": "I work as a Senior Software Engineer at Allegro Pay, where we are building one of the fastest-growing fintech in Poland. My work involves not only using Microsoft technologies, especially .NET, and Azure Cloud but also a passion for System Design. In my free time, I enjoy cycling and reading books.",
+        "linkedin": "https://www.linkedin.com/in/rafalschmidt"
+    },
+    "waldemar.panas": {
+        "name": "Waldemar Panas",
+        "bio": "Engineering manager with a rich background in professional software development with over ten years of experience in the tech industry. Since joining Allegro in 2018, Waldemar has been at the forefront of driving innovation and excellence in software engineering. His role extends beyond the confines of Allegro, actively engaging in the wider tech community as a co-organizer of the Java User Group in Poznan and GeeCON, a prominent conference focused on JVM technologies in Krakow and Prague.",
+        "linkedin": "https://www.linkedin.com/in/w-panas"
     }
 }
