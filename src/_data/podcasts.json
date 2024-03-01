@@ -1234,5 +1234,35 @@
     "season": 4,
     "episode": "8",
     "host": "jakub.dowgird"
+  },
+  {
+    "date": "2024-02-29T00:00:00.000Z",
+    "slug": "o-pracy-analitykow-w-obszarze-technologii-i-przetwarzaniu-danych-w-duzej-skali",
+    "title": "O pracy analityków w obszarze technologii i przetwarzaniu danych w dużej skali",
+    "authors": [
+      {
+        "author": "adrianna.napiorkowska",
+        "name": "Adrianna Napiórkowska"
+      },
+      {
+        "author": "kaya.akcelikli",
+        "name": "Kaya Akcelikli"
+      }
+    ],
+    "toc": [
+      "Na czym polega praca analityków w obszarze technologii w Allegro?",
+      "Jakich narzędzi i technologii na co dzień używają osoby pracujące na tych stanowiskach?", 
+      "Jak efekty pracy analityków wpływają na naszą platformę, produkty i funkcjonalności?",
+      "Czym zajmuje się Data Product Manager w Allegro Pay?",
+      "Dlaczego monety są ważnym elementem ekosystemu Allegro?",
+      "Posłuchajcie kolejnego odcinka Allegro Tech Podcast tym razem z udziałem Adrianny Napiórkowskiej - Data Product Managerki w Allegro Pay oraz Kaya Akcelikli - Senior Managera w obszarze Data w Allegro."      
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://podcasters.spotify.com/pod/show/teresa-bben/embed/episodes/Sezon-IV-9-O-pracy-analitykw-w-obszarze-technologii-i-przetwarzaniu-danych-w-duej-skali-e2gd7s8"
+    },
+    "season": 4,
+    "episode": "9",
+    "host": "jakub.dowgird"
   }
 ]

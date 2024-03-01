@@ -294,5 +294,15 @@
         "name": "Waldemar Panas",
         "bio": "Engineering manager with a rich background in professional software development with over ten years of experience in the tech industry. Since joining Allegro in 2018, Waldemar has been at the forefront of driving innovation and excellence in software engineering. His role extends beyond the confines of Allegro, actively engaging in the wider tech community as a co-organizer of the Java User Group in Poznan and GeeCON, a prominent conference focused on JVM technologies in Krakow and Prague.",
         "linkedin": "https://www.linkedin.com/in/w-panas"
+    },
+    "adrianna.napiorkowska": {
+        "name": "Adrianna Napiórkowska",
+        "bio": "Data Product Manager at Allegro Pay. My work is based on the role of a Data Analyst, but is enriched with elements of building processes and tables for complex analytical processes in the Data Mesh environment. The products of our team's work improve activities related to acquiring and activating new customers.",
+        "linkedin": "https://www.linkedin.com/in/anapiorkowska"
+    },
+    "kaya.akcelikli": {
+        "name": "Kaya Akcelikli",
+        "bio": "From an early age, I have been fascinated with numbers, forecasting, and connecting 'dots' from various areas. As the Head of the Data Department in Consumer Tech, I build a bridge between product analytics, data engineering, and data science. I coordinate and support product and technological changes across all aspects of Allegro's customer purchase journey.  The mission of my career is to ensure that the data and analyses I work on bring significant business value and help develop projects that have an impact.",
+        "linkedin": "https://www.linkedin.com/in/kaya-akcelikli-91bb1192"
     }
 }
