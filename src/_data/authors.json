@@ -304,5 +304,40 @@
         "name": "Kaya Akcelikli",
         "bio": "From an early age, I have been fascinated with numbers, forecasting, and connecting 'dots' from various areas. As the Head of the Data Department in Consumer Tech, I build a bridge between product analytics, data engineering, and data science. I coordinate and support product and technological changes across all aspects of Allegro's customer purchase journey.  The mission of my career is to ensure that the data and analyses I work on bring significant business value and help develop projects that have an impact.",
         "linkedin": "https://www.linkedin.com/in/kaya-akcelikli-91bb1192"
+    },
+    "lukasz.basa": {
+        "name": "Łukasz Basa",
+        "bio": "Łukasz is an IT Security Manager in Allegro. He has over a dozen years of professional experience in the area of cybersecurity, building and managing IT infrastructure. He started his professional path working on creating innovative authentication systems using USSD communication and then spent a decade in the financial sector maintaining IT security in banks from the Polish TOP10. A graduate of the AGH University of Science and Technology in Kraków, majoring in computer science. Holder of industry-specific CISSP, CEH, PN-EN ISO / IEC 27001: 2017-06 Lead Auditor certificates.",
+        "linkedin": "https://www.linkedin.com/in/basq/"
+    },
+    "marcin.ratajczyk": {
+        "name": "Marcin Ratajczyk",
+        "bio": "I am a member of Allegro's IT Security Incident Response team. On a daily basis, my responsibilities focus on protecting employees and users of the Allegro platform from cyber threats. My favorite areas of IT security are threat hunting and digital forensics. In my spare time, I supplement my knowledge of post-1945 world history and international relations.",
+        "linkedin": "https://www.linkedin.com/in/rataj/"
+    },
+    "katarzyna.kowalska": {
+        "name": "Katarzyna Kowalska",
+        "bio": "Manager with many years of experience. In Allegro for 6 years. Currently, she manages a team responsible for developing and maintaining the SalesForce platform. She began her career in the Customer Experience departments of well-known brands, and she used the experience and knowledge she gained in standardizing and automating service processes in CRM. Currently, in Allegro, she cooperates with various areas, such as Commerce, Advertising and Delivery Experience, which allows her to take a holistic approach to the development of SalesForce, adapting it to the needs of various segments of the company. Thanks to her strategic thinking skills and interpersonal skills, she effectively leads a team, taking care of the constant development of the SalesForce platform, which contributes to the increase in the efficiency and satisfaction of users of this technology in Allegro.",
+        "linkedin": "https://www.linkedin.com/in/katarzyna-kowalska-7134a390/"
+    },
+    "barbara.kolber-bugajska": {
+        "name": "Barbara Kolber-Bugajska",
+        "bio": "UX Research Manager at Allegro, where she leads two teams of talented researchers focused on understanding and enhancing consumer experience. With a strong academic background in behavioral economics and psychology, she brings a deep understanding of human behavior to her work. She specializes in a mixed-method approach, translating research findings into business strategies that shape product direction. Passionate about mentoring, Barbara is dedicated to developing her team’s expertise and regularly shares her insights as an academic lecturer. She’s also a frequent speaker at conferences like Ways Conf and UX Research Confetti.",
+        "linkedin": "https://www.linkedin.com/in/barbara-kolber-bugajska"
+    },
+    "anna.ostrowska": {
+        "name": "Anna Ostrowska",
+        "bio": "Since 2020, she has been involved in research on solutions for buyers at Allegro. She has a natural talent for carefully collecting and organizing data (not only research data). She is convinced that it is always worth asking more questions. Openness and commitment are key elements of her professional philosophy.",
+        "linkedin": "https://www.linkedin.com/in/anna-ostrowska/"
+    },
+    "michal.krzyzan": {
+        "name": "Michał Krzyżan",
+        "bio": "Senior Information Security Specialist. Professionally involved in information security, he takes care of security on a daily basis at Allegro, cooperating with various business areas. He trains and educates employees and - during various external events - people from outside Allegro, sharing knowledge in the field of cyber threats and safe practices. After hours, he enjoys virtual adventures in the world of Action RPG games.",
+        "linkedin": "https://www.linkedin.com/in/konradsynoradzki/"
+    },
+    "konrad.synoradzki": {
+        "name": "Konrad Synoradzki",
+        "bio": "Director, Group Product & Engineering. For over 15 years, he has been working at the intersection of product, UX and technology, effectively managing teams and creating solutions that really change the experience of millions of users. He specializes in the Polish and CEE markets, focusing on user acquisition, building engagement and trust. Privately, he is a book enthusiast, and can easily handle Italian over a coffee.",
+        "linkedin": "https://www.linkedin.com/in/konradsynoradzki/"
     }
 }

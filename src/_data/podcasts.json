@@ -1167,7 +1167,7 @@
       "W czym pomagają nam chatboty, jak je rozwijamy i dbamy o ich jakość?",
       "Kim są Allina oraz Albert i co mają wspólnego z automatyzacją?",
       "Za jakie rozwiązania otrzymaliśmy nagrodę hiperautomatyzacji?",
-      "O tym wszystkim posłuchacie w odcinku z udziałem Rafała Gajewskiego - Managera w obszarze IT Services w Allegro."      
+      "O tym wszystkim posłuchacie w odcinku z udziałem Rafała Gajewskiego - Managera w obszarze IT Services w Allegro."
     ],
     "links": {},
     "spotify": {
@@ -1251,11 +1251,11 @@
     ],
     "toc": [
       "Na czym polega praca analityków w obszarze technologii w Allegro?",
-      "Jakich narzędzi i technologii na co dzień używają osoby pracujące na tych stanowiskach?", 
+      "Jakich narzędzi i technologii na co dzień używają osoby pracujące na tych stanowiskach?",
       "Jak efekty pracy analityków wpływają na naszą platformę, produkty i funkcjonalności?",
       "Czym zajmuje się Data Product Manager w Allegro Pay?",
       "Dlaczego monety są ważnym elementem ekosystemu Allegro?",
-      "Posłuchajcie kolejnego odcinka Allegro Tech Podcast tym razem z udziałem Adrianny Napiórkowskiej - Data Product Managerki w Allegro Pay oraz Kaya Akcelikli - Senior Managera w obszarze Data w Allegro."      
+      "Posłuchajcie kolejnego odcinka Allegro Tech Podcast tym razem z udziałem Adrianny Napiórkowskiej - Data Product Managerki w Allegro Pay oraz Kaya Akcelikli - Senior Managera w obszarze Data w Allegro."
     ],
     "links": {},
     "spotify": {
@@ -1263,6 +1263,119 @@
     },
     "season": 4,
     "episode": "9",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2024-04-11T00:00:00.000Z",
+    "slug": "o-dwoch-stronach-security-w-allegro",
+    "title": "O dwóch stronach security w Allegro",
+    "authors": [
+      {
+        "author": "lukasz.basa",
+        "name": "Łukasz Basa"
+      },
+      {
+        "author": "marcin.ratajczyk",
+        "name": "Marcin Ratajczyk"
+      }
+    ],
+    "toc": [
+      "Czy łatwo jest zapewnić bezpieczeństwo w takiej firmie jak Allegro?",
+      "Na czym polegają ofensywne, a na czym defensywne role w obszarze security, gdzie się przecinają i jak ze sobą kontrastują współpracują?",
+      "Czym jest, jak działa i co nam daje purple teaming?",
+      "O naszych zmaganiach z podatnością log4shell, programie bug bounty od Allegro i projekcie Malware Information Sharing Platform dla firm posłuchacie w dziesiątym odcinku Allegro Tech Podcast z udziałem Łukasza Basy (Manager, IT Security) i Marcina Ratajczyka (IT Security Specialist)."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://open.spotify.com/embed/episode/4JGrCs1M5RjQkAaygrJPUO"
+    },
+    "season": 4,
+    "episode": "10",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2024-08-29T00:00:00.000Z",
+    "slug": "o-technologii-salesforce-w-allegro",
+    "title": "O technologii Salesforce w Allegro",
+    "authors": [
+      {
+        "author": "katarzyna.kowalska",
+        "name": "Katarzyna Kowalska"
+      }
+    ],
+    "toc": [
+      "Jak wykorzystujemy technologię Salesforce w Allegro, aby służyła budowaniu relacji z kupującymi i sprzedającymi?",
+      "Kto tworzy nasz zespół Salesforce i za co odpowiadają osoby, które są jego częścią?",
+      "Customowe vs. standardowe funkcjonalności Salesforce - jak wygląda ich wykorzystanie w Allegro?",
+      "Jak wyglądają przykładowe procesy, oparte o Salesforce w naszej organizacji?",
+      "Czy trudno jest zacząć pracę w Salesforce i specjalizować się w tej technologii?",
+      "O stabilności rozwiązań, które tworzymy, nietypowych wykorzystaniach i wyzwaniach w pracy z Salesforce opowiada Kasia Kowalska, Managerka w obszarze IT Services w Allegro."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://open.spotify.com/embed/episode/0lfxlnPfG1ThKlvkJQgHkc"
+    },
+    "season": 4,
+    "episode": "11",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2024-12-05T00:00:00.000Z",
+    "slug": "dobre-duchy-allegro-odcinek-ux",
+    "title": "Dobre duchy Allegro - odcinek UX",
+    "authors": [
+      {
+        "author": "barbara.kolber-bugajska",
+        "name": "Barbara Kolber-Bugajska"
+      },
+      {
+        "author": "anna.ostrowska",
+        "name": "Anna Ostrowska"
+      }
+    ],
+    "toc": [
+      "Jak wytłumaczyć rodzinie lub znajomym, czym zajmuje się UX Researcher i jak ta rola wygląda w Allegro?",
+      "Jak przekładamy doświadczenia i opinie naszych użytkowników na nowe rozwiązania? Kto jeszcze, poza badacz(k)ami, angażuje się w ten proces?",
+      "Kiedy faktycznie się zaczyna, a kiedy kończy sezon świąteczny w Allegro?",
+      "Jak ułatwiamy kupującym poszukiwanie świątecznych prezentów i co użytkownicy Allegro doceniają w tym czasie najbardziej?",
+      "Jak już teraz automatyzacja wspiera badaczy w codziennej pracy i czy kiedyś zastąpi człowieka?",
+      "O projektach, w których w Allegro spotkacie Basię i Anię oraz odkryciach naszych badaczy na czeskim rynku e-commerce posłuchacie w Allegro Tech Podcast."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://open.spotify.com/embed/episode/2LtC2PkWSUqUujid0cYalB"
+    },
+    "season": 4,
+    "episode": "12",
+    "host": "jakub.dowgird"
+  },
+  {
+    "date": "2024-12-12T00:00:00.000Z",
+    "slug": "dobre-duchy-allegro-odcinek-trust-security",
+    "title": "Dobre duchy Allegro - odcinek trust & security",
+    "authors": [
+      {
+        "author": "michal.krzyzan",
+        "name": "Michał Krzyżan"
+      },
+      {
+        "author": "konrad.synoradzki",
+        "name": "Konrad Synoradzki"
+      }
+    ],
+    "toc": [
+      "Z czym Allegrowiczkom i Allegrowiczom kojarzy się świąteczna gorączka zakupów?",
+      "Na czym polega phishing i jego różne odmiany? Na co uważać, aby nie paść ofiarą oszustwa?",
+      "Czym jest zaufanie w kontekście Allegro i jak budujemy je z myślą o użytkownikach naszej platformy?",
+      "Jak wyglądają akcje security awareness dla pracowników oraz użytkowników Allegro i dlaczego warto odwiedzać stronę Allegro CERT (https://allegro.pl/cert)?",
+      "O działaniach, w których w Allegro spotkacie Michała i Konrada oraz roli automatyzacji w ich codziennej pracy posłuchacie w Allegro Tech Podcast."
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://open.spotify.com/embed/episode/3fvvPafLBvasey2Cja2lCJ"
+    },
+    "season": 4,
+    "episode": "13",
     "host": "jakub.dowgird"
   }
 ]
