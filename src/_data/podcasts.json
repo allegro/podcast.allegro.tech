@@ -1377,5 +1377,35 @@
     "season": 4,
     "episode": "13",
     "host": "jakub.dowgird"
+  },
+  {
+    "date": "2024-12-20T00:00:00.000Z",
+    "slug": "dobre-duchy-allegro-odcinek-engineering",
+    "title": "Dobre duchy Allegro - odcinek engineering",
+    "authors": [
+      {
+        "author": "bartosz.galek",
+        "name": "Bartosz Gałek"
+      }
+    ],
+    "toc": [
+      "Wzruszająca reklama świąteczna, wzmożony ruch na platformie czy wyzwanie Advent of Code? Z czym najbardziej zespołom developerskim w Allegro kojarzy się grudzień?",
+      "Co składa się na inżynierię w kontekście Allegro i jak skala działania czasem pomaga nam sięgać po (nie)typowe rozwiązania?",
+      "Co dobrze jest wiedzieć o developer experience w Allegro, czyli jak dbamy o to, aby naszym developer(k)om dobrze się kodowało?",
+      "Czym poza programowaniem zajmują się dobre duchy Allegro? Jak dzielą się wiedzą i swoimi pasjami, spędzają razem czas oraz udzielają się społecznie?",
+      "Jak automatyzacja wspiera codzienną pracę programistek i programistów w Allegro? Jak wykorzystaliśmy ją w testach regresji wizualnej, wdrażaniu kontraktu mikrousługowego oraz przy migracji kodu?",
+      "O inicjatywach i projektach, w których spotkacie Bartka, blaskach i cieniach sztucznej inteligencji oraz narzędziach bez których nie wyobrażamy sobie już pracy posłuchacie w Allegro Tech Podcast."
+    ],
+    "links": {
+      "Allegro Tech Blog": "https://blog.allegro.tech/",
+      "Allegro Tech Meeting - prezentacja 'baloon'": "https://fb.watch/ww7EAYQNWT/"
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/embed/episode/0UzHenv5RJZV81l6Y1Sdjh"
+    },
+    "season": 4,
+    "episode": "14",
+    "host": "jakub.dowgird"
   }
+
 ]
