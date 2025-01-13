@@ -91,7 +91,7 @@ export default function Home({episodes}: { episodes: Episode[] }) {
                     allegro.tech podcast
                 </title>
                 <meta name="description"
-                      content="Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!."/>
+                      content="W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, dobrych praktyk i inspiruących case-studies stosowanych w Allegro. Zapraszamy do słuchania!"/>
                 <meta property="og:site_name" content="allegro.tech"/>
                 <meta property="og:title" content="allegro.tech podcast"/>
                 <meta property="og:url" content="https://podcast.allegro.tech"/>
@@ -99,7 +99,7 @@ export default function Home({episodes}: { episodes: Episode[] }) {
                 <meta property="og:image" content="https://podcast.allegro.tech/podcast-cover.png"/>
                 <meta name="twitter:creator" content="@allegrotech"/>
                 <meta property="og:description"
-                      content="Misją Allegro Tech jest dzielenie się wiedzą oraz dobrymi praktykami. Podcasty obok tech bloga są naszym sposobem aby opowiadać o tym jakie wyznajemy wartości oraz w jakim kierunku zmierzamy. Kolejne odcinki będą zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies. Do usłyszenia!."/>
+                      content="W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, dobrych praktyk i inspiruących case-studies stosowanych w Allegro. Zapraszamy do słuchania!"/>
                 <meta property="article:author" content=""/>
                 <meta property="article:publisher" content="https://www.facebook.com/allegro.tech"/>
                 <title itemProp="name">allegro.tech podcast</title>
