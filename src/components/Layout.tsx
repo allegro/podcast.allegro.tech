@@ -135,7 +135,7 @@ function AboutSection(props: React.HTMLAttributes<HTMLElement>) {
             >
                 W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. 
                 Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, 
-                dobrych praktyk i inspiruących case-studies stosowanych w Allegro. 
+                dobrych praktyk i inspirujących case-studies stosowanych w Allegro. 
                 Zapraszamy do słuchania!
             </p>
         </section>
