@@ -171,7 +171,7 @@ export async function getStaticProps(): Promise<{ props: { episodes: Episode[] }
         feed.addItem({
             title: episode.title,
             id: episode.slug,
-            link: `https://podcast.allegro.tech/#${episode.slug}`,
+            link: `https://podcast.allegro.tech#${episode.slug}`,
             description: episode.toc.join(""),
             date: new Date(episode.date),
         });
