@@ -108,17 +108,17 @@ function ApplePodcastIcon(props: React.SVGProps<SVGSVGElement>) {
     )
 }
 
-// function RSSIcon(props: React.SVGProps<SVGSVGElement>) {
-//     return (
-//         <svg aria-hidden="true" viewBox="0 0 32 32" {...props}>
-//             <path
-//                 fillRule="evenodd"
-//                 clipRule="evenodd"
-//                 d="M8.5 4h15A4.5 4.5 0 0 1 28 8.5v15a4.5 4.5 0 0 1-4.5 4.5h-15A4.5 4.5 0 0 1 4 23.5v-15A4.5 4.5 0 0 1 8.5 4ZM13 22a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-6-6a9 9 0 0 1 9 9h3A12 12 0 0 0 7 13v3Zm5.74-4.858A15 15 0 0 0 7 10V7a18 18 0 0 1 18 18h-3a15 15 0 0 0-9.26-13.858Z"
-//             />
-//         </svg>
-//     )
-// }
+function RSSIcon(props: React.SVGProps<SVGSVGElement>) {
+    return (
+        <svg aria-hidden="true" viewBox="0 0 32 32" {...props}>
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M8.5 4h15A4.5 4.5 0 0 1 28 8.5v15a4.5 4.5 0 0 1-4.5 4.5h-15A4.5 4.5 0 0 1 4 23.5v-15A4.5 4.5 0 0 1 8.5 4ZM13 22a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-6-6a9 9 0 0 1 9 9h3A12 12 0 0 0 7 13v3Zm5.74-4.858A15 15 0 0 0 7 10V7a18 18 0 0 1 18 18h-3a15 15 0 0 0-9.26-13.858Z"
+            />
+        </svg>
+    )
+}
 
 function AboutSection(props: React.HTMLAttributes<HTMLElement>) {
     return (
@@ -188,7 +188,7 @@ export function Layout({children}: { children: ReactElement }) {
                                     link: 'https://open.spotify.com/show/2rlbFoVg4eEVbrurrOkPHB'
                                 },
                                 {label: 'Apple Podcast', Icon: ApplePodcastIcon, link: 'https://podcasts.apple.com'},
-                                // {label: 'RSS Feed', Icon: RSSIcon, link: '/rss.xml'},
+                                {label: 'RSS Feed', Icon: RSSIcon, link: '/feed.xml'},
                             ].map(({label, Icon, link}) => (
                                 <li key={label} className="flex">
                                     <Link

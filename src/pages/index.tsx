@@ -8,6 +8,8 @@ import podcasts from '@/data/podcasts.json'
 import authors from '@/data/authors.json'
 import {PlayButton} from '@/components/player/PlayButton'
 import Image from 'next/image';
+import {Feed, FeedOptions} from "feed";
+import fs from "fs";
 
 function EpisodeEntry({episode}: {
     episode: Episode
@@ -17,10 +19,7 @@ function EpisodeEntry({episode}: {
     const audioPlayerData: { title: string; audio: { src: string; type: string } } = useMemo(
         () => ({
             title: episode.title + " · " + episode.authors.map(({name}) => name).join(', '),
-            audio: {
-                src: `/audio/S${String(episode.season).padStart(2, '0')}-E${String(episode.episode).padStart(2, '0')}.mp3`,
-                type: 'audio/mpeg'
-            }
+            audio: episode.audio
         }),
         [episode]
     )
@@ -161,6 +160,23 @@ export interface Episode {
 
 export async function getStaticProps(): Promise<{ props: { episodes: Episode[] } }> {
     const episodes: PodcastEpisode[] = podcasts.toReversed();
+    const feedOptions: FeedOptions = {
+        id: "podcast.allegro.tech",
+        title: "allegro.tech podcast",
+        description: "W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies stosowanych w Allegro. Zapraszamy do słuchania!",
+        copyright: 'Allegro'
+    };
+    const feed = new Feed(feedOptions);
+    episodes.forEach((episode) => {
+        feed.addItem({
+            title: episode.title,
+            id: episode.slug,
+            link: `https://podcast.allegro.tech/#${episode.slug}`,
+            description: episode.toc.join(""),
+            date: new Date(episode.date),
+        });
+    });
+    fs.writeFileSync('./public/feed.xml', feed.rss2());
     return {
         props: {
             episodes: episodes.map((episode) => ({
@@ -169,7 +185,7 @@ export async function getStaticProps(): Promise<{ props: { episodes: Episode[] }
                     published: episode.date,
                     description: episode.toc,
                     audio: {
-                        src: 'https://their-side-feed.vercel.app/episode-002.mp3',
+                        src: `/audio/S${String(episode.season).padStart(2, '0')}-E${String(episode.episode).padStart(2, '0')}.mp3`,
                         type: 'audio/mpeg'
                     },
                     host: episode.host,
