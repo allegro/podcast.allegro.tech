@@ -1402,5 +1402,37 @@
     "season": 4,
     "episode": 14,
     "host": "jakub.dowgird"
+  },
+  {
+    "date": "2025-04-03T00:00:00.000Z",
+    "slug": "e-xperience-w-allegro",
+    "title": "Wszystko, co dobrze wiedzieć o programie e-Xperience",
+    "authors": [
+      {
+        "id": "szymon.jacon",
+        "name": "Szymon Jacoń"
+      },
+      {
+        "id": "jaroslaw.glegola",
+        "name": "Jarosław Glegoła"
+      }
+    ],
+    "toc": [
+      "Na czym polega i jak przebiega program stażowy e-Xperience w Allegro?",
+      "Jakie zadania czekają na uczestników programu i co może ich najbardziej zaskoczyć?",
+      "Jak maksymalnie wykorzystać czas trwania stażu, aby zaliczyć prawdziwy #careerboost i zostać w Allegro na dłużej?",
+      "Komu polecamy program e-Xperience i czy trudno pogodzić go ze studiami?",
+      "Jak wygląda codzienna praca w Allegro z perspektywy byłych uczestników programu?",
+      "Porady rekrutacyjne, anegdoty i kulisy działania Allegro prosto od Szymona i Jarka."
+    ],
+    "links": {
+      "Strona programu e-Xperience": "https://jobs.allegro.eu/e-xperience/"
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/embed/episode/7DqG25VeC0HKL1T0OL6xaX"
+    },
+    "season": 5,
+    "episode": 1,
+    "host": "mateusz.naparty"
   }
 ]
