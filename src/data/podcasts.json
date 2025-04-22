@@ -1434,5 +1434,35 @@
     "season": 5,
     "episode": 1,
     "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-04-17T00:00:00.000Z",
+    "slug": "technologiczne-kulisy-nocnych-premier-z-allegro-one-box",
+    "title": "Technologiczne kulisy nocnych premier z Allegro One Box",
+    "authors": [
+      {
+        "id": "natalia.szynder-markiewicz",
+        "name": "Natalia Szynder-Markiewicz"
+      },
+      {
+        "id": "jakub.kwietko",
+        "name": "Jakub Kwietko"
+      }
+    ],
+    "toc": [
+      "Skąd wziął się pomysł na organizację nocnych premier z Allegro One Box i co warto o nich wiedzieć?",
+      "Jak działa dostawa premierowych przesyłek do automatów paczkowych Allegro One Box i kto nad nimi pracuje?",
+      "Jakie rozwiązania zastosowaliśmy, aby organizacja premierowych dostaw była możliwa i dlaczego czasem zamieniamy wygodne biuro na żywopłot w środku miasta, aby nad nimi czuwać?",
+      "Jakie nocne premiery odbyły się do tej pory i co podobało Wam (i nam) się w nich najbardziej?",
+      "Kto o północy odbiera premierowe przesyłki i jaki był rekord najszybszego z nocnych odbiorów,?"
+    ],
+    "links": {
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/embed/episode/6AJWcDrjW6wO0KXtdLwFDi"
+    },
+    "season": 5,
+    "episode": 2,
+    "host": "mateusz.naparty"
   }
 ]
