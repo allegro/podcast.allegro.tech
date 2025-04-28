@@ -188,7 +188,7 @@ export function Layout({children}: { children: ReactElement }) {
                                     link: 'https://open.spotify.com/show/2rlbFoVg4eEVbrurrOkPHB'
                                 },
                                 {
-                                    label: 'Apple Podcast',
+                                    label: 'Apple Podcasts',
                                     Icon: ApplePodcastIcon,
                                     link: 'https://podcasts.apple.com/podcast/id1811110627'
                                 },
