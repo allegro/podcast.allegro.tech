@@ -187,8 +187,16 @@ export function Layout({children}: { children: ReactElement }) {
                                     Icon: SpotifyIcon,
                                     link: 'https://open.spotify.com/show/2rlbFoVg4eEVbrurrOkPHB'
                                 },
-                                {label: 'Apple Podcast', Icon: ApplePodcastIcon, link: 'https://podcasts.apple.com'},
-                                {label: 'RSS Feed', Icon: RSSIcon, link: '/feed.xml'},
+                                {
+                                    label: 'Apple Podcast',
+                                    Icon: ApplePodcastIcon,
+                                    link: 'https://podcasts.apple.com/podcast/id1811110627'
+                                },
+                                {
+                                    label: 'RSS Feed',
+                                    Icon: RSSIcon,
+                                    link: '/feed.xml'
+                                },
                             ].map(({label, Icon, link}) => (
                                 <li key={label} className="flex">
                                     <Link
