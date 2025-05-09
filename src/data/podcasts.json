@@ -1464,5 +1464,35 @@
     "season": 5,
     "episode": 2,
     "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-05-09T00:00:00.000Z",
+    "slug": "hiring-squad-allegro",
+    "title": "Hiring Squad w Allegro, czyli kogo spotykacie w rekrutacjach technicznych",
+    "authors": [
+      {
+        "id": "przemyslaw.koziel",
+        "name": "Przemysław Kozieł"
+      },
+      {
+        "id": "maciej.jankowski",
+        "name": "Maciej Jankowski"
+      }
+    ],
+    "toc": [
+      "Kim są i czym na co dzień zajmują się w Allegro osoby tworzące Hiring Squad?",
+      "Jak przebiega proces rekrutacji do Allegro, jak się do niego przygotować i jakiego rodzaju pytań można się w nim spodziewać?",
+      "Junior, mid czy senior, czyli jak podchodzimy do poziomowania kandydatów po rozmowach technicznych?",
+      "Co odróżnia dobrych kandydatów od świetnych kandydatów i komu na pewno spodoba się praca w naszej firmie?",
+      "Czy i jak często zdarza się, że w rekrutacji do Allegro spotykamy tych samych kandydatów więcej, niż raz?"
+    ],
+    "links": {
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/episode/1k8BjqvatVR6jidJblfK6B"
+    },
+    "season": 5,
+    "episode": 2,
+    "host": "mateusz.naparty"
   }
 ]
