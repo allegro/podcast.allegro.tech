@@ -1525,5 +1525,35 @@
     "season": 5,
     "episode": 4,
     "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-06-05T00:00:00.000Z",
+    "slug": "bezpieczenstwo-cyfrowe-czyli-o-swiadomosci-zagrozen-codziennych-praktykach-i-przyszlosci-hasel",
+    "title": "Bezpieczeństwo cyfrowe, czyli o świadomości zagrożeń, codziennych praktykach i przyszłości haseł",
+    "authors": [
+      {
+        "id": "joanna.jakubowska",
+        "name": "Joanna Jakubowska"
+      },
+      {
+        "id": "magdalena.mielke-soukossi",
+        "name": "Magdalena Mielke-Soukossi"
+      }
+    ],
+    "toc": [
+      "Jak ważne powinny być dla nas hasła, jak Polacy zazwyczaj logują się do swoich kont i czy robią to w bezpieczny sposób?",
+      "Czy zapamiętywanie haseł w przeglądarce to dobry pomysł, co może dać nam menadżer haseł i jakie inne metody uwierzytelniania warto brać pod uwagę?",
+      "Na jakie zagrożenia narażamy się słabym hasłem lub korzystaniem z tego samego hasła w wielu miejscach?",
+      "Dlaczego `zieloneSłonieTańcząNaKsiężycu1!` jest lepszym pomysłem na hasło, niż `K0t&Ryb4!`?",
+      "Czy Polacy są gotowi na internet bez haseł i czy ta przyszłość będzie bezpieczniejsza?"
+    ],
+    "links": {
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/episode/5HuqOOfIO2Fw44pNY1ybWv"
+    },
+    "season": 5,
+    "episode": 5,
+    "host": "mateusz.naparty"
   }
 ]
