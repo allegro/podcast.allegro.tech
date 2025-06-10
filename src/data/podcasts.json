@@ -1494,5 +1494,36 @@
     "season": 5,
     "episode": 3,
     "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-05-28T00:00:00.000Z",
+    "slug": "kultura-produktowa-w-allegro",
+    "title": "Kultura produktowa w Allegro",
+    "authors": [
+      {
+        "id": "aleksandra.wasilewska",
+        "name": "Aleksandra Wasilewska"
+      },
+      {
+        "id": "jan.pastwa",
+        "name": "Jan Pastwa"
+      }
+    ],
+    "toc": [
+      "Czym jest kultura produktowa i jak wygląda produktowe podejście do pracy w Allegro?",
+      "Czym jest produkt, co odróżnia go od projektu a gdzie może się z nim łączyć?",
+      "Jak praca nad produktami w Allegro zmieniała się na przestrzeni lat?",
+      "Jak w praktyce dostosowujemy produkty, które tworzymy do potrzeb różnych użytkowników w Polsce i za granicą?",
+      "W jaki sposób kultura produktowa wspiera zarządzanie zależnościami i złożonością produktów w Allegro?",
+      "Dlaczego zarządzanie produktem przypomina czasem linię produkcyjną,?"
+    ],
+    "links": {
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/episode/23mRqDe6oEaikIJatPMehY"
+    },
+    "season": 5,
+    "episode": 4,
+    "host": "mateusz.naparty"
   }
 ]
