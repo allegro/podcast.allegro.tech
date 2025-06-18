@@ -1555,5 +1555,35 @@
     "season": 5,
     "episode": 5,
     "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-06-18T00:00:00.000Z",
+    "slug": "misja-zmiana-branzy-czyli-jak-przebranzowic-sie-do-it",
+    "title": "Misja - zmiana branży, czyli jak przebranżowić się do IT",
+    "authors": [
+      {
+        "id": "malgorzata.elszyn-bociek",
+        "name": "Małgorzata Elszyn-Bociek"
+      },
+      {
+        "id": "aleksandra.kulesz",
+        "name": "Aleksandra Kulesz"
+      }
+    ],
+    "toc": [
+      "Jak się przebranżowić i rozpocząć pracę w IT?",
+      "Od czego zacząć, na co postawić, gdzie szukać wiedzy? Skoczyć na głęboką wodę, czy działać metodą małych kroków?",
+      "Jak znaleźć w sobie odwagę i ciekawość oraz gdzie szukać wsparcia w procesie zmiany branży?",
+      "Jak wyglądały pierwsze zadania, za które odpowiadały nasze rozmówczynie po rozpoczęciu pracy w technologii?",
+      "Programowanie, Product Management, a może analiza danych albo UX? Jak sprawdzić, który z obszarów technologicznych będzie dla nas najodpowiedniejszy?"
+    ],
+    "links": {
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/episode/2kiGBGepZGrx3Dxm6ImuBb"
+    },
+    "season": 5,
+    "episode": 6,
+    "host": "mateusz.naparty"
   }
 ]
