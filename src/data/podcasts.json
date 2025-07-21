@@ -1585,5 +1585,32 @@
     "season": 5,
     "episode": 6,
     "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-07-11T00:00:00.000Z",
+    "slug": "sztuczna-inteligencja-w-allegro",
+    "title": "Sztuczna inteligencja w Allegro",
+    "authors": [
+      {
+        "id": "cezary.kuik",
+        "name": "Cezary Kuik"
+      }
+    ],
+    "toc": [
+      "Jak, gdzie i od kiedy korzystamy ze sztucznej inteligencji w Allegro?",
+      "Co dobrze wiedzieć o uczeniu maszynowym i o AI generatywnym w naszej firmie?",
+      "Co wspólnego z AI ma koncepcja maszyny vendingowej?",
+      "Jakich 6 elementów jest kluczowych dla dobrego prompt engineeringu?",
+      "Czy umiejętność rozmowy ze sztuczną inteligencją to ,,nowa znajomość pakietu Office?",
+      "Czym jest augmentacja (augmentation), co oznacza dla Allegro i jaką rolę odgrywa w niej sztuczna inteligencja?"
+    ],
+    "links": {
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/episode/4rU2kerYYoeebtsefEjvAo"
+    },
+    "season": 5,
+    "episode": 7,
+    "host": "mateusz.naparty"
   }
 ]

@@ -383,5 +383,9 @@
   "aleksandra.kulesz": {
     "name": "Aleksandra Kulesz",
     "bio": "She has been with Allegro for 5 years, starting with testing offer listings — an experience that left her with a soft spot for quality and accessibility. For her, the user always comes first. Currently, she’s taking on challenges in frontend development. This journey also began with listings, but now she has the honor of working on Allegro’s hottest AI-driven products. In her free time, she explores forests with her hyperactive dog Zefir and passionately builds Lego creations with her sons."
+  },
+  "cezary.kuik": {
+    "name": "Cezary Kuik",
+    "bio": "Product Manager at Allegro Machine Learning Research. Responsible for the development of products and services at Allegro that utilize generative language models (GPT, Gemini). Manager of the R&D grant in the NCBR Alfa Bridge program, which aimed to create GenAI tools supporting e-commerce processes (Rainbow Tours, Fixit). Creator of Promptopedia, a Polish encyclopedia on prompt engineering."
   }
 }
