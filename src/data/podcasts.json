@@ -1612,5 +1612,35 @@
     "season": 5,
     "episode": 7,
     "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-08-14T00:00:00.000Z",
+    "slug": "o-rewolucji-allegro-ads",
+    "title": "O (r)ewolucji Allegro Ads",
+    "authors": [
+      {
+        "id": "patrycja.miller",
+        "name": "Patrycja Miller"
+      },
+      {
+        "id": "tomasz.richert",
+        "name": "Tomasz Richert"
+      }
+    ],
+    "toc": [
+      "Jak doszło do integracji rozwiązań ads & search na Allegro - przełomowej zmiany, która wymyka się branżowym benchmarkom?",
+      "Czym jest Prawo Conwaya i jak zadziałało w przypadku tej integracji w praktyce?",
+      "Na czym polega projekt SOMBRERO (Sponsored Offers Machine-Based Ranking Engine for Relevance Optimization) i dlaczego uważamy go za duży sukces?",
+      "Jakie zadanie ma Capitan - jedno z pierwszych rozwiązań opartych na machine learningu, które pojawiło się w ramach Allegro Ads i zmienia zasady gry?",
+      "Co dzieje się dzisiaj i jakie nowe funkcje pojawią się w Allegro Ads w najbliższej przyszłości?"
+    ],
+    "links": {
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/embed/episode/0KREBlGAfQz3cEGIPTOpqP"
+    },
+    "season": 5,
+    "episode": 8,
+    "host": "mateusz.naparty"
   }
 ]

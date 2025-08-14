@@ -387,5 +387,15 @@
   "cezary.kuik": {
     "name": "Cezary Kuik",
     "bio": "Product Manager at Allegro Machine Learning Research. Responsible for the development of products and services at Allegro that utilize generative language models (GPT, Gemini). Manager of the R&D grant in the NCBR Alfa Bridge program, which aimed to create GenAI tools supporting e-commerce processes (Rainbow Tours, Fixit). Creator of Promptopedia, a Polish encyclopedia on prompt engineering."
+  },
+  "patrycja.miller": {
+    "name": "Patrycja Miller",
+    "bio": "With over 10 years of experience in the technology industry, Patrycja has spent the last 5 years specializing in Ad Tech. At Allegro, she is responsible for the development of key advertising products, including advanced systems utilizing Machine Learning. Awarded the title of IT Manager of Tomorrow 2024 in the business category, she is an experienced tech leader, speaker, and presenter at industry conferences. Her Machine Learning project won 1st place at the prestigious Ecommerce German Awards 2024.",
+    "linkedin": "patrycja-miller"
+  },
+  "tomasz.richert": {
+    "name": "Tomasz Richert",
+    "bio": "Engineering Manager in Allegro Advertising division",
+    "linkedin": "tomasz-richert"
   }
 }
