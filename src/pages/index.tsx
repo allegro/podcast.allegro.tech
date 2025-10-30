@@ -11,6 +11,52 @@ import Image from 'next/image';
 import {Feed, FeedOptions} from "feed";
 import fs from "fs";
 
+export default function Home({episodes}: { episodes: Episode[] }) {
+    const groupedBySeasons = Object.groupBy(episodes, (episode) => String(episode.season))
+    return (
+        <>
+            <Head>
+                <title>
+                    allegro.tech podcast
+                </title>
+                <meta name="description"
+                      content="W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies stosowanych w Allegro. Zapraszamy do słuchania!"/>
+                <meta property="og:site_name" content="allegro.tech"/>
+                <meta property="og:title" content="allegro.tech podcast"/>
+                <meta property="og:url" content="https://podcast.allegro.tech"/>
+                <meta property="og:type" content="article"/>
+                <meta property="og:image" content="https://podcast.allegro.tech/podcast-cover.png"/>
+                <meta name="twitter:creator" content="@allegrotech"/>
+                <meta property="og:description"
+                      content="W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies stosowanych w Allegro. Zapraszamy do słuchania!"/>
+                <meta property="article:author" content=""/>
+                <meta property="article:publisher" content="https://www.facebook.com/allegro.tech"/>
+                <title itemProp="name">allegro.tech podcast</title>
+                <script defer data-domain="podcast.allegro.tech" src="https://plausible.io/js/script.js"></script>
+            </Head>
+            <div className="pb-12 sm:pb-4 lg:pt-8">
+                {Object.keys(groupedBySeasons).reverse().map((season) => {
+                    const seasonEpisodes = groupedBySeasons[season];
+                    return (
+                        <Fragment key={season}>
+                            <Container>
+                                <a id={`sezon-${season}`} href={`#sezon-${season}`}
+                                   className="scroll-mt-4 text-2xl font-bold leading-7 text-slate-900 dark:text-slate-100">
+                                    Sezon {season}
+                                </a>
+                            </Container>
+                            <div
+                                className="divide-y divide-slate-200 dark:divide-slate-700 sm:mt-4 lg:mt-8 lg:border-t lg:border-slate-100 dark:border-slate-700">
+                                {seasonEpisodes?.map((episode) => <EpisodeEntry key={episode.id} episode={episode}/>)}
+                            </div>
+                        </Fragment>
+                    );
+                })}
+            </div>
+        </>
+    )
+}
+
 function EpisodeEntry({episode}: {
     episode: Episode
 }) {
@@ -81,60 +127,11 @@ function EpisodeEntry({episode}: {
     )
 }
 
-export default function Home({episodes}: { episodes: Episode[] }) {
-    const groupedBySeasons = Object.groupBy(episodes, (episode) => String(episode.season))
-    return (
-        <>
-            <Head>
-                <title>
-                    allegro.tech podcast
-                </title>
-                <meta name="description"
-                      content="W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies stosowanych w Allegro. Zapraszamy do słuchania!"/>
-                <meta property="og:site_name" content="allegro.tech"/>
-                <meta property="og:title" content="allegro.tech podcast"/>
-                <meta property="og:url" content="https://podcast.allegro.tech"/>
-                <meta property="og:type" content="article"/>
-                <meta property="og:image" content="https://podcast.allegro.tech/podcast-cover.png"/>
-                <meta name="twitter:creator" content="@allegrotech"/>
-                <meta property="og:description"
-                      content="W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies stosowanych w Allegro. Zapraszamy do słuchania!"/>
-                <meta property="article:author" content=""/>
-                <meta property="article:publisher" content="https://www.facebook.com/allegro.tech"/>
-                <title itemProp="name">allegro.tech podcast</title>
-                <script defer data-domain="podcast.allegro.tech" src="https://plausible.io/js/script.js"></script>
-            </Head>
-            <div className="pb-12 sm:pb-4 lg:pt-8">
-                {Object.keys(groupedBySeasons).reverse().map((season) => {
-                    const seasonEpisodes = groupedBySeasons[season];
-                    return (
-                        <Fragment key={season}>
-                            <Container>
-                                <a id={`sezon-${season}`} href={`#sezon-${season}`}
-                                   className="scroll-mt-4 text-2xl font-bold leading-7 text-slate-900 dark:text-slate-100">
-                                    Sezon {season}
-                                </a>
-                            </Container>
-                            <div
-                                className="divide-y divide-slate-200 dark:divide-slate-700 sm:mt-4 lg:mt-8 lg:border-t lg:border-slate-100 dark:border-slate-700">
-                                {seasonEpisodes?.map((episode) => <EpisodeEntry key={episode.id} episode={episode}/>)}
-                            </div>
-                        </Fragment>
-                    );
-                })}
-            </div>
-        </>
-    )
-}
-
 export interface PodcastEpisode {
     date: string
     slug: string
     title: string
-    authors: {
-        id: string
-        name: string
-    }[]
+    guests: string[]
     toc: string[]
     links?: { [key: string]: unknown }
     spotify: {
@@ -162,6 +159,7 @@ export async function getStaticProps(): Promise<{ props: { episodes: Episode[] }
     const episodes: PodcastEpisode[] = podcasts.toReversed();
     const feedOptions: FeedOptions = {
         id: "podcast.allegro.tech",
+        link: "https://podcast.allegro.tech",
         title: "allegro.tech podcast",
         description: "W Allegro Tech uwielbiamy dzielić się wiedzą i robimy to na różne sposoby. Jednym z nich są nasze podcasty technologiczne, które są zbiorem angażujących historii, dobrych praktyk i inspirujących case-studies stosowanych w Allegro. Zapraszamy do słuchania!",
         copyright: 'Allegro'
@@ -189,7 +187,10 @@ export async function getStaticProps(): Promise<{ props: { episodes: Episode[] }
                         type: 'audio/mpeg'
                     },
                     host: episode.host,
-                    authors: episode.authors,
+                    authors: episode.guests.map((guest) => ({
+                        id: guest,
+                        name: authors[guest as keyof typeof authors].name
+                    })),
                     links: episode.links || {},
                     season: episode.season,
                     episode: episode.episode

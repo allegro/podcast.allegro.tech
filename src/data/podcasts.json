@@ -3,11 +3,8 @@
     "date": "2020-02-24T00:00:00.000Z",
     "slug": "o_zatrudnianiu_rozwoju_i_nie_tylko",
     "title": "O zatrudnianiu, rozwoju inżynierów i nie tylko",
-    "authors": [
-      {
-        "id": "piotr.orlowski",
-        "name": "Piotr Orłowski"
-      }
+    "guests": [
+      "piotr.orlowski"
     ],
     "toc": [
       "W Allegro pracuje prawie 800 specjalistów IT i ponad 100 liderów.",
@@ -34,11 +31,8 @@
     "date": "2020-03-02T00:00:00.000Z",
     "slug": "infrastruktura_dla_1000_mikrouslug",
     "title": "Infrastruktura dla 1000 mikrousług w Allegro",
-    "authors": [
-      {
-        "id": "adam.dubiel",
-        "name": "Adam Dubiel"
-      }
+    "guests": [
+      "adam.dubiel"
     ],
     "toc": [
       "Na serwis allegro.pl składa się już prawie 1000 mikrousług. Jaka filozofia stoi za budowaniem ich środowiska uruchomieniowego?",
@@ -61,11 +55,8 @@
     "date": "2020-03-09T00:00:00.000Z",
     "slug": "jak_zostac_i_pozostac_dobrym_programista",
     "title": "Jak zostać i pozostać dobrym programistą?",
-    "authors": [
-      {
-        "id": "tomasz.nurkiewicz",
-        "name": "Tomasz Nurkiewicz"
-      }
+    "guests": [
+      "tomasz.nurkiewicz"
     ],
     "toc": [
       "Jak skutecznie dzielić się wiedzą w społeczności IT?",
@@ -86,11 +77,8 @@
     "date": "2020-03-16T00:00:00.000Z",
     "slug": "it_security_w_allegro",
     "title": "IT security w Allegro",
-    "authors": [
-      {
-        "id": "wojciech.lesicki",
-        "name": "Wojciech Lesicki"
-      }
+    "guests": [
+      "wojciech.lesicki"
     ],
     "toc": [
       "Na czym skupiamy się w IT security w Allegro?",
@@ -117,11 +105,8 @@
     "date": "2020-03-23T00:00:00.000Z",
     "slug": "badania_ux_w_allegro",
     "title": "Badania UX w Allegro",
-    "authors": [
-      {
-        "id": "justyna.osten-sacken",
-        "name": "Justyna Osten-Sacken"
-      }
+    "guests": [
+      "justyna.osten-sacken"
     ],
     "toc": [
       "Jak wygląda dzień pracy badacza w Allegro?",
@@ -146,11 +131,8 @@
     "date": "2020-03-30T00:00:00.000Z",
     "slug": "wyszukiwanie_w_allegro",
     "title": "Wyszukiwanie w allegro - jak nie potknąć się o długi ogon?",
-    "authors": [
-      {
-        "id": "adam.dudczak",
-        "name": "Adam Dudczak"
-      }
+    "guests": [
+      "adam.dudczak"
     ],
     "toc": [
       "Dlaczego wyszukiwanie jest takie trudne?",
@@ -181,11 +163,8 @@
     "date": "2020-04-06T00:00:00.000Z",
     "slug": "wydajnosc_frontendu",
     "title": "Wydajność front-endu",
-    "authors": [
-      {
-        "id": "eryk.napierala",
-        "name": "Eryk Napierała"
-      }
+    "guests": [
+      "eryk.napierala"
     ],
     "toc": [
       "Jak mierzymy wydajność Allegro i jak dbamy, by była jak najlepsza?",
@@ -212,11 +191,8 @@
     "date": "2020-04-20T00:00:00.000Z",
     "slug": "nie-tylko-jvm-czyli-jak-rozwijamy-uslugi-dotnet-w-allegro",
     "title": "Nie tylko JVM, czyli jak rozwijamy usługi dotNET w Allegro",
-    "authors": [
-      {
-        "id": "piotr.stapp",
-        "name": "Piotr Stapp"
-      }
+    "guests": [
+      "piotr.stapp"
     ],
     "toc": [
       "Jak to się stało, że spora grupa programistów .NET znalazła się w Allegro?",
@@ -240,11 +216,8 @@
     "date": "2020-05-04T00:00:00.000Z",
     "slug": "jak_testy_moga_wplynac_na_zycie",
     "title": "Jak testy mogą wpłynąć na życie?",
-    "authors": [
-      {
-        "id": "pawel.zwierzchowski",
-        "name": "Paweł Zwierzchowski"
-      }
+    "guests": [
+      "pawel.zwierzchowski"
     ],
     "toc": [
       "Jaką wagę mają testy przy wytwarzaniu oprogramowania, pamiętając, że nie wszystkie testy są takie same?",
@@ -266,11 +239,8 @@
     "date": "2020-05-18T00:00:00.000Z",
     "slug": "misja_zmiana_branzy_zakonczona_sukcesem",
     "title": "Misja zmiana branży zakończona sukcesem! Jak wygląda dzień Product Managera",
-    "authors": [
-      {
-        "id": "martyna.niszczota",
-        "name": "Martyna Niszczota"
-      }
+    "guests": [
+      "martyna.niszczota"
     ],
     "toc": [
       "Czy pracując w IT trzeba rozmawiać z ludźmi?",
@@ -292,11 +262,8 @@
     "date": "2020-06-01T00:00:00.000Z",
     "slug": "mobile_w_allegro",
     "title": "Mobile w Allegro",
-    "authors": [
-      {
-        "id": "kamil.borzym",
-        "name": "Kamil Borzym"
-      }
+    "guests": [
+      "kamil.borzym"
     ],
     "toc": [
       "Cały świat obserwuje jak telefony przejmują władzę nad Internetem.",
@@ -318,11 +285,8 @@
     "date": "2020-06-15T00:00:00.000Z",
     "slug": "projektowanie_ux_w_allegro",
     "title": "Projektowanie UX w Allegro, czyli wszystko zależy od doświadczenia",
-    "authors": [
-      {
-        "id": "kasia.wrobel",
-        "name": "Kasia Wróbel"
-      }
+    "guests": [
+      "kasia.wrobel"
     ],
     "toc": [
       "Projektowanie na styku produktu, biznesu i potrzeb użytkownika.",
@@ -340,11 +304,8 @@
     "date": "2020-06-29T00:00:00.000Z",
     "slug": "badania_i_rozwoj_ml_w_allegro",
     "title": "Badania i rozwój ML w Allegro",
-    "authors": [
-      {
-        "id": "ireneusz.gawlik",
-        "name": "Ireneusz Gawlik"
-      }
+    "guests": [
+      "ireneusz.gawlik"
     ],
     "toc": [
       "Gdzie kryje się Machine Learning w Allegro? Jakie projekty już dzisiaj korzystają z mocy sztucznej inteligencji?",
@@ -365,11 +326,8 @@
     "date": "2021-02-10T00:00:00.000Z",
     "slug": "zbiory_danych_w_allegro",
     "title": "Zbiory danych w Allegro",
-    "authors": [
-      {
-        "id": "lukasz.sciga",
-        "name": "Łukasz Ściga"
-      }
+    "guests": [
+      "lukasz.sciga"
     ],
     "toc": [
       "Czym zajmuje się inżynier danych? Jak powstało Big Data?",
@@ -389,11 +347,8 @@
     "date": "2021-02-25T00:00:00.000Z",
     "slug": "service_mesh_oraz_praca_programisty_w_allegro",
     "title": "Service Mesh oraz praca programisty w Allegro",
-    "authors": [
-      {
-        "id": "dariusz.jedrzejczyk",
-        "name": "Dariusz Jędrzejczyk"
-      }
+    "guests": [
+      "dariusz.jedrzejczyk"
     ],
     "toc": [
       "Czym jest Service Mesh? Jak został wdrożony do Allegro dla ponad 1000 usług na produkcji?",
@@ -420,11 +375,8 @@
     "date": "2021-03-04T00:00:00.000Z",
     "slug": "sre_w_allegro",
     "title": "SRE w Allegro",
-    "authors": [
-      {
-        "id": "piotr.klapczynski",
-        "name": "Piotr Klapczyński"
-      }
+    "guests": [
+      "piotr.klapczynski"
     ],
     "toc": [
       "Jak w Allegro radzimy sobie z awariami?",
@@ -444,11 +396,8 @@
     "date": "2021-03-18T00:00:00.000Z",
     "slug": "summer_e_xperience_w_allegro",
     "title": "Summer e-Xperience w Allegro",
-    "authors": [
-      {
-        "id": "alicja.halamska",
-        "name": "Alicja Halamska"
-      }
+    "guests": [
+      "alicja.halamska"
     ],
     "toc": [
       "Jak wygląda program Summer e-Xperience w obszarze technologii?",
@@ -468,11 +417,8 @@
     "date": "2021-03-25T00:00:00.000Z",
     "slug": "logistyka_na_platformie_allegro",
     "title": "Logistyka na platformie Allegro",
-    "authors": [
-      {
-        "id": "jakub.kaczmarski",
-        "name": "Jakub Kaczmarski"
-      }
+    "guests": [
+      "jakub.kaczmarski"
     ],
     "toc": [
       "Jak zarządzać zespołem ponad 100 osób?",
@@ -492,11 +438,8 @@
     "date": "2021-04-08T00:00:00.000Z",
     "slug": "swiat_product_managera_w_allegro",
     "title": "Świat Product Managera w Allegro",
-    "authors": [
-      {
-        "id": "aleksandra.wasielewska",
-        "name": "Aleksandra Wasielewska"
-      }
+    "guests": [
+      "aleksandra.wasielewska"
     ],
     "toc": [
       "Jak tworzy się produkty dla milionów kupujących?",
@@ -516,11 +459,8 @@
     "date": "2021-04-16T00:00:00.000Z",
     "slug": "data_scientist_w_allegro",
     "title": "Data Scientist w Allegro",
-    "authors": [
-      {
-        "id": "julia.bluszcz",
-        "name": "Julia Bluszcz"
-      }
+    "guests": [
+      "julia.bluszcz"
     ],
     "toc": [
       "Czym zajmuje się Data Scientist?",
@@ -540,11 +480,8 @@
     "date": "2021-04-22T00:00:00.000Z",
     "slug": "inzynier_w_zespole_produktowym",
     "title": "Inżynier w zespole produktowym",
-    "authors": [
-      {
-        "id": "michal.bareja",
-        "name": "Michał Bareja"
-      }
+    "guests": [
+      "michal.bareja"
     ],
     "toc": [
       "Czym zajmuje się Team Leader w Allegro?",
@@ -572,11 +509,8 @@
     "date": "2021-05-06T00:00:00.000Z",
     "slug": "od_inzyniera_do_lidera_w_allegro",
     "title": "Od inżyniera do lidera w Allegro",
-    "authors": [
-      {
-        "id": "bartosz.galek",
-        "name": "Bartosz Gałek"
-      }
+    "guests": [
+      "bartosz.galek"
     ],
     "toc": [
       "Czym jest Opbox i jakie wyzwania przed nim stoją?",
@@ -596,11 +530,8 @@
     "date": "2021-05-20T00:00:00.000Z",
     "slug": "praca_architekta_ekosystemu_big_data_w_Allegro",
     "title": "Praca architekta ekosystemu big data w Allegro",
-    "authors": [
-      {
-        "id": "dariusz.eliasz",
-        "name": "Dariusz Eliasz"
-      }
+    "guests": [
+      "dariusz.eliasz"
     ],
     "toc": [
       "Jak wygląda praca architekta ekosystemu big data w Allegro?",
@@ -620,11 +551,8 @@
     "date": "2021-06-01T00:00:00.000Z",
     "slug": "infrastruktura_Allegro",
     "title": "Infrastruktura Allegro",
-    "authors": [
-      {
-        "id": "piotr.michonski",
-        "name": "Piotr Michoński"
-      }
+    "guests": [
+      "piotr.michonski"
     ],
     "toc": [
       "Jak jest zbudowane środowisko uruchomienia aplikacji Allegro?",
@@ -644,11 +572,8 @@
     "date": "2021-06-16T00:00:00.000Z",
     "slug": "rola_architekta_w_allegro",
     "title": "Rola architekta w Allegro",
-    "authors": [
-      {
-        "id": "piotr.betkier",
-        "name": "Piotr Betkier"
-      }
+    "guests": [
+      "piotr.betkier"
     ],
     "toc": [
       "Od kodowania do tworzenia strategii technicznej...",
@@ -673,11 +598,8 @@
     "date": "2022-08-25T00:00:00.000Z",
     "slug": "o-quality-assurance-w-allegro",
     "title": "O Quality Assurance w Allegro",
-    "authors": [
-      {
-        "id": "ewa.ludwiczak",
-        "name": "Ewa Ludwiczak"
-      }
+    "guests": [
+      "ewa.ludwiczak"
     ],
     "toc": [
       "Na czym polega rola testera w Allegro?",
@@ -697,15 +619,9 @@
     "date": "2022-09-08T00:00:00.000Z",
     "slug": "o-tym-jak-powstawaly-zielone-automaty-paczkowe-allegro-one-box",
     "title": "O tym jak powstawały automaty paczkowe Allegro One Box",
-    "authors": [
-      {
-        "id": "barbara.kaczorek",
-        "name": "Barbara Kaczorek"
-      },
-      {
-        "id": "jakub.kwietko",
-        "name": "Jakub Kwietko"
-      }
+    "guests": [
+      "barbara.kaczorek",
+      "jakub.kwietko"
     ],
     "toc": [
       "Jak wyglądała współpraca ponad 350 osób przy tak dużym i złożonym projekcie jak uruchomienie Allegro One Box? ",
@@ -726,11 +642,8 @@
     "date": "2022-09-22T00:00:00.000Z",
     "slug": "o-data-i-ai-w-allegro-pay",
     "title": "O Data & AI w Allegro Pay",
-    "authors": [
-      {
-        "id": "pawel.marcinkowski",
-        "name": "Paweł Marcinkowski"
-      }
+    "guests": [
+      "pawel.marcinkowski"
     ],
     "toc": [
       "Jak zbudowany jest obszar Data & AI w Allegro Pay i jak (współ)pracują w nim ze sobą poszczególne role oraz zespoły?",
@@ -755,15 +668,9 @@
     "date": "2022-10-06T00:00:00.000Z",
     "slug": "o-rekrutacji-developerów-w-allegro",
     "title": "O rekrutacji developerów w Allegro",
-    "authors": [
-      {
-        "id": "jakub.westfalewski",
-        "name": "Jakub Westfalewski"
-      },
-      {
-        "id": "pawel.wolak",
-        "name": "Paweł Wolak"
-      }
+    "guests": [
+      "jakub.westfalewski",
+      "pawel.wolak"
     ],
     "toc": [
       "Jak zacząć pracę w Allegro i dlaczego #dobrzetubyć?",
@@ -784,11 +691,8 @@
     "date": "2022-10-20T00:00:00.000Z",
     "slug": "o-machine-learning-research-w-allegro",
     "title": "O Machine Learning Research w Allegro",
-    "authors": [
-      {
-        "id": "riccardo.belluzzo",
-        "name": "Riccardo Belluzzo"
-      }
+    "guests": [
+      "riccardo.belluzzo"
     ],
     "toc": [
       "Jak wygląda praca Machine Learning Research Engineera w Allegro?",
@@ -814,11 +718,8 @@
     "date": "2022-11-03T00:00:00.000Z",
     "slug": "tlumaczenia-na-allegro",
     "title": "Tłumaczenia na Allegro",
-    "authors": [
-      {
-        "id": "bartosz.wojtkiewicz",
-        "name": "Bartosz Wojtkiewicz"
-      }
+    "guests": [
+      "bartosz.wojtkiewicz"
     ],
     "toc": [
       "W jaki sposób Allegro stało się platformą wielojęzyczną?",
@@ -840,15 +741,9 @@
     "date": "2022-11-17T00:00:00.000Z",
     "slug": "o-pracy-mobile-engineerow-w-allegro",
     "title": "O pracy Mobile Software Engineerów w Allegro",
-    "authors": [
-      {
-        "id": "patrycja.haraburda",
-        "name": "Patrycja Haraburda"
-      },
-      {
-        "id": "artur.chabera",
-        "name": "Artur Chabera"
-      }
+    "guests": [
+      "patrycja.haraburda",
+      "artur.chabera"
     ],
     "toc": [
       "Jak wygląda codzienność Mobile Software Engineerów w Allegro i skala, z którą pracują?",
@@ -870,11 +765,8 @@
     "date": "2022-12-01T00:00:00.000Z",
     "slug": "o-pracy-w-allegro-ads",
     "title": "O pracy w Allegro Ads",
-    "authors": [
-      {
-        "id": "michal.wisniewski",
-        "name": "Michał Wiśniewski"
-      }
+    "guests": [
+      "michal.wisniewski"
     ],
     "toc": [
       "Za co odpowiada, jak działa i co oferuje klientom Allegro Ads?",
@@ -896,15 +788,9 @@
     "date": "2022-12-15T00:00:00.000Z",
     "slug": "o-allegro-family",
     "title": "O Allegro Family",
-    "authors": [
-      {
-        "id": "adrianna.dworniak",
-        "name": "Adrianna Dworniak"
-      },
-      {
-        "id": "lukasz.gomolka",
-        "name": "Łukasz Gomółka"
-      }
+    "guests": [
+      "adrianna.dworniak",
+      "lukasz.gomolka"
     ],
     "toc": [
       "Czy współpraca dwóch Product Managerów przy jednym produkcie jest możliwa i jak zadbać o jej efektywność?",
@@ -926,15 +812,9 @@
     "date": "2023-01-12T00:00:00.000Z",
     "slug": "o-rozwiazaniach-opartych-na-badaniach",
     "title": "O tym jak przygotowujemy rozwiązania dla klientów w oparciu o badania",
-    "authors": [
-      {
-        "id": "zosia.smierzchalska",
-        "name": "Zosia Śmierzchalska"
-      },
-      {
-        "id": "jakub.dodot",
-        "name": "Jakub Dodot"
-      }
+    "guests": [
+      "zosia.smierzchalska",
+      "jakub.dodot"
     ],
     "toc": [
       "W jaki sposób przygotowujemy rozwiązania dla klientów Allegro w oparciu o badania?",
@@ -955,11 +835,8 @@
     "date": "2023-01-26T00:00:00.000Z",
     "slug": "o-pracy-i-rozwoju-w-zespole-it-support",
     "title": "O pracy i rozwoju w zespole IT Support",
-    "authors": [
-      {
-        "id": "bartosz.kaczynski",
-        "name": "Bartosz Kaczyński"
-      }
+    "guests": [
+      "bartosz.kaczynski"
     ],
     "toc": [
       "Jak wygląda praca w zespole, który zawsze udziela odpowiedzi na zadane pytania?",
@@ -980,15 +857,9 @@
     "date": "2023-02-23T00:00:00.000Z",
     "slug": "o-pracy-liderek-i-liderow-w-allegro",
     "title": "O pracy liderek i liderów w Allegro",
-    "authors": [
-      {
-        "id": "alina.magowska",
-        "name": "Alina Magowska"
-      },
-      {
-        "id": "agnieszka.jagusiak",
-        "name": "Agnieszka Jagusiak"
-      }
+    "guests": [
+      "alina.magowska",
+      "agnieszka.jagusiak"
     ],
     "toc": [
       "Jakimi umiejętnościami powinny wyróżniać się osoby na stanowiskach liderskich?",
@@ -1010,11 +881,8 @@
     "date": "2023-06-15T00:00:00.000Z",
     "slug": "o-developer-experience-czyli-jak-programuje-sie-w-allegro",
     "title": "O Developer Experience, czyli jak programuje się w Allegro",
-    "authors": [
-      {
-        "id": "michal.janiszewski",
-        "name": "Michał Janiszewski"
-      }
+    "guests": [
+      "michal.janiszewski"
     ],
     "toc": [
       "Czym jest Developer Experience (DX) w Allegro i kto za nie odpowiada?",
@@ -1034,15 +902,9 @@
     "date": "2023-06-29T00:00:00.000Z",
     "slug": "o-technologiach-i-projektach-w-allegro-pay",
     "title": "O technologiach i projektach w Allegro Pay",
-    "authors": [
-      {
-        "id": "mariusz.budzyn",
-        "name": "Mariusz Budzyn"
-      },
-      {
-        "id": "tomasz.szczerba",
-        "name": "Tomasz Szczerba"
-      }
+    "guests": [
+      "mariusz.budzyn",
+      "tomasz.szczerba"
     ],
     "toc": [
       "Jak powstała usługa Allegro Pay i co ma wspólnego z ratatouille?",
@@ -1063,15 +925,9 @@
     "date": "2023-07-14T00:00:00.000Z",
     "slug": "o-data-science-hub-w-allegro",
     "title": "O Data Science Hub w Allegro",
-    "authors": [
-      {
-        "id": "karolina.nieradka",
-        "name": "Karolina Nieradka"
-      },
-      {
-        "id": "kamil.konikiewicz",
-        "name": "Kamil Konikiewicz"
-      }
+    "guests": [
+      "karolina.nieradka",
+      "kamil.konikiewicz"
     ],
     "toc": [
       "Co kryje się pod pojęciem Data Science Hub w Allegro?",
@@ -1092,15 +948,9 @@
     "date": "2023-07-27T00:00:00.000Z",
     "slug": "o-spolecznosci-allegro-tech-i-rozwoju-inzynierow-w-allegro",
     "title": "O społeczności Allegro Tech i rozwoju inżynierów w Allegro",
-    "authors": [
-      {
-        "id": "marcin.turek",
-        "name": "Marcin Turek"
-      },
-      {
-        "id": "michal.kosmulski",
-        "name": "Michał Kosmulski"
-      }
+    "guests": [
+      "marcin.turek",
+      "michal.kosmulski"
     ],
     "toc": [
       "Na czym polega rola Principal Software Engineera w Allegro oraz co ma wspólnego z rozwijaniem siebie i dzieleniem się wiedzą?",
@@ -1122,15 +972,9 @@
     "date": "2023-08-24T00:00:00.000Z",
     "slug": "o-roli-analitykow-biznesowych-w-allegro",
     "title": "O roli analityków biznesowych w Allegro",
-    "authors": [
-      {
-        "id": "jakub.krol",
-        "name": "Jakub Król"
-      },
-      {
-        "id": "mateusz.falkowski",
-        "name": "Mateusz Falkowski"
-      }
+    "guests": [
+      "jakub.krol",
+      "mateusz.falkowski"
     ],
     "toc": [
       "Czym zajmują się analitycy danych w Allegro i za jakie projekty odpowiadają?",
@@ -1151,11 +995,8 @@
     "date": "2023-10-11T00:00:00.000Z",
     "slug": "o-chatbotach-i-ich-wplywie-na-allegro",
     "title": "O chatbotach i ich wpływie na Allegro",
-    "authors": [
-      {
-        "id": "rafal.gajewski",
-        "name": "Rafał Gajewski"
-      }
+    "guests": [
+      "rafal.gajewski"
     ],
     "toc": [
       "Jakie procesy automatyzujemy w Allegro i co warto o nich wiedzieć w kontekście obszaru Customer Experience?",
@@ -1176,15 +1017,9 @@
     "date": "2023-11-16T00:00:00.000Z",
     "slug": "mbox-server-driven-ui-dla-aplikacji-mobilnych",
     "title": "MBox: server-driven UI dla aplikacji mobilnych",
-    "authors": [
-      {
-        "id": "paulina.sadowska",
-        "name": "Paulina Sadowska"
-      },
-      {
-        "id": "tomasz.gebarowski",
-        "name": "Tomasz Gębarowski"
-      }
+    "guests": [
+      "paulina.sadowska",
+      "tomasz.gebarowski"
     ],
     "toc": [
       "Czym jest i jak powstał MBox: wewnętrzna platforma server-driven UI dla aplikacji mobilnych w Allegro?",
@@ -1205,15 +1040,9 @@
     "date": "2024-02-01T00:00:00.000Z",
     "slug": "programowanie-co-liczy-sie-w-nim-najbardziej",
     "title": "Programowanie - co liczy się w nim najbardziej?",
-    "authors": [
-      {
-        "id": "rafal.schmidt",
-        "name": "Rafał Schmidt"
-      },
-      {
-        "id": "waldemar.panas",
-        "name": "Waldemar Panas"
-      }
+    "guests": [
+      "rafal.schmidt",
+      "waldemar.panas"
     ],
     "toc": [
       "Jaką ścieżkę trzeba przejść, aby dobrze programować?",
@@ -1234,15 +1063,9 @@
     "date": "2024-02-29T00:00:00.000Z",
     "slug": "o-pracy-analitykow-w-obszarze-technologii-i-przetwarzaniu-danych-w-duzej-skali",
     "title": "O pracy analityków w obszarze technologii i przetwarzaniu danych w dużej skali",
-    "authors": [
-      {
-        "id": "adrianna.napiorkowska",
-        "name": "Adrianna Napiórkowska"
-      },
-      {
-        "id": "kaya.akcelikli",
-        "name": "Kaya Akcelikli"
-      }
+    "guests": [
+      "adrianna.napiorkowska",
+      "kaya.akcelikli"
     ],
     "toc": [
       "Na czym polega praca analityków w obszarze technologii w Allegro?",
@@ -1264,15 +1087,9 @@
     "date": "2024-04-11T00:00:00.000Z",
     "slug": "o-dwoch-stronach-security-w-allegro",
     "title": "O dwóch stronach security w Allegro",
-    "authors": [
-      {
-        "id": "lukasz.basa",
-        "name": "Łukasz Basa"
-      },
-      {
-        "id": "marcin.ratajczyk",
-        "name": "Marcin Ratajczyk"
-      }
+    "guests": [
+      "lukasz.basa",
+      "marcin.ratajczyk"
     ],
     "toc": [
       "Czy łatwo jest zapewnić bezpieczeństwo w takiej firmie jak Allegro?",
@@ -1292,11 +1109,8 @@
     "date": "2024-08-29T00:00:00.000Z",
     "slug": "o-technologii-salesforce-w-allegro",
     "title": "O technologii Salesforce w Allegro",
-    "authors": [
-      {
-        "id": "katarzyna.kowalska",
-        "name": "Katarzyna Kowalska"
-      }
+    "guests": [
+      "katarzyna.kowalska"
     ],
     "toc": [
       "Jak wykorzystujemy technologię Salesforce w Allegro, aby służyła budowaniu relacji z kupującymi i sprzedającymi?",
@@ -1318,15 +1132,9 @@
     "date": "2024-12-05T00:00:00.000Z",
     "slug": "dobre-duchy-allegro-odcinek-ux",
     "title": "Dobre duchy Allegro - odcinek UX",
-    "authors": [
-      {
-        "id": "barbara.kolber-bugajska",
-        "name": "Barbara Kolber-Bugajska"
-      },
-      {
-        "id": "anna.ostrowska",
-        "name": "Anna Ostrowska"
-      }
+    "guests": [
+      "barbara.kolber-bugajska",
+      "anna.ostrowska"
     ],
     "toc": [
       "Jak wytłumaczyć rodzinie lub znajomym, czym zajmuje się UX Researcher i jak ta rola wygląda w Allegro?",
@@ -1348,15 +1156,9 @@
     "date": "2024-12-12T00:00:00.000Z",
     "slug": "dobre-duchy-allegro-odcinek-trust-security",
     "title": "Dobre duchy Allegro - odcinek trust & security",
-    "authors": [
-      {
-        "id": "michal.krzyzan",
-        "name": "Michał Krzyżan"
-      },
-      {
-        "id": "konrad.synoradzki",
-        "name": "Konrad Synoradzki"
-      }
+    "guests": [
+      "michal.krzyzan",
+      "konrad.synoradzki"
     ],
     "toc": [
       "Z czym Allegrowiczkom i Allegrowiczom kojarzy się świąteczna gorączka zakupów?",
@@ -1377,11 +1179,8 @@
     "date": "2024-12-20T00:00:00.000Z",
     "slug": "dobre-duchy-allegro-odcinek-engineering",
     "title": "Dobre duchy Allegro - odcinek engineering",
-    "authors": [
-      {
-        "id": "bartosz.galek",
-        "name": "Bartosz Gałek"
-      }
+    "guests": [
+      "bartosz.galek"
     ],
     "toc": [
       "Wzruszająca reklama świąteczna, wzmożony ruch na platformie czy wyzwanie Advent of Code? Z czym najbardziej zespołom developerskim w Allegro kojarzy się grudzień?",
@@ -1407,15 +1206,9 @@
     "date": "2025-04-03T00:00:00.000Z",
     "slug": "e-xperience-w-allegro",
     "title": "Wszystko, co dobrze wiedzieć o programie e-Xperience",
-    "authors": [
-      {
-        "id": "szymon.jacon",
-        "name": "Szymon Jacoń"
-      },
-      {
-        "id": "jaroslaw.glegola",
-        "name": "Jarosław Glegoła"
-      }
+    "guests": [
+      "szymon.jacon",
+      "jaroslaw.glegola"
     ],
     "toc": [
       "Na czym polega i jak przebiega program stażowy e-Xperience w Allegro?",
@@ -1439,15 +1232,9 @@
     "date": "2025-04-17T00:00:00.000Z",
     "slug": "technologiczne-kulisy-nocnych-premier-z-allegro-one-box",
     "title": "Technologiczne kulisy nocnych premier z Allegro One Box",
-    "authors": [
-      {
-        "id": "natalia.szynder-markiewicz",
-        "name": "Natalia Szynder-Markiewicz"
-      },
-      {
-        "id": "jakub.kwietko",
-        "name": "Jakub Kwietko"
-      }
+    "guests": [
+      "natalia.szynder-markiewicz",
+      "jakub.kwietko"
     ],
     "toc": [
       "Skąd wziął się pomysł na organizację nocnych premier z Allegro One Box i co warto o nich wiedzieć?",
@@ -1456,8 +1243,7 @@
       "Jakie nocne premiery odbyły się do tej pory i co podobało Wam (i nam) się w nich najbardziej?",
       "Kto o północy odbiera premierowe przesyłki i jaki był rekord najszybszego z nocnych odbiorów,?"
     ],
-    "links": {
-    },
+    "links": {},
     "spotify": {
       "url": "https://open.spotify.com/embed/episode/6AJWcDrjW6wO0KXtdLwFDi"
     },
@@ -1469,15 +1255,9 @@
     "date": "2025-05-09T00:00:00.000Z",
     "slug": "hiring-squad-allegro",
     "title": "Hiring Squad w Allegro, czyli kogo spotykacie w rekrutacjach technicznych",
-    "authors": [
-      {
-        "id": "przemyslaw.koziel",
-        "name": "Przemysław Kozieł"
-      },
-      {
-        "id": "maciej.jankowski",
-        "name": "Maciej Jankowski"
-      }
+    "guests": [
+      "przemyslaw.koziel",
+      "maciej.jankowski"
     ],
     "toc": [
       "Kim są i czym na co dzień zajmują się w Allegro osoby tworzące Hiring Squad?",
@@ -1486,8 +1266,7 @@
       "Co odróżnia dobrych kandydatów od świetnych kandydatów i komu na pewno spodoba się praca w naszej firmie?",
       "Czy i jak często zdarza się, że w rekrutacji do Allegro spotykamy tych samych kandydatów więcej, niż raz?"
     ],
-    "links": {
-    },
+    "links": {},
     "spotify": {
       "url": "https://open.spotify.com/episode/1k8BjqvatVR6jidJblfK6B"
     },
@@ -1499,15 +1278,9 @@
     "date": "2025-05-28T00:00:00.000Z",
     "slug": "kultura-produktowa-w-allegro",
     "title": "Kultura produktowa w Allegro",
-    "authors": [
-      {
-        "id": "aleksandra.wasielewska",
-        "name": "Aleksandra Wasielewska"
-      },
-      {
-        "id": "jan.pastwa",
-        "name": "Jan Pastwa"
-      }
+    "guests": [
+      "aleksandra.wasielewska",
+      "jan.pastwa"
     ],
     "toc": [
       "Czym jest kultura produktowa i jak wygląda produktowe podejście do pracy w Allegro?",
@@ -1517,8 +1290,7 @@
       "W jaki sposób kultura produktowa wspiera zarządzanie zależnościami i złożonością produktów w Allegro?",
       "Dlaczego zarządzanie produktem przypomina czasem linię produkcyjną,?"
     ],
-    "links": {
-    },
+    "links": {},
     "spotify": {
       "url": "https://open.spotify.com/episode/23mRqDe6oEaikIJatPMehY"
     },
@@ -1530,15 +1302,9 @@
     "date": "2025-06-05T00:00:00.000Z",
     "slug": "bezpieczenstwo-cyfrowe-czyli-o-swiadomosci-zagrozen-codziennych-praktykach-i-przyszlosci-hasel",
     "title": "Bezpieczeństwo cyfrowe, czyli o świadomości zagrożeń, codziennych praktykach i przyszłości haseł",
-    "authors": [
-      {
-        "id": "joanna.jakubowska",
-        "name": "Joanna Jakubowska"
-      },
-      {
-        "id": "magdalena.mielke-soukossi",
-        "name": "Magdalena Mielke-Soukossi"
-      }
+    "guests": [
+      "joanna.jakubowska",
+      "magdalena.mielke-soukossi"
     ],
     "toc": [
       "Jak ważne powinny być dla nas hasła, jak Polacy zazwyczaj logują się do swoich kont i czy robią to w bezpieczny sposób?",
@@ -1547,8 +1313,7 @@
       "Dlaczego `zieloneSłonieTańcząNaKsiężycu1!` jest lepszym pomysłem na hasło, niż `K0t&Ryb4!`?",
       "Czy Polacy są gotowi na internet bez haseł i czy ta przyszłość będzie bezpieczniejsza?"
     ],
-    "links": {
-    },
+    "links": {},
     "spotify": {
       "url": "https://open.spotify.com/episode/5HuqOOfIO2Fw44pNY1ybWv"
     },
@@ -1560,15 +1325,9 @@
     "date": "2025-06-18T00:00:00.000Z",
     "slug": "misja-zmiana-branzy-czyli-jak-przebranzowic-sie-do-it",
     "title": "Misja - zmiana branży, czyli jak przebranżowić się do IT",
-    "authors": [
-      {
-        "id": "malgorzata.elszyn-bociek",
-        "name": "Małgorzata Elszyn-Bociek"
-      },
-      {
-        "id": "aleksandra.kulesz",
-        "name": "Aleksandra Kulesz"
-      }
+    "guests": [
+      "malgorzata.elszyn-bociek",
+      "aleksandra.kulesz"
     ],
     "toc": [
       "Jak się przebranżowić i rozpocząć pracę w IT?",
@@ -1577,8 +1336,7 @@
       "Jak wyglądały pierwsze zadania, za które odpowiadały nasze rozmówczynie po rozpoczęciu pracy w technologii?",
       "Programowanie, Product Management, a może analiza danych albo UX? Jak sprawdzić, który z obszarów technologicznych będzie dla nas najodpowiedniejszy?"
     ],
-    "links": {
-    },
+    "links": {},
     "spotify": {
       "url": "https://open.spotify.com/episode/2kiGBGepZGrx3Dxm6ImuBb"
     },
@@ -1590,11 +1348,8 @@
     "date": "2025-07-11T00:00:00.000Z",
     "slug": "sztuczna-inteligencja-w-allegro",
     "title": "Sztuczna inteligencja w Allegro",
-    "authors": [
-      {
-        "id": "cezary.kuik",
-        "name": "Cezary Kuik"
-      }
+    "guests": [
+      "cezary.kuik"
     ],
     "toc": [
       "Jak, gdzie i od kiedy korzystamy ze sztucznej inteligencji w Allegro?",
@@ -1604,8 +1359,7 @@
       "Czy umiejętność rozmowy ze sztuczną inteligencją to ,,nowa znajomość pakietu Office?",
       "Czym jest augmentacja (augmentation), co oznacza dla Allegro i jaką rolę odgrywa w niej sztuczna inteligencja?"
     ],
-    "links": {
-    },
+    "links": {},
     "spotify": {
       "url": "https://open.spotify.com/episode/4rU2kerYYoeebtsefEjvAo"
     },
@@ -1617,15 +1371,9 @@
     "date": "2025-08-14T00:00:00.000Z",
     "slug": "o-rewolucji-allegro-ads",
     "title": "O (r)ewolucji Allegro Ads",
-    "authors": [
-      {
-        "id": "patrycja.miller",
-        "name": "Patrycja Miller"
-      },
-      {
-        "id": "tomasz.richert",
-        "name": "Tomasz Richert"
-      }
+    "guests": [
+      "patrycja.miller",
+      "tomasz.richert"
     ],
     "toc": [
       "Jak doszło do integracji rozwiązań ads & search na Allegro - przełomowej zmiany, która wymyka się branżowym benchmarkom?",
@@ -1634,13 +1382,58 @@
       "Jakie zadanie ma Capitan - jedno z pierwszych rozwiązań opartych na machine learningu, które pojawiło się w ramach Allegro Ads i zmienia zasady gry?",
       "Co dzieje się dzisiaj i jakie nowe funkcje pojawią się w Allegro Ads w najbliższej przyszłości?"
     ],
-    "links": {
-    },
+    "links": {},
     "spotify": {
       "url": "https://open.spotify.com/embed/episode/0KREBlGAfQz3cEGIPTOpqP"
     },
     "season": 5,
     "episode": 8,
+    "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-07-11T00:00:00.000Z",
+    "slug": "sztuczna-inteligencja-w-allegro",
+    "title": "Sztuczna inteligencja w Allegro",
+    "guests": [
+      "cezary.kuik"
+    ],
+    "toc": [
+      "Jak, gdzie i od kiedy korzystamy ze sztucznej inteligencji w Allegro?",
+      "Co dobrze wiedzieć o uczeniu maszynowym i o AI generatywnym w naszej firmie?",
+      "Co wspólnego z AI ma koncepcja maszyny vendingowej?",
+      "Jakich 6 elementów jest kluczowych dla dobrego prompt engineeringu?",
+      "Czy umiejętność rozmowy ze sztuczną inteligencją to ,,nowa znajomość pakietu Office?",
+      "Czym jest augmentacja (augmentation), co oznacza dla Allegro i jaką rolę odgrywa w niej sztuczna inteligencja?"
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://open.spotify.com/episode/4rU2kerYYoeebtsefEjvAo"
+    },
+    "season": 5,
+    "episode": 7,
+    "host": "mateusz.naparty"
+  },
+  {
+    "date": "2025-10-30T00:00:00.000Z",
+    "slug": "dlug-techniczny-w-allegro",
+    "title": "Dług techniczny w Allegro",
+    "guests": [
+      "anna.naumienko",
+      "agnieszka.nowak"
+    ],
+    "toc": [
+      "Jak definiujemy dług techniczny w Allegro, skąd się bierze i jak go mierzymy?",
+      "Kto w Allegro zarządza długiem technicznym i jak działa proces, który na to pozwala?",
+      "Czym są Health Checker i Allegro Tech Radar oraz jak wspierają nas w pracy z tym tematem?",
+      "Czy da się tworzyć nowe funkcjonalności bez generowania nowego długu?",
+      "Jak minimalizować powstawanie długu technicznego i jakie lekcje na tym polu w Allegro mamy już za sobą,?"
+    ],
+    "links": {},
+    "spotify": {
+      "url": "https://open.spotify.com/episode/3c8Dbdk5AZvRw5OZlFFlRy"
+    },
+    "season": 5,
+    "episode": 9,
     "host": "mateusz.naparty"
   }
 ]

@@ -397,5 +397,15 @@
     "name": "Tomasz Richert",
     "bio": "Engineering Manager in Allegro Advertising division",
     "linkedin": "tomasz-richert"
+  },
+  "agnieszka.nowak": {
+    "name": "Agnieszka Nowak",
+    "bio": "Principal Product Manager focused at turning complex ecosystems into well-orchestrated products enabling changes at scale. Known for her servant leadership style and sharp sense of humor, Agnieszka believes that real progress happens when strategy meets empathy.",
+    "linkedin": "https://pl.linkedin.com/in/agnieszka-nowak-2a499994"
+  },
+  "anna.naumienko": {
+    "name": "Anna Naumienko",
+    "bio": "Senior Technical Project Manager",
+    "linkedin": "https://pl.linkedin.com/in/annanaumienko"
   }
 }
